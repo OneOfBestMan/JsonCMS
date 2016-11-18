@@ -1,0 +1,38 @@
+﻿@model JsonCMS.Models.JsonData
+@using JsonCMS.Models;
+@using JsonCMS.Models.Regions;
+@using JsonCMS.Models.Galleries;
+
+<article class="region_@Model.currentRegion">
+    @{
+        List<RegionBase> regionAreas = Model.thisPage.GetRegionAreas(Model.currentRegion);
+        foreach (var area in regionAreas)
+        {
+            var className = "regionArea_" + area.mappedObject + " regionType_" + area.regionType.ToString() + " section_"+ area.sequence;
+            <section class="@className">
+                @switch (area.regionType)
+                {
+                    case RegionType.Html:
+                        var htmlArea = Model.thisPage.GetHtml(area.mappedObject);
+                        @Html.Raw(htmlArea.data.html)
+                        break;
+                    case RegionType.Gallery:
+                        var galleryArea = Model.thisPage.GetGallery(area.mappedObject);
+                        if (Model.thisPage.pageType == JsonCMS.Models.PageModels.PageType.Carousel)
+                        {
+                            @Html.Partial("~/Views/Archive/_Carousel.cshtml", galleryArea)
+                        }
+                        else
+                        {
+                            @Html.Partial("~/Views/Archive/_Gallery.cshtml", galleryArea)
+                        }
+                        break;
+                    default:
+                        @Html.Raw("OTHER TYPE OF DATA HERE - NOT IMPLEMENTED");
+                        break;
+                }
+            </section>
+
+        }
+    }
+</article>

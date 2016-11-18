@@ -1,0 +1,193 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 500,
+  "maxDefaultHeight": 500,
+  "maxMobileWidth": 500,
+  "maxMobileHeight": 500,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "thumb_3000_612_001.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_123.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_145.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_AUS2002ning53.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_DSCN1859.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_DSCN1919.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_2485.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_3719.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_3986.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_4058.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_4201.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_4532.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_4551.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_4565.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_4688.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_6388.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_IMG_6499.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    },
+    {
+      "imageName": "thumb_3000_612_R0011621.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 500
+    }
+  ]
+}

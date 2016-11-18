@@ -1,0 +1,48 @@
+﻿@model JsonCMS.Models.JsonData
+@using JsonCMS.Models;
+@using JsonCMS.Models.Regions;
+@using JsonCMS.Models.Galleries;
+
+<article class="region_@Model.currentRegion">
+    @{
+        List<RegionBase> regionAreas = Model.thisPage.GetRegionAreas(Model.currentRegion);
+        foreach (var area in regionAreas)
+        {
+            var className = "regionArea_" + area.mappedObject + " regionType_" + area.regionType.ToString() + " section_"+ area.sequence;
+            <section class="@className">
+                @switch (area.regionType)
+                {
+                    case RegionType.Html:
+                        var htmlArea = Model.thisPage.GetHtml(area.mappedObject);
+                        @Html.Raw(htmlArea.data.html)
+                        break;
+                    case RegionType.Gallery:
+                        var galleryArea = Model.thisPage.GetGallery(area.mappedObject);
+                        @Html.Partial("~/Views/Unit/_Gallery.cshtml", galleryArea.data)
+                        break;
+                    case RegionType.YouTube:
+                        var youtubeArea = Model.thisPage.GetYoutube(area.mappedObject);
+                        foreach (var video in youtubeArea.data.videos)
+                        {
+                            <div class="youTubeVideo embed-responsive embed-responsive-@video.videoFormat">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/@video.video"></iframe>
+                            </div>
+                        }
+                        break;
+                    case RegionType.Blog:
+                        var blogArea = Model.thisPage.GetBlog(area.mappedObject);
+                        @Html.Partial("~/Views/Unit/_Blog.cshtml", blogArea)
+                        break;
+                    case RegionType.Latest:
+                        var latestArea = Model.thisPage.GetBlog(area.mappedObject);
+                        @Html.Partial("~/Views/Unit/_Latest.cshtml", latestArea)
+                        break;
+                    default:
+                        @Html.Raw("OTHER TYPE OF DATA HERE - NOT IMPLEMENTED");
+                        break;
+                }
+            </section>
+
+        }
+    }
+</article>

@@ -1,0 +1,22 @@
+﻿@model JsonCMS.Models.Regions.GalleryRegion
+@using JsonCMS.Models.Galleries;
+@{
+    var images = Model.data.imageData.Where(x => x.fileExists);
+
+    <div class="gallery-container" style="display:none;">
+        @{
+            foreach (var imageData in images)
+            {
+                var desktopGalleryImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.DesktopForGallery).FirstOrDefault();
+                var mobileGalleryImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.MobileForGallery).FirstOrDefault();
+                if (desktopGalleryImageVersion != null && mobileGalleryImageVersion != null)
+                {
+                    <picture>
+                        <source srcset="@mobileGalleryImageVersion.paths.wwwFullPathBase64" media="(max-width: 768px)">
+                        <img alt="@imageData.alt" src="@desktopGalleryImageVersion.paths.wwwFullPathBase64" />
+                    </picture>
+                }
+            }
+        }
+     </div>
+}

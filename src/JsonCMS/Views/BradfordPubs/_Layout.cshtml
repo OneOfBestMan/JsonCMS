@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="google-site-verification" content="CnJwLxLJaOtrzkH144ClMiisvj4t0fxnhglRG4KCCnA" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.LayoutData.PageTitle</title>
+    <meta name="description" content="Photographs of Pubs in Bradford, West Yorkshire including city centre and suburbs.">
+    @Html.Raw(ViewBag.LayoutData.RobotsMeta)
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/bradfordpubs/css/site.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/bradfordpubs/css/site.css" asp-append-version="true" />
+    </environment>
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    @Html.Partial("~/Views/BradfordPubs/_Fonts.cshtml")
+    <link href="~/bradfordpubs/css/colorbox.css" rel="stylesheet" />
+
+</head>
+<body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    @Html.Partial("~/Views/BradfordPubs/_Analytics.cshtml")
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/bradfordpubs/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+        <script src="~/bradfordpubs/js/site.js" asp-append-version="true"></script>
+    </environment>
+    @RenderSection("scripts", required: false)
+    <script src="~/bradfordpubs/js/colorbox.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".lightbox").colorbox({ rel: 'lightbox', innerWidth: '550px', maxHeight: '80%', maxWidth:'90%' });
+        });
+    </script>
+</body>
+</html>

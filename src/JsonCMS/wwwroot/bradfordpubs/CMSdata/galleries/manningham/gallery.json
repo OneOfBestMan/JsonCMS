@@ -1,0 +1,123 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-07-15_13423477091.jpg",
+      "title": null,
+      "alt": "The Turf",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342347748.jpg",
+      "title": null,
+      "alt": "Spotted House",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342347785.jpg",
+      "title": null,
+      "alt": "Cartwright",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342347829.jpg",
+      "title": null,
+      "alt": "Oaklee",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342347885.jpg",
+      "title": null,
+      "alt": "Dubrovnick",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342347934.jpg",
+      "title": null,
+      "alt": "Park Hotel",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348834.jpg",
+      "title": null,
+      "alt": "The Melbourne",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348867.jpg",
+      "title": null,
+      "alt": "Globe",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348901.jpg",
+      "title": null,
+      "alt": "Hare and Hounds",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348950.jpg",
+      "title": null,
+      "alt": "Delvers",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348992.jpg",
+      "title": null,
+      "alt": "Kings Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-07-15_13423482661.jpg",
+      "title": null,
+      "alt": "Penny Bank",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348388.jpg",
+      "title": null,
+      "alt": "The Sparrow",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2013-11-25_1385407883.jpg",
+      "title": null,
+      "alt": "Als Dime Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2015-02-01_1422786491.jpg",
+      "title": null,
+      "alt": "Record Cafe",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 629
+    },
+    {
+      "imageName": "2015-03-28_1427562594.jpg",
+      "title": null,
+      "alt": "The Beerhouse",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 632,
+      "width": 628
+    },
+    {
+      "imageName": "2015-03-28_1427562913.jpg",
+      "title": null,
+      "alt": "Bradford Brewery",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 629,
+      "width": 627
+    },
+    {
+      "imageName": "IMG_1891.JPG",
+      "title": null,
+      "alt": "Plonk",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 2088,
+      "width": 2016
+    },
+    {
+      "imageName": "peacock.JPG",
+      "title": null,
+      "alt": "Peacock Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 598
+    },
+    {
+      "imageName": "rumshackalack.JPG",
+      "title": null,
+      "alt": "Rumshackalack",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 599
+    }
+  ]
+}

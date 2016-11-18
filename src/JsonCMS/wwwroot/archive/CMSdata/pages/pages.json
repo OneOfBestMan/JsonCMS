@@ -1,0 +1,165 @@
+﻿{
+  "pages": [
+    {
+      "title": "index",
+      "friendlyUrl": "/",
+      "template": "home",
+      "displayName": "Photography Archive",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "home1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "lightforest",
+      "friendlyUrl": "/lightforest",
+      "template": "carousel",
+      "displayName": "Light Forest",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "lightforest1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "rescued",
+      "friendlyUrl": "/rescued",
+      "template": "carousel",
+      "displayName": "Rescued",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "rescued1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "carnival",
+      "friendlyUrl": "/carnival",
+      "template": "carousel",
+      "displayName": "Carnival",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "carnival1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "lismore",
+      "friendlyUrl": "/lismore",
+      "template": "carousel",
+      "displayName": "Lismore",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "lismore1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "oban",
+      "friendlyUrl": "/oban",
+      "template": "carousel",
+      "displayName": "Oban",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "oban1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "ribblehead",
+      "friendlyUrl": "/ribblehead",
+      "template": "carousel",
+      "displayName": "Ribblehead",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "ribblehead1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "roadtoport",
+      "friendlyUrl": "/roadtoport",
+      "template": "carousel",
+      "displayName": "Road to Port",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "roadtoport1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "spurnhead",
+      "friendlyUrl": "/spurnhead",
+      "template": "carousel",
+      "displayName": "Spurn Head",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "spurnhead1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "miniatures",
+      "friendlyUrl": "/miniatures",
+      "template": "miniatures",
+      "displayName": "Miniatures",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "travelMin",
+          "type": "gallery",
+          "title": "Travel"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "urbanMin",
+          "type": "gallery",
+          "title": "Urban Landscape"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "portraitsMin",
+          "type": "gallery",
+          "title": "Portraits"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "landscapeMin",
+          "type": "gallery",
+          "title": "Landscape"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "streetMin",
+          "type": "gallery",
+          "title": "Street Festival"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "oldGangMin",
+          "type": "gallery",
+          "title": "Gangs"
+        }
+      ]
+    }
+  ]
+}

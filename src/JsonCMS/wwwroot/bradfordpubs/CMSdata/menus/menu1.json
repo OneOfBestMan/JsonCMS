@@ -1,0 +1,41 @@
+﻿{
+  "menu": [
+    {
+      "pagetitle": "baildon"
+    },
+    {
+      "pagetitle": "bingley"
+    },
+    {
+      "pagetitle": "citycentre"
+    },
+    {
+      "pagetitle": "ilkley"
+    },
+    {
+      "pagetitle": "keighley"
+    },
+    {
+      "pagetitle": "leedsroad"
+    },
+    {
+      "pagetitle": "manningham"
+    },
+    {
+      "pagetitle": "northparade"
+    },
+    {
+      "pagetitle": "shipley"
+    },
+    {
+      "pagetitle": "westend"
+    },
+    {
+      "pagetitle": "new"
+    },
+    {
+      "pagetitle": "index"
+    }
+  ],
+  "menuType": "Menu1Type"
+}

@@ -1,0 +1,73 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 1000,
+  "maxDefaultHeight": 612,
+  "maxMobileWidth": 1000,
+  "maxMobileHeight": 612,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "IMG_4551.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1000,
+      "width": 1500
+    },
+    {
+      "imageName": "IMG_4565.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1000,
+      "width": 1500
+    },
+    {
+      "imageName": "IMG_4614.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1000,
+      "width": 667
+    },
+    {
+      "imageName": "IMG_4620.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1000,
+      "width": 1500
+    },
+    {
+      "imageName": "IMG_4652.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1000,
+      "width": 1500
+    },
+    {
+      "imageName": "IMG_4654.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1000,
+      "width": 1500
+    }
+  ]
+}

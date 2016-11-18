@@ -1,0 +1,27 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/Unit/_Layout.cshtml";
+}
+
+<div class="row" id="bodySection">
+    <div class="col1 col-md-12">
+        @{
+            Model.currentRegion = "region1";
+            @Html.Partial("~/Views/Unit/_Region.cshtml", Model)
+        }
+    </div>
+</div>
+
+@section Social {
+    @Html.Partial("~/Views/Unit/_Social.cshtml", Model.social)
+}
+
+@section Menu {
+    @{
+        var menuToUse = Model.menus.GetMenu("menu1", Model.thisPage.displayName);
+        if (menuToUse != null)
+        {
+            @Html.Partial("~/Views/Unit/_" + menuToUse.menuType + ".cshtml", menuToUse)
+        }
+    }
+}

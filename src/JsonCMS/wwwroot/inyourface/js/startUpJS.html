@@ -1,0 +1,40 @@
+﻿<!-- would just use js file, but this shows ng-include -->
+
+<script>
+
+    $(document).ready(function () {
+
+        var windowHeight = $(window).height();
+        var contentHeight = $('#wrapper').height();
+        if (windowHeight > contentHeight) {
+            $("#section").css("margin-top", "" + ((windowHeight - contentHeight - 20) / 2) + "px");
+        }
+        else {
+            $("#section").css("margin-top", "0px");
+        }
+
+        $("a#fancyBoxImage").fancybox(
+            {
+                'margin': 0,
+                'padding': 2
+
+                /*
+                'content': $("#element").html(),
+                'width': '700',
+                'height': 'auto',
+                'type': 'iframe',
+                'autoSize': false,
+                'showNavArrows': false,
+                'hideOnContentClick': false
+                */
+            });
+
+        $('#mainImg').css({ /* hack */
+            "border-color": "#aaaaaa",
+            "border-width": "1px",
+            "border-style": "solid"
+        });
+
+    });
+
+</script>

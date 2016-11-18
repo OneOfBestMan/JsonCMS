@@ -1,0 +1,93 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 1000,
+  "maxDefaultHeight": 612,
+  "maxMobileWidth": 1000,
+  "maxMobileHeight": 612,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "IMG_0121.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0134.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0177.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0185.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0222.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0271.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0290.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    },
+    {
+      "imageName": "IMG_0297.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3024,
+      "width": 4032
+    }
+  ]
+}

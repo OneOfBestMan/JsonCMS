@@ -1,0 +1,160 @@
+﻿{
+  "pages": [
+    {
+      "title": "index",
+      "friendlyUrl": "/",
+      "template": "standard",
+      "displayName": "Home",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "home",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "baildon",
+      "friendlyUrl": "/baildon",
+      "template": "standard",
+      "displayName": "Baildon Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "baildon",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "bingley",
+      "friendlyUrl": "/bingley",
+      "template": "standard",
+      "displayName": "Bingley Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "bingley",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "citycentre",
+      "friendlyUrl": "/citycentre",
+      "template": "standard",
+      "displayName": "City Centre Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "citycentre",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "ilkley",
+      "friendlyUrl": "/ilkley",
+      "template": "standard",
+      "displayName": "Ilkley Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "ilkley",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "keighley",
+      "friendlyUrl": "/keighley",
+      "template": "standard",
+      "displayName": "Keighley Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "keighley",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "leedsroad",
+      "friendlyUrl": "/leedsroad",
+      "template": "standard",
+      "displayName": "Leeds Road Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "leedsroad",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "manningham",
+      "friendlyUrl": "/manningham",
+      "template": "standard",
+      "displayName": "Manningham Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "manningham",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "northparade",
+      "friendlyUrl": "/northparade",
+      "template": "standard",
+      "displayName": "North Parade Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "northparade",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "shipley",
+      "friendlyUrl": "/shipley",
+      "template": "standard",
+      "displayName": "Shipley Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "shipley",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "westend",
+      "friendlyUrl": "/westend",
+      "template": "standard",
+      "displayName": "West End Pubs",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "westend",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "new",
+      "friendlyUrl": "/new",
+      "template": "standard",
+      "displayName": "New Photos",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "new",
+          "type": "gallery"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿{
+  "pages": [
+    {
+      "title": "index",
+      "friendlyUrl": "/index",
+      "template": "blog",
+      "displayName": "UNIT",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "blog1",
+          "type": "blog"
+        },
+        {
+          "templateTag": "region2",
+          "mappedObject": "blog1",
+          "type": "latest"
+        }
+      ]
+    }
+  ]
+}

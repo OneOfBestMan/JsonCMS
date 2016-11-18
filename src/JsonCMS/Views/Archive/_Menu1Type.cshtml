@@ -1,0 +1,10 @@
+﻿@model JsonCMS.Models.Core.Menu
+<ul class="nav navbar-nav navbar-right">
+    @foreach (var menuItem in Model.menu)
+    {
+        @if (menuItem.page != null)
+        {
+            <li class="feeditem"><a href="@menuItem.page.friendlyUrl"><span class="marker"></span>@menuItem.page.displayName</a></li>
+        }
+    }
+</ul>

@@ -1,0 +1,80 @@
+﻿@model Gallery
+@using JsonCMS.Models.Galleries;
+@{ 
+    var desktopCellsAcross = Model.desktopImagesAcrossPage;
+    var mobileCellsAcross = Model.mobileImagesAcrossPage;
+    var images = Model.imageData.Where(x => x.fileExists);
+    var rows = Math.Ceiling((double)images.Count() / desktopCellsAcross);
+    var flexClass = Math.Round(((100 - Model.spaceBetween) / desktopCellsAcross),1) + "%";
+    for (var row = 0; row < rows; row++)
+    {
+        <div class="gallery-flex-container">
+            @{ 
+                foreach (var imageData in images.Skip(row * desktopCellsAcross).Take(desktopCellsAcross))
+                {
+                    var desktopGalleryImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.DesktopForGallery).FirstOrDefault();
+                    var mobileGalleryImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.MobileForGallery).FirstOrDefault();
+                    var lightboxImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.DesktopMaxSize).FirstOrDefault();
+                    if (desktopGalleryImageVersion != null && mobileGalleryImageVersion != null)
+                    {
+                        var columnsClass = string.Empty;
+                        var mobileImagesAcross = mobileCellsAcross > 0 ? mobileCellsAcross : 2;
+                        if (mobileCellsAcross > 1 && mobileCellsAcross <= 3)
+                        {
+                            columnsClass = "mobileImage" + mobileImagesAcross + "Col";
+                        }
+                        var desktopImagesAcross = desktopCellsAcross > 1 ? 3 : 1; // for none flexbox browsers
+                        columnsClass = columnsClass + " desktopImage" + desktopImagesAcross + "Col";
+
+                        <div class="gallery-flex-item @columnsClass" style="flex-basis:@flexClass">
+                            @{
+                                if (imageData.url != null)
+                                {
+                                @Html.Raw("<a href='" + @imageData.url + "'>");
+                                }
+                                else
+                                {
+                                    if (imageData.lightBox && lightboxImageVersion != null)
+                                    {
+                                        @Html.Raw("<a class='lightbox' href='" + lightboxImageVersion.paths.wwwFullPathBase64 + "' title='" + imageData.alt + "'>");
+                                    }
+                                }
+                                var imgClass = string.Empty;
+                                if (imageData.title != null)
+                                {
+                                    imgClass = "hasCaption";
+                                }
+                                else
+                                {
+                                    imgClass = "hasNoCaption";
+                                }
+                            }
+
+                            <picture>
+                                <source srcset="@mobileGalleryImageVersion.paths.wwwFullPathBase64" media="(max-width: 768px)">
+                                <img class="img-responsive fader @imgClass" alt="@imageData.alt"  title="@imageData.alt" src="@desktopGalleryImageVersion.paths.wwwFullPathBase64" />
+                            </picture>
+
+                            @if (imageData.title != null)
+                            {
+                                <div class="caption">@imageData.title</div>
+                            }
+                            @if (imageData.url != null || (imageData.lightBox && lightboxImageVersion != null))
+                            {
+                                @Html.Raw("</a>");
+                            }
+                        </div>
+                    }
+                }
+                if (row + 1 == rows)
+                {
+                    var tailCellCount = desktopCellsAcross * rows - images.Count();
+                    for (var tailCells = 0; tailCells < tailCellCount; tailCells++)
+                    {
+                       <div class="gallery-flex-item" style="flex-basis:@flexClass"> </div>
+                    }
+                }
+             }
+        </div>
+   }
+}

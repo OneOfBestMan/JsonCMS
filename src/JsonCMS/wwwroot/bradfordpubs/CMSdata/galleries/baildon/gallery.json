@@ -1,0 +1,123 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2013-02-02_1359828328.jpg",
+      "title": null,
+      "alt": "The Bulls Head",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359828377.jpg",
+      "title": null,
+      "alt": "",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359828417.jpg",
+      "title": null,
+      "alt": "Bar Twelve",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359830381.jpg",
+      "title": null,
+      "alt": "The Baildon Club",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359830430.jpg",
+      "title": null,
+      "alt": "",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359830475.jpg",
+      "title": null,
+      "alt": "Shoulder of Mutton",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359830518.jpg",
+      "title": null,
+      "alt": "The Halfway House",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359830560.jpg",
+      "title": null,
+      "alt": "The Junction",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359831009.jpg",
+      "title": null,
+      "alt": "New Inn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359831094.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-09-28_1380383691.jpg",
+      "title": null,
+      "alt": "The Old Glen House",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    }
+  ]
+}

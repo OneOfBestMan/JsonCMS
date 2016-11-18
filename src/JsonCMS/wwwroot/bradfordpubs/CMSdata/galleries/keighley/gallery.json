@@ -1,0 +1,194 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2014-07-12_1405188183.jpg",
+      "title": null,
+      "alt": "Marquis of Granby",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-08-17_1408275622.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-08-17_1408275648.jpg",
+      "title": null,
+      "alt": "Pop & Pasty",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-08-17_1408275692.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-08-17_1408277142.jpg",
+      "title": null,
+      "alt": "The Victoria",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-08-17_1408277215.jpg",
+      "title": null,
+      "alt": "The Cavendish",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "albert.JPG",
+      "title": null,
+      "alt": "Albert Hotel",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 596,
+      "width": 596
+    },
+    {
+      "imageName": "blast.JPG",
+      "title": null,
+      "alt": "Blast",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 598
+    },
+    {
+      "imageName": "burlingtonArms.JPG",
+      "title": null,
+      "alt": "Burlington Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 598
+    },
+    {
+      "imageName": "jackAndDannys.JPG",
+      "title": null,
+      "alt": "Jack and Dannys",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 597
+    },
+    {
+      "imageName": "keighley1.JPG",
+      "title": null,
+      "alt": "Commercial Inn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 598
+    },
+    {
+      "imageName": "keighley2.JPG",
+      "title": null,
+      "alt": "Kings Head",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 600,
+      "width": 599
+    },
+    {
+      "imageName": "lastOrders.JPG",
+      "title": null,
+      "alt": "Last Orders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 599
+    },
+    {
+      "imageName": "liveryrooms.JPG",
+      "title": null,
+      "alt": "Livery Rooms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 596,
+      "width": 596
+    },
+    {
+      "imageName": "lordRodney.JPG",
+      "title": null,
+      "alt": "Lord Rodney",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 600
+    },
+    {
+      "imageName": "PercyVears.JPG",
+      "title": null,
+      "alt": "Percy Vears",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 599
+    },
+    {
+      "imageName": "royalOak.JPG",
+      "title": null,
+      "alt": "Royal Oak",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 597,
+      "width": 599
+    },
+    {
+      "imageName": "theStar.JPG",
+      "title": null,
+      "alt": "The Star",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 596,
+      "width": 596
+    }
+  ]
+}

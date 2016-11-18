@@ -1,0 +1,15 @@
+﻿@model JsonCMS.Models.Regions.GalleryRegion
+@using JsonCMS.Models.Galleries;
+@{
+    var images = Model.data.imageData.Where(x => x.fileExists);
+
+    <div id="makeMeScrollable" style="visibility:hidden;">
+
+        @foreach (var item in images)
+        {
+            var desktopGalleryImageVersion = item.Versions.Where(x => x.versionType == ImageVersionTypes.DesktopForGallery).FirstOrDefault();
+
+            <img src="@desktopGalleryImageVersion.paths.wwwFullPathBase64" title="@item.title" />
+        }
+    </div>
+}

@@ -1,0 +1,18 @@
+﻿@model JsonCMS.Models.Regions.BlogRegion
+@using JsonCMS.Models.Galleries;
+<h2 id="latestPosts">Latest Posts</h2>
+@{
+    int c=0;
+    foreach (var entry in Model.firstPage.pageEntries.Take(10))
+    {
+        c++;
+        <div class="latestentry">
+            <a href="@Model.friendlyUrl#entry_@c">
+                <h3>
+                    @entry.title<br />
+                    <small>@entry.entryDate.ToString("MMMM dd yyyy")</small>
+                </h3>
+            </a>
+       </div>
+    }
+}

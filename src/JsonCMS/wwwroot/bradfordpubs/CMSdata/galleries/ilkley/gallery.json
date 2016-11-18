@@ -1,0 +1,174 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2015-04-03_1428070245.jpg",
+      "title": null,
+      "alt": "Piccolino",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 629
+    },
+    {
+      "imageName": "2015-04-03_1428070303.jpg",
+      "title": null,
+      "alt": "",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 629,
+      "width": 629
+    },
+    {
+      "imageName": "2015-04-03_1428070392.jpg",
+      "title": null,
+      "alt": "The Black Hat",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 629,
+      "width": 627
+    },
+    {
+      "imageName": "2015-04-03_1428070449.jpg",
+      "title": null,
+      "alt": "The Station",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 627,
+      "width": 628
+    },
+    {
+      "imageName": "2015-04-03_1428070507.jpg",
+      "title": null,
+      "alt": "Riverside Hotel",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 629,
+      "width": 626
+    },
+    {
+      "imageName": "2015-04-03_1428070567.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 627,
+      "width": 628
+    },
+    {
+      "imageName": "2015-04-03_1428070642.jpg",
+      "title": null,
+      "alt": "Flying Duck",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 631,
+      "width": 629
+    },
+    {
+      "imageName": "2015-04-03_1428070716.jpg",
+      "title": null,
+      "alt": "Ilkley Moor Vaults / The Taps",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 630,
+      "width": 629
+    },
+    {
+      "imageName": "2015-04-03_1428070828.jpg",
+      "title": null,
+      "alt": "The Lister Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 627,
+      "width": 628
+    },
+    {
+      "imageName": "2015-04-03_1428070922.jpg",
+      "title": null,
+      "alt": "The Midland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 627,
+      "width": 627
+    },
+    {
+      "imageName": "2015-04-03_1428070983.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 631,
+      "width": 628
+    },
+    {
+      "imageName": "2015-04-03_1428071065.jpg",
+      "title": null,
+      "alt": "Bar tat",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 630,
+      "width": 630
+    },
+    {
+      "imageName": "2015-04-03_1428071141.jpg",
+      "title": null,
+      "alt": "The Grove",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 630,
+      "width": 628
+    },
+    {
+      "imageName": "2015-04-03_1428071210.jpg",
+      "title": null,
+      "alt": "Martinez Wine Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 629,
+      "width": 630
+    },
+    {
+      "imageName": "2015-04-03_1428071286.jpg",
+      "title": null,
+      "alt": "Saigon",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 628
+    },
+    {
+      "imageName": "IMG_1907.JPG",
+      "title": null,
+      "alt": "The Hermit",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 3024,
+      "width": 3024
+    }
+  ]
+}

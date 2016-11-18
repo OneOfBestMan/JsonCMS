@@ -1,0 +1,373 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-02-28_1330408715.jpg",
+      "title": null,
+      "alt": "The Smithy",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408754.jpg",
+      "title": null,
+      "alt": "The Lord Clyde",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408796.jpg",
+      "title": null,
+      "alt": "The Old Bank",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-03-25_1332684215.jpg",
+      "title": null,
+      "alt": "Rams Revenge",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684259.jpg",
+      "title": null,
+      "alt": "The Cube",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684308.jpg",
+      "title": null,
+      "alt": "The Queen",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684439.jpg",
+      "title": null,
+      "alt": "Jacobs Well",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684886.jpg",
+      "title": null,
+      "alt": "Shoulder of Mutton",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684916.jpg",
+      "title": null,
+      "alt": "City Vaults",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684959.jpg",
+      "title": null,
+      "alt": "O Neills",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685024.jpg",
+      "title": null,
+      "alt": "The Ginger Goose",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685252.jpg",
+      "title": null,
+      "alt": "The Fighting Cock",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342347989.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348032.jpg",
+      "title": null,
+      "alt": "The Town and Country",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348094.jpg",
+      "title": null,
+      "alt": "Bradford Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348138.jpg",
+      "title": null,
+      "alt": "The Royal Standard",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348353.jpg",
+      "title": null,
+      "alt": "Balanca",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348427.jpg",
+      "title": null,
+      "alt": "Lingards",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348461.jpg",
+      "title": null,
+      "alt": "Old Crown",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348542.jpg",
+      "title": null,
+      "alt": "Rios",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348577.jpg",
+      "title": null,
+      "alt": "The Sun",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348622.jpg",
+      "title": null,
+      "alt": "The Star",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348707.jpg",
+      "title": null,
+      "alt": "New Beehive",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348757.jpg",
+      "title": null,
+      "alt": "Rose & Crown",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 532,
+      "width": 536
+    },
+    {
+      "imageName": "2014-05-25_1401040453.jpg",
+      "title": null,
+      "alt": "The new Pack Horse",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-05-25_1401040634.jpg",
+      "title": null,
+      "alt": "The Castle",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-05-25_1401040728.jpg",
+      "title": null,
+      "alt": "Oscars",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-05-25_1401040840.jpg",
+      "title": null,
+      "alt": "C.S.",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-05-25_1401040993.jpg",
+      "title": null,
+      "alt": "Boy and Barrel",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-05-25_1401041054.jpg",
+      "title": null,
+      "alt": "Uber Village",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-05-25_1401041423.jpg",
+      "title": null,
+      "alt": "The Tavern in the Town",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-06-01_1401610064.jpg",
+      "title": null,
+      "alt": "Corn Dolly",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2015-03-28_1427562660.jpg",
+      "title": null,
+      "alt": "The Arena",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 629
+    },
+    {
+      "imageName": "2015-03-28_1427562709.jpg",
+      "title": null,
+      "alt": "Exchange Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 626,
+      "width": 627
+    },
+    {
+      "imageName": "2015-03-28_1427562795.jpg",
+      "title": null,
+      "alt": "The Commercial Inn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 627,
+      "width": 629
+    },
+    {
+      "imageName": "candy1.jpg",
+      "title": null,
+      "alt": "Candy",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    }
+  ]
+}

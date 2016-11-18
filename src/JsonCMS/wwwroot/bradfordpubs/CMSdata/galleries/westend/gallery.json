@@ -1,0 +1,243 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-02-28_1330408428.jpg",
+      "title": null,
+      "alt": "Che Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408472.jpg",
+      "title": null,
+      "alt": "Flares",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408523.jpg",
+      "title": null,
+      "alt": "Manville",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408588.jpg",
+      "title": null,
+      "alt": "Vampire",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408632.jpg",
+      "title": null,
+      "alt": "Love Apple",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408677.jpg",
+      "title": null,
+      "alt": "Gasworks",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_1330408915.jpg",
+      "title": null,
+      "alt": "Sir Titus Salt",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-03-03_1330788523.jpg",
+      "title": null,
+      "alt": "Mode",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-03-25_1332684497.jpg",
+      "title": null,
+      "alt": "NV",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684576.jpg",
+      "title": null,
+      "alt": "Macrories",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684611.jpg",
+      "title": null,
+      "alt": "Delius",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684654.jpg",
+      "title": null,
+      "alt": "Tumblers",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684717.jpg",
+      "title": null,
+      "alt": "",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684770.jpg",
+      "title": null,
+      "alt": "Red Square",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684841.jpg",
+      "title": null,
+      "alt": "Revolution",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685056.jpg",
+      "title": null,
+      "alt": "The Wheatsheaf",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685163.jpg",
+      "title": null,
+      "alt": "Westleigh",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685208.jpg",
+      "title": null,
+      "alt": "Shearbridge",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685338.jpg",
+      "title": null,
+      "alt": "Sin",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685371.jpg",
+      "title": null,
+      "alt": "Tokyo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685404.jpg",
+      "title": null,
+      "alt": "The Pit Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332685439.jpg",
+      "title": null,
+      "alt": "Tequila",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2014-05-25_1401040937.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    }
+  ]
+}

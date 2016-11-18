@@ -1,0 +1,144 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 400,
+  "maxPopupWidth": 600,
+  "maxDefaultHeight": 400,
+  "maxMobileWidth": 400,
+  "maxMobileHeight": 400,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "P1010010.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 667
+    },
+    {
+      "imageName": "P1010012.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 667
+    },
+    {
+      "imageName": "P3280128.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 500,
+      "width": 667
+    },
+    {
+      "imageName": "P4100092.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "P5140432.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "P5140434.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "P8170266.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "PC290041.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "PC310192.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "PC310359.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "PC310360.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "PC310368.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    },
+    {
+      "imageName": "PC310391.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1704,
+      "width": 2272
+    }
+  ]
+}

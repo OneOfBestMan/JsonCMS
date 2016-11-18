@@ -1,0 +1,106 @@
+﻿{
+  "sites": [
+    {
+      "siteTag": "portfolio",
+      "viewFolder": "Portfolio",
+      "siteTitle": "Martin Ruffe",
+      "subTitle": "Photography and Web",
+      "copyright": "All photography © Martin Ruffe 2016",
+      "analyticsCode": "UA-1902959-1",
+      "domains": [
+        //{
+        //  "domainName": "martinruffe.co.uk"
+        //},
+        {
+          "domainName": "portfolio.json-cms.co.uk",
+          "noSpider": true
+        }
+      ]
+
+    },
+    {
+      "siteTag": "unit",
+      "viewFolder": "Unit",
+      "siteTitle": "for all those single unit shops",
+      "subTitle": "",
+      "copyright": "All photography © Martin Ruffe 2016",
+      "analyticsCode": "UA-1902959-1",
+      "domains": [
+        {
+          "domainName": "unit.martinruffe.co.uk"
+        },
+        {
+          "domainName": "unit.json-cms.co.uk",
+          "noSpider": true
+        }
+      ]
+    },
+    {
+      "siteTag": "archive",
+      "viewFolder": "Archive",
+      "siteTitle": "Martin Ruffe",
+      "subTitle": "",
+      "copyright": "All photography © Martin Ruffe 2016",
+      "analyticsCode": "UA-1902959-1",
+      "domains": [
+        {
+          "domainName": "archive.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "archive.martinruffe.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "martinruffe.co.uk"
+        },
+        {
+          "domainName": "www.martinruffe.co.uk"
+        }
+      ]
+    },
+    {
+      "siteTag": "bradfordpubs",
+      "viewFolder": "BradfordPubs",
+      "siteTitle": "Photographs of Bradford Pubs, West Yorkshire",
+      "subTitle": "",
+      "copyright": "All photography © Martin Ruffe 2016",
+      "analyticsCode": "UA-48465203-1",
+      "domains": [
+        {
+          "domainName": "bradford-pubs.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "bradford-pubs.martinruffe.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "bradford-pubs.online",
+          "noSpider": false
+        }
+      ]
+    },
+    {
+      "siteTag": "inyourface",
+      "viewFolder": "InYourFace",
+      "siteTitle": "In Your Face Portrait Photography",
+      "subTitle": "",
+      "copyright": "All photography © Patricia Ruffe 2016",
+      "analyticsCode": "UA-1902959-40",
+      "domains": [
+        {
+          "domainName": "in-your-face.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "in-your-face.org.uk"
+        },
+        {
+          "domainName": "www.in-your-face.org.uk"
+        }
+      ]
+    }
+  ],
+  "currentSite" : "unit"
+}

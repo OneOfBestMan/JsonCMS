@@ -1,0 +1,29 @@
+{
+  "title": "Zermatt",
+  "html": null,
+  "entryDate": "2015-03-28T09:06:00.1594463Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 800,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 700,
+  "maxMobileWidth": 800,
+  "maxMobileHeight": 700,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2015-03-28_1427531182.jpg",
+      "title": null,
+      "alt": "Opticians",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 640,
+      "width": 640,
+      "serialiseVersions": false
+    }
+  ]
+}

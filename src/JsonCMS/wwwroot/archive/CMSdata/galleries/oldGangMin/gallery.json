@@ -1,0 +1,524 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 200,
+  "maxPopupWidth": 200,
+  "maxDefaultHeight": 200,
+  "maxMobileWidth": 200,
+  "maxMobileHeight": 200,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2775671053681547020.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 361
+    },
+    {
+      "imageName": "2775671053681547057.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 433
+    },
+    {
+      "imageName": "2775671053681547070.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 467
+    },
+    {
+      "imageName": "2775671053681547072.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 250,
+      "width": 442
+    },
+    {
+      "imageName": "2775671053681547076.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 403
+    },
+    {
+      "imageName": "2775671053681547077.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 214
+    },
+    {
+      "imageName": "2775671053681547079.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 432
+    },
+    {
+      "imageName": "2775671053681547080.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 425
+    },
+    {
+      "imageName": "2775671053681547097.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 262,
+      "width": 400
+    },
+    {
+      "imageName": "2775671053681547100.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 257,
+      "width": 400
+    },
+    {
+      "imageName": "2775671053681547121.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 440
+    },
+    {
+      "imageName": "2775671053681547122.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 439
+    },
+    {
+      "imageName": "2775671053681547154.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 421
+    },
+    {
+      "imageName": "2775671053682581293.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 469,
+      "width": 349
+    },
+    {
+      "imageName": "2775671053682581364.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 407,
+      "width": 595
+    },
+    {
+      "imageName": "2775671053682581365.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 415,
+      "width": 553
+    },
+    {
+      "imageName": "2775671053682581370.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 370,
+      "width": 554
+    },
+    {
+      "imageName": "2775671053682581371.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 416,
+      "width": 590
+    },
+    {
+      "imageName": "2775671053682581376.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 415,
+      "width": 596
+    },
+    {
+      "imageName": "2775671053682581377.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 342,
+      "width": 502
+    },
+    {
+      "imageName": "2775671053682581378.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 414,
+      "width": 287
+    },
+    {
+      "imageName": "2775671053682581392.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 360,
+      "width": 534
+    },
+    {
+      "imageName": "2775671053682581400.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 390,
+      "width": 551
+    },
+    {
+      "imageName": "2775671053682581401.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 358,
+      "width": 506
+    },
+    {
+      "imageName": "2775671053682581403.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 395,
+      "width": 274
+    },
+    {
+      "imageName": "2775671053682581480.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 424,
+      "width": 298
+    },
+    {
+      "imageName": "2775671053682581483.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 455,
+      "width": 308
+    },
+    {
+      "imageName": "2775671053682581491.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 420,
+      "width": 586
+    },
+    {
+      "imageName": "2775671053682581493.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 474,
+      "width": 324
+    },
+    {
+      "imageName": "2775671053682581503.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 406,
+      "width": 574
+    },
+    {
+      "imageName": "2775671053682581513.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 297,
+      "width": 400
+    },
+    {
+      "imageName": "2775671053682581522.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 363,
+      "width": 531
+    },
+    {
+      "imageName": "2775671053682581525.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 241,
+      "width": 400
+    },
+    {
+      "imageName": "2775671053682581528.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 324,
+      "width": 527
+    },
+    {
+      "imageName": "2775671053682612097.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 329,
+      "width": 503
+    },
+    {
+      "imageName": "2775671053682612100.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 330,
+      "width": 492
+    },
+    {
+      "imageName": "2775671053682612114.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 354,
+      "width": 519
+    },
+    {
+      "imageName": "2775671053682612116.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 311,
+      "width": 492
+    },
+    {
+      "imageName": "2775671053682612126.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 334,
+      "width": 465
+    },
+    {
+      "imageName": "2775671053682612129.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 367,
+      "width": 574
+    },
+    {
+      "imageName": "2775671053682612134.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 351,
+      "width": 543
+    },
+    {
+      "imageName": "2775671053682612143.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 312,
+      "width": 438
+    },
+    {
+      "imageName": "2775671053682612147.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 338,
+      "width": 498
+    },
+    {
+      "imageName": "2775671053682612148.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 352,
+      "width": 525
+    },
+    {
+      "imageName": "2775671053683137739.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 392
+    },
+    {
+      "imageName": "2775671053683137788.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 250,
+      "width": 467
+    },
+    {
+      "imageName": "2775671053683137799.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 482
+    },
+    {
+      "imageName": "2775671053683137800.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 271,
+      "width": 604
+    },
+    {
+      "imageName": "2775671053683137810.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 398
+    },
+    {
+      "imageName": "2775671053683137814.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 404,
+      "width": 300
+    },
+    {
+      "imageName": "DSCN1490.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 824,
+      "width": 1179
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.LayoutData.PageTitle</title>
+    @Html.Raw(ViewBag.LayoutData.RobotsMeta)
+
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+   <environment names="Development">
+        <link rel="stylesheet" href="~/archive/css/site.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/archive/css/site.css" asp-append-version="true" />
+    </environment>
+    @Html.Partial("~/Views/Archive/_Fonts.cshtml")
+    <script type='text/javascript' src="http://knockoutjs.com/downloads/knockout-3.2.0.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+</head>
+<body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
+    <div class="container body-content">
+        @RenderBody()
+        <footer>
+            <p class="copyright">@ViewBag.LayoutData.Copyright</p>
+        </footer>
+    </div>
+    @Html.Partial("~/Views/Portfolio/_Analytics.cshtml")
+    @RenderSection("scripts", required: false)
+
+
+    <script type="text/javascript" src="/archive/js/miniatures.js"></script>
+</body>
+</html>

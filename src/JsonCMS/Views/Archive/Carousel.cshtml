@@ -1,0 +1,21 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/Archive/_CarouselLayout.cshtml";
+}
+
+<div id="wrapper">
+
+    <h1><a href="/" class="homeBtn"><i alt="Home" class="fa fa-home"></i></a> @Model.thisPage.displayName</h1>
+
+    <div id="carouselicons">
+        @Html.Partial("~/Views/Archive/_Social.cshtml", Model.social)
+    </div>
+
+    <div id="imageswrapper">
+        @{
+            Model.currentRegion = "region1";
+            @Html.Partial("~/Views/Archive/_Region.cshtml", Model)
+        }
+    </div>
+
+</div>

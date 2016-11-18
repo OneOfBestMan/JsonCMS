@@ -1,0 +1,69 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/InYourFace/_Layout.cshtml";
+}
+
+
+<p style="display:none;">@Model.thisPage.displayName</p>
+
+<div id="section">
+    <div id="wrapper" ng-controller="GalleryCtrl">
+        <div id="leftCol">
+            <div id="imgWrapper" ng-show="reloadingState">
+
+                <a id="fancyBoxImage" href="{{images[imageIndex].value}}">
+                    <img id="mainImg" class="rotation{{images[imageIndex].key}}" ng-src="{{images[imageIndex].value}}" sb-load="onImgLoad($event)" />
+                </a>
+
+            </div>
+
+            <div id="galleryPosition">{{imageIndex+1}} of {{images.length}}</div>
+        </div>
+        <div id="rightCol">
+            <div id="rightWrapper">
+                <div id="rightHeader">
+                    <div id="leftHeaderBox"></div>
+                    <div id="rightHeaderBox">
+                        <p id="inYourFace">www.in-your-face.org.uk</p>
+                        <img id="faces" src="~/inyourface/graphics/faces.png" />
+                    </div>
+                </div>
+
+                <ul id="sections" class="selected{{sectionNo}}">
+                    <li ng-repeat="folder in folders">
+                        <p class="checkBox checkBox{{folder.key}}" ng-click="getSection(folder.value, folder.key)"></p>
+                        <div ng-click="getSection(folder.value, folder.key)" class="section">{{folder.value}}</div>
+                    </li>
+                    <li ng-repeat="a in '1234567890'.split('') | limitTo:10-folders.length">
+                        <p class="checkBox"></p>
+                        <div class="section"></div>
+                    </li>
+                </ul>
+
+                <hr id="sectionDivider" />
+                <div id="logoBox">
+                    <img src="~/inyourface/graphics/MR%20in%20your%20face%20logo%20in%20photoshop%20for%20in%20your%20face%20angular%20site.png" />
+                    <p id="contact"><a href="mailto:bracketsfox@yahoo.com" target="_blank">Contact</a></p>
+                </div>
+
+                <div id="thumbsDiv">
+                    <ul id="thumbnails">
+                        <li ng-repeat="image in images | limitTo:7">
+                            <p><img ng-src="{{image.value}}" /></p>
+                        </li>
+                    </ul>
+                    <div id="hr" />
+                </div>
+
+                <div id="move">
+                    <div ng-click="getNext()" class="moveText"><p>Next</p></div><div ng-click="getNext()" id="checkBoxLeft" class="moveBox onLast{{onLast}}"></div>
+                    <div ng-click="getPrev()" class="moveText"><p>Prev</p></div><div ng-click="getPrev()" id="checkBoxRight" class="moveBox onFirst{{onFirst}}"></div>
+                </div>
+
+            </div>
+        </div>
+        <hr />
+    </div>
+</div>
+
+<div ng-include="'/inyourface/js/startUpJS.html'"></div>

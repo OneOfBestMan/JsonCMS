@@ -1,0 +1,49 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/Archive/_HomeLayout.cshtml";
+}
+
+<div id="wrapper">
+    <div id="leftcol">
+        @{
+            Model.currentRegion = "region1";
+            @Html.Partial("~/Views/Archive/_Region.cshtml", Model)
+        }
+    </div>
+
+    <div id="rightcol">
+        <div id="logo">
+            <img src="~/archive/graphics/MR-in-your-face-logo2.png" />
+            <div id="topics">
+                <span class="skill footertext">&Phi; Photography</span>
+                <span class="skill footertext">&Phi; Web</span>
+                <span class="skill footertext noright">&Phi; Software</span>
+            </div>
+        </div>
+
+        <h1>
+            Martin Ruffe
+            <span id="icons">
+                @Html.Partial("~/Views/Archive/_Social.cshtml", Model.social)
+            </span>
+        </h1>
+        <div id="rightcolbody">
+
+            <h2>Photography</h2>
+            @{
+                var recentmenu = Model.menus.GetMenu("menu1", Model.thisPage.displayName);
+                if (recentmenu != null)
+                {
+                    @Html.Partial("~/Views/Archive/_" + recentmenu.menuType + ".cshtml", recentmenu)
+                }
+            }
+
+            <h2>Photo Blogs</h2>
+            <ul id="feeds">
+                <li class="feeditem"><a title="Unit" target="_blank" href="http://unit.martinruffe.co.uk/"><span class="marker"></span>Unit</a></li>
+                <li class="feeditem"><a title="Bradford Pubs" target="_blank" href="http://bradford-pubs.online/"><span class="marker"></span>Bradford Pubs</a></li>
+                <li class="feeditem"><a title="In Your Face" target="_blank" href="http://www.in-your-face.org.uk"><span class="marker"></span>In Your Face</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

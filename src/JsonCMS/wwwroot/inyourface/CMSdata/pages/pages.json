@@ -1,0 +1,36 @@
+﻿{
+  "pages": [
+    {
+      "title": "index",
+      "friendlyUrl": "/",
+      "template": "standard",
+      "displayName": "Home",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "family",
+          "type": "gallery",
+          "title": "Family"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "vacation",
+          "type": "gallery",
+          "title": "Vacation"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "oldschool",
+          "type": "gallery",
+          "title": "Old School"
+        },
+        {
+          "templateTag": "region1",
+          "mappedObject": "club",
+          "type": "gallery",
+          "title": "Club"
+        }
+      ]
+    }
+  ]
+}

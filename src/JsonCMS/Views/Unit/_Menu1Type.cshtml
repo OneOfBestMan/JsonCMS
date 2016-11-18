@@ -1,0 +1,14 @@
+﻿@model JsonCMS.Models.Core.Menu
+<ul class="nav">
+    @foreach (var menuItem in Model.menu)
+    {
+        if (menuItem.page.displayName == Model.currentSelection)
+        {
+            <li class="active"><a href="@menuItem.page.friendlyUrl">@menuItem.page.displayName</a></li>
+        }
+        else
+        {
+            <li class=""><a href="@menuItem.page.friendlyUrl">@menuItem.page.displayName</a></li>
+        }
+    }
+</ul>

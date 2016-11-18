@@ -1,0 +1,314 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 200,
+  "maxPopupWidth": 200,
+  "maxDefaultHeight": 200,
+  "maxMobileWidth": 200,
+  "maxMobileHeight": 200,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2004Sarah10.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 429
+    },
+    {
+      "imageName": "9_LIZTIMjake.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 272,
+      "width": 400
+    },
+    {
+      "imageName": "AUSjakehead.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 426
+    },
+    {
+      "imageName": "CHILD-PF-AUS2003thepoms2.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 472
+    },
+    {
+      "imageName": "CHILD-PF-EMbiker1.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 440
+    },
+    {
+      "imageName": "CHILD-PF-URCH6.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 459
+    },
+    {
+      "imageName": "CHILD-PF-URCH7.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 440
+    },
+    {
+      "imageName": "CHILD-PF-URCH9.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 441
+    },
+    {
+      "imageName": "CHILD-PF-URCHdales1.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 472
+    },
+    {
+      "imageName": "EMsuz1.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 417
+    },
+    {
+      "imageName": "EMsuz2.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "FFjenny.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 429
+    },
+    {
+      "imageName": "FFjoepsychokiller.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 437
+    },
+    {
+      "imageName": "GLASmoll.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 373
+    },
+    {
+      "imageName": "LEAVE4.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 244
+    },
+    {
+      "imageName": "LIVNYmark.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 198
+    },
+    {
+      "imageName": "MUSIC-PF-scar07c11.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 404
+    },
+    {
+      "imageName": "MUSIC-PF-scar07c4.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 414
+    },
+    {
+      "imageName": "MUSIC-PF-scar07c8.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 398
+    },
+    {
+      "imageName": "MUSIC-PF-scar07c9.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 433
+    },
+    {
+      "imageName": "MUSIC-PF-YNOT09CNV00037b.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 448
+    },
+    {
+      "imageName": "PORT-PF-AUS2003thepoms3.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 482
+    },
+    {
+      "imageName": "PORT-PF-AUSclaire.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 214
+    },
+    {
+      "imageName": "PORT-PF-DSCN2569-1000.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 750,
+      "width": 1000
+    },
+    {
+      "imageName": "PORT-PF-EMgang1.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 440
+    },
+    {
+      "imageName": "PORT-PF-SARdad-1000.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 697,
+      "width": 1000
+    },
+    {
+      "imageName": "PPstag5.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 489
+    },
+    {
+      "imageName": "SEZPATdancing3.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 422
+    },
+    {
+      "imageName": "SEZPATgirl.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 464
+    },
+    {
+      "imageName": "TRIGGERphil.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 382
+    }
+  ]
+}

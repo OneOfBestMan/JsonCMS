@@ -1,0 +1,223 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-02-28_1330408428.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-02-28_13304084721.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-03-17_1331996485.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 560,
+      "width": 563
+    },
+    {
+      "imageName": "2012-03-17_1331996731.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 561,
+      "width": 563
+    },
+    {
+      "imageName": "2012-03-17_1332006930.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 560,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-25_1332684439.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-05-27_1338134368.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134593.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-06-17_1339947010.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 561,
+      "width": 564
+    },
+    {
+      "imageName": "2012-07-15_13423477091.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348094.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348707.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 558,
+      "width": 561
+    },
+    {
+      "imageName": "2012-07-15_1342348757.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 532,
+      "width": 536
+    },
+    {
+      "imageName": "2013-02-02_1359828328.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-02-02_1359830560.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-09-28_1380384022.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-11-25_1385407883.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-03-29_1396116477.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2015-02-01_1422786491.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 628,
+      "width": 629
+    },
+    {
+      "imageName": "2015-04-03_1428070716.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 630,
+      "width": 629
+    },
+    {
+      "imageName": "2015-04-03_1428071065.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 630,
+      "width": 630
+    }
+  ]
+}

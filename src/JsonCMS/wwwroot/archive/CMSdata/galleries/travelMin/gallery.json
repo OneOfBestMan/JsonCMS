@@ -1,0 +1,404 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 200,
+  "maxPopupWidth": 200,
+  "maxDefaultHeight": 200,
+  "maxMobileWidth": 200,
+  "maxMobileHeight": 200,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "AUS2003alldayticket11cannington.jpg",
+      "title": null,
+      "alt": "Cannington, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 209
+    },
+    {
+      "imageName": "AUS2003alldayticket14brooklynhighway.jpg",
+      "title": null,
+      "alt": "Brooklyn Highway, Roleystone",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 487
+    },
+    {
+      "imageName": "AUS2003alldayticket9cannington.jpg",
+      "title": null,
+      "alt": "Cannington, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "AUS2003cleancity6.jpg",
+      "title": null,
+      "alt": "Kings Park, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 430
+    },
+    {
+      "imageName": "AUS2003freo1.jpg",
+      "title": null,
+      "alt": "Freo Maritime Museum",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 431
+    },
+    {
+      "imageName": "AUS2003secondfiddle4.jpg",
+      "title": null,
+      "alt": "Bunbury",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 428
+    },
+    {
+      "imageName": "AUSfreoDome.jpg",
+      "title": null,
+      "alt": "Freo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 440
+    },
+    {
+      "imageName": "AUSperReactor.jpg",
+      "title": null,
+      "alt": "Northbridge, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 416
+    },
+    {
+      "imageName": "AUSsubTreeLorry.jpg",
+      "title": null,
+      "alt": "Subiaco",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 217
+    },
+    {
+      "imageName": "Fountai2.jpg",
+      "title": null,
+      "alt": "Paris",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 272,
+      "width": 400
+    },
+    {
+      "imageName": "FRA2005alps1.jpg",
+      "title": null,
+      "alt": "To Mont Blanc, Chamonix",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "FRA2005alps2.jpg",
+      "title": null,
+      "alt": "Chamonix",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 451
+    },
+    {
+      "imageName": "FRA2005alps3.jpg",
+      "title": null,
+      "alt": "Chamonix",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 201
+    },
+    {
+      "imageName": "FRA2005antibe1.jpg",
+      "title": null,
+      "alt": "Antibes",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 455
+    },
+    {
+      "imageName": "FRA2005antibes2.jpg",
+      "title": null,
+      "alt": "Antibes",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 455
+    },
+    {
+      "imageName": "FRA2005antibes3.jpg",
+      "title": null,
+      "alt": "Antibes",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 196
+    },
+    {
+      "imageName": "FRA2005interrail3.jpg",
+      "title": null,
+      "alt": "Interrail France",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 450
+    },
+    {
+      "imageName": "FRA2005juanLesPin.jpg",
+      "title": null,
+      "alt": "Juan Les Pins",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 446
+    },
+    {
+      "imageName": "FRA2005juanLesPin4.jpg",
+      "title": null,
+      "alt": "Juan Les Pins",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 431
+    },
+    {
+      "imageName": "FRA2005orsay.jpg",
+      "title": null,
+      "alt": "Orsay Museum, Paris",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 458
+    },
+    {
+      "imageName": "ICE06gey3.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 458
+    },
+    {
+      "imageName": "ICE06gey5.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 197
+    },
+    {
+      "imageName": "ICECrey12.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 203
+    },
+    {
+      "imageName": "ICECrey9.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 441
+    },
+    {
+      "imageName": "IrgCanal.jpg",
+      "title": null,
+      "alt": "Grand Canal, Venice",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 455
+    },
+    {
+      "imageName": "IRsardinia3.jpg",
+      "title": null,
+      "alt": "Sardinia",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 273
+    },
+    {
+      "imageName": "IRseville.jpg",
+      "title": null,
+      "alt": "Seville",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 409
+    },
+    {
+      "imageName": "IRwaterfront.jpg",
+      "title": null,
+      "alt": "Venice",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003alldayticket12cannington.jpg",
+      "title": null,
+      "alt": "Cannington, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 425
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003alldayticket8maylands.jpg",
+      "title": null,
+      "alt": "Maylands, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 424
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003cleancity11.jpg",
+      "title": null,
+      "alt": "Kings Park, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 440
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003secondfiddle2.jpg",
+      "title": null,
+      "alt": "Bunbury",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003secondfiddle3.jpg",
+      "title": null,
+      "alt": "Bunbury",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 433
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003secondfiddle5.jpg",
+      "title": null,
+      "alt": "Bunbury",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "TRAV-PF-AUSFreoSink.jpg",
+      "title": null,
+      "alt": "Fremantle",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 408
+    },
+    {
+      "imageName": "TRAV-PF-BARBbridgeTownCouple.jpg",
+      "title": null,
+      "alt": "Bridgetown, Barbados",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 451
+    },
+    {
+      "imageName": "TRAV-PF-HAW2004e.jpg",
+      "title": null,
+      "alt": "Oahu",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 452
+    },
+    {
+      "imageName": "TRAV-PF-INDIAladakhValley.jpg",
+      "title": null,
+      "alt": "Ladakh",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 426
+    },
+    {
+      "imageName": "TRAV-PF-INDIAmonastery.jpg",
+      "title": null,
+      "alt": "Ladakh",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 459
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-05-27_1338134172.jpg",
+      "title": null,
+      "alt": "Ring O Bells",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134226.jpg",
+      "title": null,
+      "alt": "Branch",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134272.jpg",
+      "title": null,
+      "alt": "Terminal 1 / Elmers",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134312.jpg",
+      "title": null,
+      "alt": "The Hockney",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134368.jpg",
+      "title": null,
+      "alt": "The Sun",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134435.jpg",
+      "title": null,
+      "alt": "Norman Rae",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134511.jpg",
+      "title": null,
+      "alt": "Cricketers",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134551.jpg",
+      "title": null,
+      "alt": "Yoyo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134593.jpg",
+      "title": null,
+      "alt": "The Shipley Pride",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134630.jpg",
+      "title": null,
+      "alt": "PM Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134668.jpg",
+      "title": null,
+      "alt": "Shipley Social Club",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134734.jpg",
+      "title": null,
+      "alt": "Victoria",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134775.jpg",
+      "title": null,
+      "alt": "Caroline Social Club",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134821.jpg",
+      "title": null,
+      "alt": "The Boathouse",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134905.jpg",
+      "title": null,
+      "alt": "Old Tramshed / The Hop",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134944.jpg",
+      "title": null,
+      "alt": "Oddfellows Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338134981.jpg",
+      "title": null,
+      "alt": "Old House at Home",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338135029.jpg",
+      "title": null,
+      "alt": "Noble Comb",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338135081.jpg",
+      "title": null,
+      "alt": "Fannys",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338135132.jpg",
+      "title": null,
+      "alt": "Dont tell Titus",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338135200.jpg",
+      "title": null,
+      "alt": "The Ross / Rosse / Rossis",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2012-05-27_1338135237.jpg",
+      "title": null,
+      "alt": "Cup & Ring",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-09-28_1380383499.jpg",
+      "title": null,
+      "alt": "Jollys nightclub",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-09-28_1380383591.jpg",
+      "title": null,
+      "alt": "Club Pink",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-09-28_1380383777.jpg",
+      "title": null,
+      "alt": "VM Lounge",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-09-28_1380384022.jpg",
+      "title": null,
+      "alt": "The Fox",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2014-06-04_1401902454.jpg",
+      "title": null,
+      "alt": "The Blue Bell",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-06-07_1402178431.jpg",
+      "title": null,
+      "alt": "Imperial Wine Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2015-03-20_1426862197.jpg",
+      "title": null,
+      "alt": "Cap and Collar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 629,
+      "width": 628
+    },
+    {
+      "imageName": "2015-03-28_1427563085.jpg",
+      "title": null,
+      "alt": "The Triangle",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 627
+    },
+    {
+      "imageName": "2015-05-10_1431257134.jpg",
+      "title": null,
+      "alt": "The Woodend",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 629
+    },
+    {
+      "imageName": "2015-08-22_1440268820.jpg",
+      "title": null,
+      "alt": "Tallulahs",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 629
+    },
+    {
+      "imageName": "saltairebar.jpg",
+      "title": null,
+      "alt": "Bar 56",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 598
+    }
+  ]
+}

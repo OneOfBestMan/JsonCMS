@@ -1,0 +1,29 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/BradfordPubs/_Layout.cshtml";
+}
+
+    <div id="leftcol">
+        @{
+            var title = Model.thisPage.displayName == "Home" ? "Bradford Pubs" : Model.thisPage.displayName;
+        }
+        @{
+            Model.currentRegion = "region1";
+            @Html.Partial("~/Views/BradfordPubs/_Region.cshtml", Model)
+        }
+    </div>
+
+    <div id="rightcol">
+        <a href="/" alt="Home"><h1>@title</h1></a>
+        @{
+            var recentmenu = Model.menus.GetMenu("menu1", Model.thisPage.displayName);
+            if (recentmenu != null)
+            {
+                @Html.Partial("~/Views/BradfordPubs/_" + recentmenu.menuType + ".cshtml", recentmenu)
+            }
+        }
+        <span id="icons">
+            @Html.Partial("~/Views/BradfordPubs/_Social.cshtml", Model.social)
+        </span>
+        <p class="copyright">@ViewBag.LayoutData.Copyright</p>
+    </div>

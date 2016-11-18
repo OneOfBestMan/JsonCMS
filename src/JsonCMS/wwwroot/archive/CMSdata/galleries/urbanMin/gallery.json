@@ -1,0 +1,444 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 200,
+  "maxPopupWidth": 200,
+  "maxDefaultHeight": 200,
+  "maxMobileWidth": 200,
+  "maxMobileHeight": 200,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "AUS2003alldayticket3mountlawley.jpg",
+      "title": null,
+      "alt": "Mount Lawley, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 442
+    },
+    {
+      "imageName": "AUS2003alldayticket4mountlawley.jpg",
+      "title": null,
+      "alt": "Mount Lawley, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 443
+    },
+    {
+      "imageName": "AUS2003cleancity3.jpg",
+      "title": null,
+      "alt": "Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 427
+    },
+    {
+      "imageName": "AUS2003eaststreet12.jpg",
+      "title": null,
+      "alt": "Freo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 209
+    },
+    {
+      "imageName": "AUS2003eaststreet3.jpg",
+      "title": null,
+      "alt": "Freo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 444
+    },
+    {
+      "imageName": "AUS2003freo3.jpg",
+      "title": null,
+      "alt": "Freo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 481
+    },
+    {
+      "imageName": "AUS2008munich2.jpg",
+      "title": null,
+      "alt": "Munich",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 200
+    },
+    {
+      "imageName": "AUS2008saltburggarage.jpg",
+      "title": null,
+      "alt": "Salzburg",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 459
+    },
+    {
+      "imageName": "AUSsubSteps.jpg",
+      "title": null,
+      "alt": "Subiaco, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 453
+    },
+    {
+      "imageName": "BERFIFEquaYladders.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 247
+    },
+    {
+      "imageName": "BORD2005barndoor.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 457
+    },
+    {
+      "imageName": "ICECrey10.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 449
+    },
+    {
+      "imageName": "ICECrey2.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 444
+    },
+    {
+      "imageName": "ICECrey5.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 454
+    },
+    {
+      "imageName": "ICECrey7.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 202
+    },
+    {
+      "imageName": "LAND-PF-SCAR2005cyclist.jpg",
+      "title": null,
+      "alt": "Scarborough",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 454
+    },
+    {
+      "imageName": "LINEgrenwich5.jpg",
+      "title": null,
+      "alt": "Greenwich",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 455
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003alldayticket13unknown.jpg",
+      "title": null,
+      "alt": "Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 429
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003alldayticket5maylands.jpg",
+      "title": null,
+      "alt": "Maylands, Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 426
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003cleancity10.jpg",
+      "title": null,
+      "alt": "Perth",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 465
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003eaststreet10.jpg",
+      "title": null,
+      "alt": "Freo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "TRAV-PF-AUS2003eaststreet2.jpg",
+      "title": null,
+      "alt": "Freo",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 474
+    },
+    {
+      "imageName": "URBAN-PF-CITYgate.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 444
+    },
+    {
+      "imageName": "URBAN-PF-CITYhousewithtalltreres.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 414
+    },
+    {
+      "imageName": "URBAN-PF-CITYlight.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 201
+    },
+    {
+      "imageName": "URBAN-PF-CITYorangegarage.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 454
+    },
+    {
+      "imageName": "URBAN-PF-CITYtree.jpg",
+      "title": null,
+      "alt": "Bradford",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 204
+    },
+    {
+      "imageName": "URBAN-PF-CITYtreeshouse.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 437
+    },
+    {
+      "imageName": "URBAN-PF-FLAN3moghul.jpg",
+      "title": null,
+      "alt": "Bradford",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 443
+    },
+    {
+      "imageName": "URBAN-PF-FLAN3redcar.jpg",
+      "title": null,
+      "alt": "Frizinghall",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 425
+    },
+    {
+      "imageName": "URBAN-PF-FLANhedge.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 439
+    },
+    {
+      "imageName": "URBAN-PF-FLANroof.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 417
+    },
+    {
+      "imageName": "URBAN-PF-FLANtreehouse.jpg",
+      "title": null,
+      "alt": "Shipley",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 412
+    },
+    {
+      "imageName": "URBAN-PF-FRA2005stRaphael1.jpg",
+      "title": null,
+      "alt": "St Raphael, France",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 456
+    },
+    {
+      "imageName": "URBAN-PF-ICECrey4.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 448
+    },
+    {
+      "imageName": "URBAN-PF-ICECrey5.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 454
+    },
+    {
+      "imageName": "URBAN-PF-ICECrey7.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 202
+    },
+    {
+      "imageName": "URBAN-PF-ICECrey9.jpg",
+      "title": null,
+      "alt": "Iceland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 441
+    },
+    {
+      "imageName": "URBAN-PF-LAGOScargraphitti.jpg",
+      "title": null,
+      "alt": "Lagos, Portugal",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 441
+    },
+    {
+      "imageName": "URBAN-PF-LAGOScoveredcars.jpg",
+      "title": null,
+      "alt": "Lagos, Portugal",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 463
+    },
+    {
+      "imageName": "URBAN-PF-LAGOSgreenwall.jpg",
+      "title": null,
+      "alt": "Lagos, Portugal",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 453
+    },
+    {
+      "imageName": "URBAN-PF-MAN2005van.jpg",
+      "title": null,
+      "alt": "Manchester",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 461
+    },
+    {
+      "imageName": "URBAN-PF-VILLA2006bellagioarches.jpg",
+      "title": null,
+      "alt": "Bellagio, Lake Como",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 441
+    }
+  ]
+}

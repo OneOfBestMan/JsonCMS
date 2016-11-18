@@ -1,0 +1,33 @@
+﻿@model JsonCMS.Models.Regions.BlogRegion
+@using JsonCMS.Models.Galleries;
+@{
+    int c=0;
+    foreach (var entry in Model.currentPage.pageEntries)
+    {
+        c++;
+        <div class="blogentry" id="entry_@c">
+            <h2>
+                @entry.title<br />
+                <small>@entry.entryDate.ToString("MMMM dd yyyy")</small>
+            </h2>
+            @{
+                var gallery = (Gallery)entry;
+            }
+            @Html.Partial("~/Views/Unit/_Gallery.cshtml", gallery)
+            @Html.Raw(entry.html)
+        </div>
+    }
+
+    @if (Model.currentPage.PageNo>1)
+    {
+        <a title="Previous Page" alt="Previous Page" href="@Model.friendlyUrl?p=@Html.Raw((Model.currentPage.PageNo - 1).ToString())">
+        <i class="fa fa-2x fa-angle-double-left" aria-hidden="true"></i></a>
+    }
+
+    @if (!Model.lastPage)
+    {
+        <a title="Next Page" alt="Next Page" href="@Model.friendlyUrl?p=@Html.Raw((Model.currentPage.PageNo + 1).ToString())">
+        <i class="fa fa-2x fa-angle-double-right" aria-hidden="true"></i></a>
+    }
+
+}

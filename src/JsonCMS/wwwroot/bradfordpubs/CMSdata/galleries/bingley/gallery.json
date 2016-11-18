@@ -1,0 +1,263 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2012-03-17_1331996485.jpg",
+      "title": null,
+      "alt": "Bingley W.M.C.",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 560,
+      "width": 563
+    },
+    {
+      "imageName": "2012-03-17_1331996552.jpg",
+      "title": null,
+      "alt": "The Star",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 560,
+      "width": 560
+    },
+    {
+      "imageName": "2012-03-17_1331996591.jpg",
+      "title": null,
+      "alt": "The Myrtle Grove",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 559,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-17_1331996635.jpg",
+      "title": null,
+      "alt": "Foundry Hill",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 563,
+      "width": 563
+    },
+    {
+      "imageName": "2012-03-17_1331996675.jpg",
+      "title": null,
+      "alt": "Porkies / Big Fellas / Berlins",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 563,
+      "width": 564
+    },
+    {
+      "imageName": "2012-03-17_1331996731.jpg",
+      "title": null,
+      "alt": "The Old Library",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 561,
+      "width": 563
+    },
+    {
+      "imageName": "2012-03-17_1331996766.jpg",
+      "title": null,
+      "alt": "The Ferrands Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 560,
+      "width": 564
+    },
+    {
+      "imageName": "2012-03-17_1331996809.jpg",
+      "title": null,
+      "alt": "Suburban",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 558,
+      "width": 562
+    },
+    {
+      "imageName": "2012-03-17_1331996888.jpg",
+      "title": null,
+      "alt": "The Midland",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 562,
+      "width": 560
+    },
+    {
+      "imageName": "2012-03-17_1331996934.jpg",
+      "title": null,
+      "alt": "Queens",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 562,
+      "width": 564
+    },
+    {
+      "imageName": "2012-03-17_1331996973.jpg",
+      "title": null,
+      "alt": "The Fleece / Potting Sheds",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 561,
+      "width": 564
+    },
+    {
+      "imageName": "2012-03-17_1331997001.jpg",
+      "title": null,
+      "alt": "Old White Horse",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 562,
+      "width": 559
+    },
+    {
+      "imageName": "2012-03-17_1331997044.jpg",
+      "title": null,
+      "alt": "Brown Cow",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 563,
+      "width": 561
+    },
+    {
+      "imageName": "2012-03-17_1332006930.jpg",
+      "title": null,
+      "alt": "Harvester",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 560,
+      "width": 561
+    },
+    {
+      "imageName": "2012-06-17_1339947010.jpg",
+      "title": null,
+      "alt": "Off The Tap",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 561,
+      "width": 564
+    },
+    {
+      "imageName": "2013-06-05_1370464841.jpg",
+      "title": null,
+      "alt": "Dick Hudsons",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-06-05_1370464883.jpg",
+      "title": null,
+      "alt": "Birches",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2013-06-05_1370464929.jpg",
+      "title": null,
+      "alt": "The Acorn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 612,
+      "width": 612
+    },
+    {
+      "imageName": "2015-09-30_1443599402.jpg",
+      "title": null,
+      "alt": "Bijou",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2016-02-13_1455368837.jpg",
+      "title": null,
+      "alt": "The Glen",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 597,
+      "width": 636
+    },
+    {
+      "imageName": "2016-03-06_1457276779.jpg",
+      "title": null,
+      "alt": "Chip n Ern",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2016-04-22_1461329161.jpg",
+      "title": null,
+      "alt": "Malt Shovel",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2016-04-22_1461352312.jpg",
+      "title": null,
+      "alt": "Cottingley W.M.C.",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2016-04-22_1461352377.jpg",
+      "title": null,
+      "alt": "The Throstles Nest",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "Untitled-1.jpg",
+      "title": null,
+      "alt": "Sun Inn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 628,
+      "width": 630
+    }
+  ]
+}

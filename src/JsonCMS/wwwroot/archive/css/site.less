@@ -1,0 +1,334 @@
+﻿@import "resets.less";
+
+@background-color: #0a0a0a;
+@gradient-color: #1d1a2f;
+
+/* start main home layout */
+
+body 
+{
+    height: 100%;
+    background-color : @background-color;
+    font-family: "trebuchet MS",Helvetica, Arial,sans-serif;
+    overflow-y : hidden;
+}
+
+#wrapper 
+{
+    min-width: 580px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#leftcol 
+{
+    width: 70%;
+    float: left;
+}
+
+#rightcol
+{
+    margin-left: 1%;
+    width: 27%;
+    float: right;
+
+    border-bottom-left-radius: 7px; 
+
+    background-image:url(/archive/graphics/purpleGradient.png);
+    background-repeat: repeat-y; /* Safari 4-5, Chrome 1-9 */ 
+    padding-bottom: 30px;
+}
+
+.gradient (@background-colorm, @gradient-colorm) { // mixin
+    background: -webkit-gradient(linear, left top, right top, from(@gradient-colorm), to(@background-colorm)); /* Safari 5.1, Chrome 10+ */ 
+    background: -webkit-linear-gradient(left, @background-colorm, @gradient-colorm); /* Firefox 3.6+ */ 
+    background: -moz-linear-gradient(left,@background-colorm, @gradient-colorm); /* IE 10 */ 
+    background: -ms-linear-gradient(left, @background-colorm, @gradient-colorm); /* Opera 11.10+ */ 
+    background: -o-linear-gradient(left, @background-colorm, @gradient-colorm); 
+}
+
+#leftcolborder 
+{
+    /* fallback */ background-color: @background-color; 
+    background-image: url(images/linear_bg_1.png); 
+    background-repeat: repeat-y; /* Safari 4-5, Chrome 1-9 */ 
+    .gradient (@background-color, @gradient-color);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: -1;
+}
+
+img  
+{
+    max-height : 100%;
+}
+
+#topics 
+{
+    position: absolute;
+    top: 18%;
+    right: 8%;
+
+    span 
+    {
+        display: block;
+        color: White;
+        font-size:85%;
+        line-height: 150%;
+    }
+}
+
+
+/* end main layout */
+
+/* start index page styling */
+
+#logo 
+{
+    background-color: @background-color;
+    padding-left: 2.0%;
+    width: 100%;
+    position: relative;
+    height: 100px;
+
+    img 
+    {
+        width: 18%;
+        max-width: 167px;
+        min-width: 80px;
+        padding-top: 2px;
+    }
+}
+
+h1 
+{
+    width: 100%;
+    background-color: White;
+    color: @gradient-color;
+    padding: 1em 0 1em 2.5%;
+    font-size: 100%;
+    position: relative;
+    font-weight: bold;
+}
+
+.pageTitle_index h1 {
+    border-top-left-radius: 7px;
+}
+
+#rightcolbody 
+{
+    min-height: 10em;
+    opacity:0.7;
+    filter:alpha(opacity=70);   
+ }
+
+#siteurl 
+{
+    margin: 2em 1% 2em 2.5%;
+    padding: 11px 9px 9px 9px;
+    background-color: White;
+    color: @background-color;
+  	
+  	border-bottom-right-radius: 7px;
+  	border-top-right-radius: 7px;
+  	
+    width: 92%;
+    font-size:93%;
+}
+
+#siteurl a, #siteurl a:visited, #siteurl a:hover, #siteurl span
+{
+    color: @gradient-color;
+}
+
+#enterarrow 
+{
+    float: right;
+    padding-right: 7px;
+}
+
+.boxes 
+{
+    float: right;
+    border-bottom: 1px solid  @background-color;
+    border-left: 1px solid  @background-color;
+
+    img 
+    {
+        width: 100%;
+        opacity:0.85;
+        filter:alpha(opacity=85);
+    }
+}
+
+.pageTitle_index #rightcolbody ul
+{
+    margin-left: 3%;
+}
+
+.pageTitle_index #rightcolbody ul a {
+    color: White;
+    font-size: 80%;
+    line-height: 1.5em;
+}
+
+
+.pageTitle_index h2 
+{
+    margin-left: 3%;
+    width: 60%;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.5em;
+    color: White;
+    padding-bottom: 4px;
+    margin-top: 2em;
+
+    a, a:hover {
+        color: White;
+    }
+}
+
+.marker  
+{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 1px white solid;
+    float: left;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+  	border-radius: 6px;
+}
+
+.pageTitle_index #icons
+{
+    position: absolute;
+    right: 23px;
+    top: 10px;
+    width: 30%;
+}
+
+#carouselicons 
+{
+    position: absolute;
+    right: .5%;
+    top: 0.6em;
+    width: 20%;
+    z-index: 1;
+}
+
+.fa-home {
+    padding-right: 15px;
+}
+
+.icon {
+
+    a, a:hover, a:visited 
+    {
+        font-family: Arial, Helvetica, Sans-Serif;
+        color: @gradient-color;
+        font-size: 100%;
+        font-weight:bold;
+    }
+
+    a
+    {
+        height: 1.3em;
+        width: 1.6em;
+        float: right;
+        display: block;
+        padding: .3em .1em .1em .1em;
+        text-align: center;
+        margin-left: 10px;
+   	    border-radius: 0.4em;
+    }
+}
+
+.homeBtn, .homeBtn:hover, .homeBtn:visited  {
+        color: @gradient-color;
+}
+
+div.scrollingHotSpotRight, div.scrollingHotSpotLeft
+{
+    height: 24%;
+    width: 5%;
+    margin-top: 220px;
+}
+
+.nav .feeditem:last-child {
+    margin-top: 10px;
+}
+
+/* end main home page styling */
+
+#makeMeScrollable
+{
+	width:100%;
+	height: 100%;
+	position: relative;
+    max-height: 612px;
+			
+	overflow-y: hidden;
+    
+    div.scrollableArea img
+    {
+	    position: relative;
+	    float: left;
+	    margin: 0 1px 0 0;
+	    padding: 0;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+    }
+}
+
+/* end images page styling */
+
+/* miniatures styling start */
+
+#sections {
+    width: 100%;
+    position: fixed;
+    height: 2em;
+    bottom: 0;
+    left: 0;
+    color: white;
+    clear: both;
+    background-color: white;
+    padding: 10px;
+}
+
+#sections li {
+    float: left;
+    width: 13.5%;
+    margin-right: 1%;
+    background-color: @gradient-color;
+    padding: 10px 1% 10px 1%;
+    text-align: center;
+}
+
+#sections li a {
+    cursor: pointer;
+}
+
+#thumbnails img {
+    float:left;
+    height: 140px;
+    margin: 1px;
+}
+
+/* miniatures styling end */
+
+/* media queries start */
+
+/* media queries end */
+
+/* section specific start */
+
+.scrollingHotSpotLeft, .scrollingHotSpotRight {
+    height: 200px;
+}

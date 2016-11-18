@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.LayoutData.PageTitle</title>
+    <meta name="description" content="Photography archive for Yorkshire based Martin Ruffe.    ">
+    @Html.Raw(ViewBag.LayoutData.RobotsMeta)
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/archive/css/site.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/archive/css/site.css" asp-append-version="true" />
+    </environment>
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    @Html.Partial("~/Views/Archive/_Fonts.cshtml")
+
+    <!--
+                   _____  _____.__
+    _______ __ ___/ ____\/ ____\  |   ____   ______
+    \_  __ \  |  \   __\\   __\|  | _/ __ \ /  ___/
+     |  | \/  |  /|  |   |  |  |  |_\  ___/ \___ \
+     |__|  |____/ |__|   |__|  |____/\___  >____  >
+                                         \/     \/
+    -->
+
+</head>
+<body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
+    <div class="container body-content">
+        @RenderBody()
+        <footer>
+            <p class="copyright">@ViewBag.LayoutData.Copyright</p>
+        </footer>
+    </div>
+    @Html.Partial("~/Views/Portfolio/_Analytics.cshtml")
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/archive/js/home.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+        <script src="~/archive/js/home.js" asp-append-version="true"></script>
+    </environment>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

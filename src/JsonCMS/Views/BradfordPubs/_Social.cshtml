@@ -1,0 +1,9 @@
+﻿@model JsonCMS.Models.Core.SocialNetworks
+<ul class="socialIcons">
+    @foreach (var social in Model.social)
+    {
+        <li class="icon">
+            <a href="@social.url" target="@social.target"><i alt="@social.altText" class="fa fa-3x @social.icon fa-lg"></i></a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,35 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/Archive/_MiniaturesLayout.cshtml";
+}
+
+<div id="wrapper">
+
+    <h1><a href="/" class="homeBtn"><i alt="Home" class="fa fa-home"></i></a> @Model.thisPage.displayName > <span data-bind="text: currentSectionName"></h1>
+
+    <div id="carouselicons">
+        @Html.Partial("~/Views/Archive/_Social.cshtml", Model.social)
+    </div>
+
+    <div id="wrapper">
+        <div id="centerCol">
+            <ul id="thumbnails" data-bind="foreach: currentImages">
+                <li data-bind="attr: {title: title}">
+                    <img data-bind="attr: { src: fullPath, alt: alt }" />
+                </li>
+            </ul>
+        </div>
+        <div id="sections">
+            <ul id="sections" data-bind="foreach: sections">
+                <li data-bind="attr: {onclick: eventName}"><a><span data-bind="text: sectionName"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $("#thumbnails").click(function () {
+        //$("#thumbnails").scroll();
+    });
+</script>

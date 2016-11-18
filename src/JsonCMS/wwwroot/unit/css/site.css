@@ -1,0 +1,175 @@
+﻿/* resets */
+
+body, a {
+    background-color: white;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 90%;
+    width: 620px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* fonts */
+
+h1, h2, h3, h4 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p, a, li, .caption {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+p, li {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2em;
+    max-width: 60em;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    margin-bottom: 5em;
+    margin-top: 4em;
+}
+
+header img {
+    border-radius: 100px;
+    margin-bottom: 2em;
+}
+
+header .nav a {
+    font-size: 5rem;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.socialIcons li {
+    margin-left:-40px; /* ? */
+}
+
+/* gallery */
+
+.gallery-flex-container { /* fallback if no flexbox */
+    display: inline;
+}
+
+.gallery-flex-item {
+    float:left;
+}
+
+.desktopImage3Col {
+    width: 31%;
+    margin-right: 2%;
+}
+
+@supports (display: flex) {
+    .gallery-flex-container {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .gallery-flex-item {
+        float: none;
+        width: inherit;
+        margin-right: inherit;
+    }
+}
+
+.gallery-flex-container {
+    max-width: 100%;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.gallery-flex-item {
+    flex-grow: 0;
+    text-align: center;
+}
+
+.gallery-flex-item img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.caption {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 3em;
+}
+
+.gallery-flex-container .hasNoCaption {
+    margin-bottom: 40px;
+}
+
+a .fader {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   -webkit-backface-visibility: hidden;
+}
+
+a .fader:hover {
+   opacity: 0.85;
+}
+
+
+/* blogs */
+
+.pageType_Blog .blogentry {
+    padding-bottom: 3em;
+}
+
+.pageType_Blog #bodySection h2 {
+    margin-bottom: 5px;
+    font-size: 2.8rem;
+}
+
+.pageType_Blog #bodySection h2 small {
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.pageType_Blog .gallery-flex-container .hasNoCaption {
+    margin-bottom: 30px;
+
+}
+
+.pageType_Blog img {
+    max-width: 98%;
+}

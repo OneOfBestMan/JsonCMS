@@ -1,0 +1,194 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 200,
+  "maxPopupWidth": 200,
+  "maxDefaultHeight": 200,
+  "maxMobileWidth": 200,
+  "maxMobileHeight": 200,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "STREET-PF-BF20014carnival14girl2.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 232
+    },
+    {
+      "imageName": "STREET-PF-BF20014carnival3colours.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 317,
+      "width": 400
+    },
+    {
+      "imageName": "STREET-PF-BF2002carnivaldragon4.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 438
+    },
+    {
+      "imageName": "STREET-PF-BF2002carnivaldragon5.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 415
+    },
+    {
+      "imageName": "STREET-PF-BFCARN2002girl.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 441
+    },
+    {
+      "imageName": "STREET-PF-BFCARN2002girl3.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 442
+    },
+    {
+      "imageName": "STREET-PF-BRADF2001restingOnLeg.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 261
+    },
+    {
+      "imageName": "STREET-PF-CARN2005back.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 435
+    },
+    {
+      "imageName": "STREET-PF-CARN2005kids.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 392
+    },
+    {
+      "imageName": "STREET-PF-CARN2005redgirl.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 434
+    },
+    {
+      "imageName": "STREET-PF-CARN2005tanbourine.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 429
+    },
+    {
+      "imageName": "STREET-PF-EDFEST2004braid.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 200
+    },
+    {
+      "imageName": "STREET-PF-EDFT2001B01312.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 265
+    },
+    {
+      "imageName": "STREET-PF-EDFT2001indiansingers.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 269
+    },
+    {
+      "imageName": "STREET-PF-EDFT2001lass1.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 400,
+      "width": 252
+    },
+    {
+      "imageName": "STREET-PF-FEST2009carn12.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 402
+    },
+    {
+      "imageName": "STREET-PF-FEST2009carn13.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 397
+    },
+    {
+      "imageName": "STREET-PF-FEST2009carn16.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 189
+    }
+  ]
+}

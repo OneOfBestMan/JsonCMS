@@ -1,0 +1,184 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 200,
+  "maxPopupWidth": 200,
+  "maxDefaultHeight": 200,
+  "maxMobileWidth": 200,
+  "maxMobileHeight": 200,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "BEACH2005coastwalk1.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 456
+    },
+    {
+      "imageName": "BEACH2005coastwalk2.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 448
+    },
+    {
+      "imageName": "BEACH2005coastwalk3.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 480
+    },
+    {
+      "imageName": "BEACH2005coastwalk4.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 468
+    },
+    {
+      "imageName": "BEACH2005coastwalk5.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 454
+    },
+    {
+      "imageName": "BEACH2005coastwalk6.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 481
+    },
+    {
+      "imageName": "LAND-PF-AUS2008konigsee2.jpg",
+      "title": null,
+      "alt": "Konigsee, Bavaria",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 448
+    },
+    {
+      "imageName": "LAND-PF-AUS2008lakes6.jpg",
+      "title": null,
+      "alt": "Bavaria",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 449
+    },
+    {
+      "imageName": "LAND-PF-BERFIFEbeachBuggy.jpg",
+      "title": null,
+      "alt": "Borders",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 445
+    },
+    {
+      "imageName": "LAND-PF-FRA2005antibes2.jpg",
+      "title": null,
+      "alt": "Antibes, France",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 455
+    },
+    {
+      "imageName": "LAND-PF-LAGOSstatu.jpg",
+      "title": null,
+      "alt": "Lagos, Portugal",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 449
+    },
+    {
+      "imageName": "LAND-PF-lakes07c1.jpg",
+      "title": null,
+      "alt": "Derwent Water",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 459
+    },
+    {
+      "imageName": "LAND-PF-lakes07c6.jpg",
+      "title": null,
+      "alt": "Derwent Water",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 459
+    },
+    {
+      "imageName": "LAND-PF-SCAR2005couple.jpg",
+      "title": null,
+      "alt": "Scarborough",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 469
+    },
+    {
+      "imageName": "LAND-PF-VILLA2006diving.jpg",
+      "title": null,
+      "alt": "Lake Como",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 454
+    },
+    {
+      "imageName": "LINEcanary.jpg",
+      "title": null,
+      "alt": "Canary Wharf",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 446
+    },
+    {
+      "imageName": "LINEdeep.jpg",
+      "title": null,
+      "alt": "The Deep, Hull",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 300,
+      "width": 455
+    }
+  ]
+}

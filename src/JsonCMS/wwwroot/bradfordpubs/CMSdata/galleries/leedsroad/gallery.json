@@ -1,0 +1,103 @@
+{
+  "desktopImagesAcrossPage": 3,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 2000,
+  "maxDefaultHeight": 2000,
+  "maxMobileWidth": 768,
+  "maxMobileHeight": 1000,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "2013-10-19_1382193737.jpg",
+      "title": null,
+      "alt": "The Hogs Head",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2013-10-19_1382193864.jpg",
+      "title": null,
+      "alt": "The Albion",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2013-10-19_1382193917.jpg",
+      "title": null,
+      "alt": "The George",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    },
+    {
+      "imageName": "2014-03-19_1395252368.jpg",
+      "title": null,
+      "alt": "The Alma Inn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-03-19_1395252404.jpg",
+      "title": null,
+      "alt": "The Travellers Rest",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-03-29_1396107914.jpg",
+      "title": null,
+      "alt": "The Dog & Gun",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-03-29_1396116477.jpg",
+      "title": null,
+      "alt": "The Stansfield Arms",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-04-18_1397801388.jpg",
+      "title": null,
+      "alt": "George & Dragon",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 640,
+      "width": 640
+    },
+    {
+      "imageName": "2014-06-07_1402129995.jpg",
+      "title": null,
+      "alt": "Hitching Post",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 636,
+      "width": 636
+    }
+  ]
+}
