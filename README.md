@@ -1,5 +1,5 @@
 # JsonCMS
-A CMS powered entirely by JSON and HTML?
+A CMS powered entirely by JSON and HTML written in .NET Core?
 
 Fed up of slow, vulnerable to hackers, bloated CMS's?
 
