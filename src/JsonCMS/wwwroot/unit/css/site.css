@@ -2,7 +2,7 @@
 
 body, a {
     background-color: white;
-    color: black;
+    color: #555;
 }
 
 li {
@@ -60,6 +60,7 @@ header {
 header img {
     border-radius: 100px;
     margin-bottom: 2em;
+    opacity: 0.8;
 }
 
 header .nav a {
@@ -156,7 +157,7 @@ a .fader:hover {
 }
 
 .pageType_Blog #bodySection h2 {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 2.8rem;
 }
 
@@ -172,4 +173,8 @@ a .fader:hover {
 
 .pageType_Blog img {
     max-width: 98%;
+}
+
+#previousPage {
+    margin-right: 20px;
 }

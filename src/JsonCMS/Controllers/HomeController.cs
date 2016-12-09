@@ -32,6 +32,11 @@ namespace JsonCMS.Controllers
                 return View();
             }
 
+            if (Show404(pageData))
+            {
+                return View("Error");
+            }
+
             ViewBag.LayoutData = new LayoutModel(pageData.currentSite, pageData.thisPage, pageData.currentDomain);
             string viewName = "~/Views/" + pageData.currentSite.viewFolder + "/" + pageData.thisPage.pageType.ToString() + ".cshtml";
             return View(viewName, pageData);
@@ -51,6 +56,7 @@ namespace JsonCMS.Controllers
 
         public IActionResult Error()
         {
+            Response.StatusCode = 404;
             return View();
         }
 
@@ -59,6 +65,11 @@ namespace JsonCMS.Controllers
             return (pageData.currentSite == null ||
                 pageData.currentHost.IndexOf("www." + baseSite) == 0 || 
                 pageData.currentHost.IndexOf(baseSite) == 0) ;
+        }
+
+        private bool Show404(JsonData pageData)
+        {
+            return (pageData == null || pageData.thisPage == null);
         }
     }
 }

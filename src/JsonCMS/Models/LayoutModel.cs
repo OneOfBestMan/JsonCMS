@@ -10,6 +10,7 @@ namespace JsonCMS.Models
     public class LayoutModel
     {
         public string PageTitle { get; set; } // for <title> tag
+        public string PageDescription { get; set; } // for <description meta tag> 
         public string PageTag { get; set; } // page title in json
         public string PageType { get; set; }
         public string SiteTitle { get; set; }
@@ -18,9 +19,17 @@ namespace JsonCMS.Models
         public string AnalyticsCode { get; set; }
         public string RobotsMeta { get; set; } = string.Empty;
 
-        public LayoutModel(Site site, Page page, Domain domain) 
+        public LayoutModel(Site site, Page page, Domain domain)
         {
-            this.PageTitle = page.displayName + " — " + site.siteTitle;
+            if (string.IsNullOrEmpty(page.metaTitle))
+            {
+                this.PageTitle = page.displayName + " — " + site.siteTitle;
+            }
+            else
+            {
+                this.PageTitle = page.metaTitle + " — " + site.siteTitle;
+            }
+            this.PageDescription = page.metaDescription;
             this.PageTag = page.title;
             this.PageType = page.pageType.ToString();
             this.SiteTitle = site.siteTitle;

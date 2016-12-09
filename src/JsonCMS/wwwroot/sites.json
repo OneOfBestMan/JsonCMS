@@ -8,15 +8,17 @@
       "copyright": "All photography © Martin Ruffe 2016",
       "analyticsCode": "UA-1902959-1",
       "domains": [
-        //{
-        //  "domainName": "martinruffe.co.uk"
-        //},
         {
           "domainName": "portfolio.json-cms.co.uk",
           "noSpider": true
+        },
+        {
+          "domainName": "martinruffe.co.uk"
+        },
+        {
+          "domainName": "www.martinruffe.co.uk"
         }
       ]
-
     },
     {
       "siteTag": "unit",
@@ -49,13 +51,7 @@
         },
         {
           "domainName": "archive.martinruffe.co.uk",
-          "noSpider": true
-        },
-        {
-          "domainName": "martinruffe.co.uk"
-        },
-        {
-          "domainName": "www.martinruffe.co.uk"
+          "noSpider": false
         }
       ]
     },
@@ -102,5 +98,5 @@
       ]
     }
   ],
-  "currentSite" : "unit"
+  "currentSite" : "portfolio"
 }

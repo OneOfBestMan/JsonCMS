@@ -11,7 +11,9 @@ namespace JsonCMS.Models.PageModels
     {
         public string title { get; set; }
 
-        public string displayName { get; set; }
+        public string displayName { get; set; } // used for menu title
+        public string metaTitle { get; set; } = string.Empty; // page meta title if different to menu title
+        public string metaDescription { get; set; } = string.Empty;
 
         public string friendlyUrl { get; set; }
 

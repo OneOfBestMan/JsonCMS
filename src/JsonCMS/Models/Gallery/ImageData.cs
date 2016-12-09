@@ -17,6 +17,8 @@ namespace JsonCMS.Models.Galleries
         public bool lightBox { get; set; } = false;
         public int? height { get; set; } 
         public int? width { get; set; }
+
+        [JsonIgnore]
         public bool serialiseVersions { get; set; } = false;
 
         public List<ImageVersion> Versions { get; set; } = new List<ImageVersion>();

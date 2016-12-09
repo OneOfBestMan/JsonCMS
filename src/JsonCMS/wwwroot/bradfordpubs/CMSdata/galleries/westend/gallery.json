@@ -2,6 +2,7 @@
   "desktopImagesAcrossPage": 3,
   "mobileImagesAcrossPage": 1,
   "maxDefaultWidth": 2000,
+  "maxPopupWidth": 700,
   "maxDefaultHeight": 2000,
   "maxMobileWidth": 768,
   "maxMobileHeight": 1000,
@@ -17,7 +18,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-02-28_1330408472.jpg",
@@ -27,7 +29,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-02-28_1330408523.jpg",
@@ -37,7 +40,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-02-28_1330408588.jpg",
@@ -47,7 +51,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-02-28_1330408632.jpg",
@@ -57,7 +62,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-02-28_1330408677.jpg",
@@ -67,7 +73,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-02-28_1330408915.jpg",
@@ -77,7 +84,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-03_1330788523.jpg",
@@ -87,7 +95,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612
+      "width": 612,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684497.jpg",
@@ -97,7 +106,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684576.jpg",
@@ -107,7 +117,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684611.jpg",
@@ -117,7 +128,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684654.jpg",
@@ -127,7 +139,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684717.jpg",
@@ -137,7 +150,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684770.jpg",
@@ -147,7 +161,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332684841.jpg",
@@ -157,7 +172,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685056.jpg",
@@ -167,7 +183,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685163.jpg",
@@ -177,7 +194,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685208.jpg",
@@ -187,7 +205,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685338.jpg",
@@ -197,7 +216,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685371.jpg",
@@ -207,7 +227,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685404.jpg",
@@ -217,7 +238,8 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2012-03-25_1332685439.jpg",
@@ -227,17 +249,30 @@
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561
+      "width": 561,
+      "serialiseVersions": false
     },
     {
       "imageName": "2014-05-25_1401040937.jpg",
       "title": null,
-      "alt": null,
+      "alt": "Glyde House",
       "url": null,
       "fileExists": true,
       "lightBox": true,
       "height": 640,
-      "width": 640
+      "width": 640,
+      "serialiseVersions": false
+    },
+    {
+      "imageName": "BarOne.JPG",
+      "title": null,
+      "alt": "Bar One",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 600,
+      "width": 599,
+      "serialiseVersions": false
     }
   ]
 }

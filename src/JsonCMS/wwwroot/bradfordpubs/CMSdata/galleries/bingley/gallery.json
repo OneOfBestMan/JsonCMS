@@ -2,6 +2,7 @@
   "desktopImagesAcrossPage": 3,
   "mobileImagesAcrossPage": 1,
   "maxDefaultWidth": 2000,
+  "maxPopupWidth": 700,
   "maxDefaultHeight": 2000,
   "maxMobileWidth": 768,
   "maxMobileHeight": 1000,
@@ -258,6 +259,26 @@
       "lightBox": true,
       "height": 628,
       "width": 630
+    },
+    {
+      "imageName": "martinez.JPG",
+      "title": null,
+      "alt": "Martinez wine bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 596
+    },
+    {
+      "imageName": "pottingsheds.JPG",
+      "title": null,
+      "alt": "Potting Sheds (was Fleece)",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 599
     }
   ]
 }

@@ -3,6 +3,7 @@
 @{
     var desktopCellsAcross = Model.data.desktopImagesAcrossPage;
     var mobileCellsAcross = Model.data.mobileImagesAcrossPage;
+    var rnd = new Random();
     var images = Model.data.imageData.Where(x => x.fileExists);
     var rows = Math.Ceiling((double)images.Count() / desktopCellsAcross);
     var flexClass = Math.Round(((100 - Model.data.spaceBetween) / desktopCellsAcross), 1) + "%";

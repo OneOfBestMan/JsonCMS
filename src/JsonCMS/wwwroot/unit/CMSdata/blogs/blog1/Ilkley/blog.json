@@ -1,7 +1,7 @@
 {
-  "title": "Cottingley",
+  "title": "Ilkley",
   "html": null,
-  "entryDate": "2016-05-02T10:34:59.0106765Z",
+  "entryDate": "2016-11-26T17:06:59.3301757Z",
   "exists": true,
   "desktopImagesAcrossPage": 1,
   "mobileImagesAcrossPage": 1,
@@ -15,15 +15,24 @@
   "cropFrom": "center",
   "imageData": [
     {
-      "imageName": "chippy.jpg",
+      "imageName": "cashmere.JPG",
       "title": null,
-      "alt": "The Chip House",
+      "alt": "Cashmere Cabin",
       "url": null,
       "fileExists": true,
       "lightBox": false,
-      "height": 640,
-      "width": 640,
-      "serialiseVersions": false
+      "height": 597,
+      "width": 597
+    },
+    {
+      "imageName": "ilkey1.JPG",
+      "title": null,
+      "alt": "Eme Cloth and Yarn",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 598,
+      "width": 598
     }
   ]
 }

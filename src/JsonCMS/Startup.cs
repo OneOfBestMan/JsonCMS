@@ -60,6 +60,16 @@ namespace JsonCMS
                     template: "{id}",
                         defaults: new { controller = "Home", action = "Index" });
 
+                routes.MapRoute(
+                    name: "pagesWiParam2",
+                    template: "{id}/{id2}",
+                        defaults: new { controller = "Home", action = "Index" });
+
+                routes.MapRoute(
+                    name: "pagesWiParam3",
+                    template: "{id}/{id2}/{id3}",
+                        defaults: new { controller = "Home", action = "Index" });
+
             });
           
         }

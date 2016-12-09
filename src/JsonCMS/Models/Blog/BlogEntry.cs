@@ -25,7 +25,6 @@ namespace JsonCMS.Models.Blogs
             exists = true;
 
             this.rootPath = rootPath;
-            this.title = entryName;
             this.entryPath = site + "/CMSdata/blogs/" + blogName + "/" + entryName;
             this.galleryPath = this.entryPath; // gallery is in same folder
             this.site = site;
@@ -36,6 +35,7 @@ namespace JsonCMS.Models.Blogs
 
             if (blog != null)
             {
+                this.title = blog.title;
                 this.imageData = blog.imageData;
                 this.desktopImagesAcrossPage = blog.desktopImagesAcrossPage;
                 this.mobileImagesAcrossPage = blog.mobileImagesAcrossPage;
@@ -57,6 +57,7 @@ namespace JsonCMS.Models.Blogs
             else
             {
                 modified = true;
+                this.title = entryName;
             }
 
             var filesInFolder = Files.GetFiles(rootPath + "/" + this.entryPath, ".jpg");

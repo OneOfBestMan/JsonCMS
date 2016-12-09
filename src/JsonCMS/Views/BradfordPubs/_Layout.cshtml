@@ -20,7 +20,27 @@
 
 </head>
 <body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
-    <div class="container body-content">
+    <div id="mainBody" class="container body-content">
+        <div id="amads">
+            <script type='text/javascript'>
+var amzn_wdgt={widget:'MyFavorites'};
+amzn_wdgt.tag='marrufphoandw-21';
+amzn_wdgt.columns='1';
+amzn_wdgt.rows='2';
+amzn_wdgt.title='Bradford Books';
+amzn_wdgt.width='250';
+amzn_wdgt.ASIN='1445643596,185937204X';
+amzn_wdgt.showImage='True';
+amzn_wdgt.showPrice='True';
+amzn_wdgt.showRating='True';
+amzn_wdgt.design='2';
+amzn_wdgt.colorTheme='#777';
+amzn_wdgt.headerTextColor='#FFFFFF';
+amzn_wdgt.marketPlace='GB';
+            </script>
+            <script type='text/javascript' src='http://wms-eu.amazon-adsystem.com/20070822/GB/js/AmazonWidgets.js'>
+            </script>
+        </div>
         @RenderBody()
     </div>
     @Html.Partial("~/Views/BradfordPubs/_Analytics.cshtml")

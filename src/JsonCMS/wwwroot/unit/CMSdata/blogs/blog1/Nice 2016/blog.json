@@ -1,7 +1,7 @@
 {
-  "title": "Cottingley",
+  "title": "Nice",
   "html": null,
-  "entryDate": "2016-05-02T10:34:59.0106765Z",
+  "entryDate": "2016-08-15T09:05:51.8228876Z",
   "exists": true,
   "desktopImagesAcrossPage": 1,
   "mobileImagesAcrossPage": 1,
@@ -15,15 +15,14 @@
   "cropFrom": "center",
   "imageData": [
     {
-      "imageName": "chippy.jpg",
+      "imageName": "IMG_1879.jpg",
       "title": null,
-      "alt": "The Chip House",
+      "alt": "Cave Bianchi",
       "url": null,
       "fileExists": true,
       "lightBox": false,
-      "height": 640,
-      "width": 640,
-      "serialiseVersions": false
+      "height": 620,
+      "width": 620
     }
   ]
 }

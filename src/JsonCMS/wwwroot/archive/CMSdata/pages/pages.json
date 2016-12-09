@@ -14,6 +14,19 @@
       ]
     },
     {
+      "title": "chineselantern",
+      "friendlyUrl": "/chineselantern",
+      "template": "carousel",
+      "displayName": "Lantern Festival",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "chineseLantern",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
       "title": "lightforest",
       "friendlyUrl": "/lightforest",
       "template": "carousel",

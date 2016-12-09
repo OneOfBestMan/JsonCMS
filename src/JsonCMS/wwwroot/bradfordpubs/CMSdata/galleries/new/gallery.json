@@ -89,6 +89,26 @@
       "lightBox": true,
       "height": 599,
       "width": 599
+    },
+    {
+      "imageName": "theBar.JPG",
+      "title": null,
+      "alt": "The Bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 596,
+      "width": 600
+    },
+    {
+      "imageName": "martinez.JPG",
+      "title": null,
+      "alt": "Martinez wine bar",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 596
     }
   ]
 }
