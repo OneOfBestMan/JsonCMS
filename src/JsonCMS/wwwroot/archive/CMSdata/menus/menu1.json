@@ -1,13 +1,16 @@
 ﻿{
   "menu": [
     {
-      "pagetitle": "chineselantern"
+      "pagetitle": "paris"
     },
     {
-      "pagetitle": "lightforest"
+      "pagetitle": "marais"
     },
     {
-      "pagetitle": "ribblehead"
+      "pagetitle": "parisvacant"
+    },
+    {
+      "pagetitle": "duns"
     },
     {
       "pagetitle": "carnival"
@@ -20,9 +23,6 @@
     },
     {
       "pagetitle": "oban"
-    },
-    {
-      "pagetitle": "roadtoport"
     },
     {
       "pagetitle": "spurnhead"

@@ -20,12 +20,12 @@ namespace JsonCMS.Controllers
             _appEnvironment = hostingEnvironment;
         }
 
-        public IActionResult Index(string id, string p) // p is optional parameter, called e.g. /blog?p=2
+        public IActionResult Index(string id, string p, string d) // p is optional parameter, called e.g. /blog?p=2 . d is optional for domain
         {
             var pageName = id ?? "Index";
             var pageData = new JsonData();
             pageData.currentHost = HttpContext.Request.Host.Host; 
-            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot", p);
+            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot", p, d);
 
             if (ShowBaseSite(pageData))
             {
@@ -34,6 +34,7 @@ namespace JsonCMS.Controllers
 
             if (Show404(pageData))
             {
+                ViewBag.SiteTag = d;
                 return View("Error");
             }
 
@@ -42,11 +43,11 @@ namespace JsonCMS.Controllers
             return View(viewName, pageData);
         }
 
-        public IActionResult RebuildBlog(string id) // call using : /Home/RebuildBlog/blogX
+        public IActionResult RebuildBlog(string id, string d) // call using : /Home/RebuildBlog/blogX . d is optional for domain
         {
             var pageData = new JsonData();
             pageData.currentHost = HttpContext.Request.Host.Host;
-            pageData.LoadJsonForPage("Index", _appEnvironment.ContentRootPath + "/wwwroot");
+            pageData.LoadJsonForPage("Index", _appEnvironment.ContentRootPath + "/wwwroot", null, d);
 
             BlogPage blogPage = new BlogPage();
             blogPage.RebuildBlog(_appEnvironment.ContentRootPath + "/wwwroot", id, pageData.currentSite.siteTag);

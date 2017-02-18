@@ -105,24 +105,24 @@ namespace JsonCMS.Models.Libraries
                             roughSize = (int)((double)dimension / image.Width * image.Height);
                         }
 
-                        MagickGeometry roughsize = new MagickGeometry(roughSize, roughSize);
+                        MagickGeometry roughsize = new MagickGeometry(roughSize+3, roughSize+3);
                         image.Resize(roughsize);
 
                         switch (cropFrom) {
                             case CropFrom.Center:
                                 if (image.Height < image.Width) // center crop
                                 {
-                                    x = (image.Width - image.Height) / 2;
+                                    x = (int)((image.Width - image.Height) / 2);
                                 }
                                 else
                                 {
-                                    y = (image.Height - image.Width) / 2;
+                                    y = (int)((image.Height - image.Width) / 2);
                                 }
                                 break;
                             case CropFrom.Bottom:
                                 if (image.Height > image.Width) 
                                 {
-                                    y = (image.Height - image.Width);
+                                    y = (int)(image.Height - image.Width);
                                 }
                                 break;
                             case CropFrom.Top:
@@ -134,7 +134,7 @@ namespace JsonCMS.Models.Libraries
                             case CropFrom.Right:
                                 if (image.Height < image.Width) 
                                 {
-                                    x = (image.Width - image.Height);
+                                    x = (int)(image.Width - image.Height);
                                 }
                                 break;
                         }

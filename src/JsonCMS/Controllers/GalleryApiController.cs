@@ -22,11 +22,11 @@ namespace JsonCMS.Controllers
         }
 
         [HttpGet("{pageName}")]
-        public IEnumerable<KeyValuePair<int, string>> GetPageGalleries(string pageName)
+        public IEnumerable<KeyValuePair<int, string>> GetPageGalleries(string pageName, string d = null)
         {
             var pageData = new JsonData();
             pageData.currentHost = HttpContext.Request.Host.Host;
-            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot");
+            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot", null, d);
 
             List<KeyValuePair<int, string>> galleries = new List<KeyValuePair<int, string>>();
             int c = 0;
@@ -40,11 +40,11 @@ namespace JsonCMS.Controllers
         }
 
         [HttpGet("{pageName}/{galleryName}")]
-        public IEnumerable<GalleryDTO> GetGallerySections(string pageName, string galleryName)
+        public IEnumerable<GalleryDTO> GetGallerySections(string pageName, string galleryName, string d = null)
         {
             var pageData = new JsonData();
             pageData.currentHost = HttpContext.Request.Host.Host;
-            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot");
+            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot", null, d);
 
             var gallery = pageData.thisPage.galleryRegions.Where(x => x.title == galleryName).FirstOrDefault();
             List<GalleryDTO> fileNames = new List<GalleryDTO>();

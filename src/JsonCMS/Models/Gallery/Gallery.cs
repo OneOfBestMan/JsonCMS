@@ -20,12 +20,12 @@ namespace JsonCMS.Models.Galleries
         public int maxDefaultHeight { get; set; }
         public int maxMobileWidth { get; set; }
         public int maxMobileHeight { get; set; }
+        public string site;
 
         public float spaceBetween { get; set; } = 10; // percent
 
         protected string rootPath;
         protected string galleryPath;
-        protected string site;
 
         protected bool mobileLightBoxRequired = false;
 
@@ -155,15 +155,15 @@ namespace JsonCMS.Models.Galleries
                     }
 
                     ImageSize desktopForGalleryImageSize = ImageSize.CalculateSize(originalImageSize, this.maxDefaultHeight,
-                        this.maxDefaultHeight, this.desktopImagesAcrossPage, this.crop);
+                        this.maxDefaultWidth, this.desktopImagesAcrossPage, this.crop);
                     ImagePath desktopForGalleryImagePaths = new ImagePath(rootPath, this.site + "/images",
                         "thumb_h" + desktopForGalleryImageSize.height + "_w" + desktopForGalleryImageSize.width + "_" + image.imageName, originalImage);
                     ImageVersion desktopForGalleryImage = new ImageVersion(ImageVersionTypes.DesktopForGallery, desktopForGalleryImageSize, desktopForGalleryImagePaths);
                     desktopForGalleryImage.CreateThumbnail(this.cropfrom);
                     image.Versions.Add(desktopForGalleryImage);
 
-                    ImageSize mobileForGalleryImageSize = ImageSize.CalculateSize(originalImageSize, this.maxDefaultHeight,
-                        this.maxMobileHeight, this.mobileImagesAcrossPage, this.crop);
+                    ImageSize mobileForGalleryImageSize = ImageSize.CalculateSize(originalImageSize, this.maxMobileHeight,
+                        this.maxMobileWidth, this.mobileImagesAcrossPage, this.crop);
                     ImagePath mobileForGalleryImagePaths = new ImagePath(rootPath, this.site + "/images",
                         "thumb_h" + mobileForGalleryImageSize.height + "_w" + mobileForGalleryImageSize.width + "_" + image.imageName, originalImage);
                     ImageVersion mobileForGalleryImage = new ImageVersion(ImageVersionTypes.MobileForGallery, mobileForGalleryImageSize, mobileForGalleryImagePaths);

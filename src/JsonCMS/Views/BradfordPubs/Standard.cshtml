@@ -14,7 +14,7 @@
     </div>
 
     <div id="rightcol">
-        <a href="/" alt="Home"><h1>@title</h1></a>
+        <a href="/?d=@Model.currentSite.siteTag" alt="Home"><h1>@title</h1></a>
         @{
             var recentmenu = Model.menus.GetMenu("menu1", Model.thisPage.displayName);
             if (recentmenu != null)

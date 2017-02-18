@@ -19,6 +19,7 @@ namespace JsonCMS.Models.Core
         public string menuName { get; set; }
         public string menuType { get; set; }
         public string currentSelection { get; set; }
+        public string siteTag { get; set; }
     }
 
     public class Menus
@@ -36,9 +37,11 @@ namespace JsonCMS.Models.Core
                 {
                     var menu = menuJson.ReadJsonObject(menuJson.ReadFile(site + "/CMSdata/menus", "menu" + i + ".json"));
                     menu.menuName = "menu" + i;
+                    menu.siteTag = site;
                     foreach (var menuItem in menu.menu)
                     {
                         menuItem.page = FindPage(menuItem.pagetitle, pages);
+                        menuItem.page.friendlyUrl = menuItem.page.friendlyUrl + "?d=" + site;
                     }
                     this.menus.Add(menu);
                 }

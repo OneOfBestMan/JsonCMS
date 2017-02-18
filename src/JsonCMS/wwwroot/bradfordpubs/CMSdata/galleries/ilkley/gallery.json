@@ -1,4 +1,5 @@
 {
+  "site": "bradfordpubs",
   "desktopImagesAcrossPage": 3,
   "mobileImagesAcrossPage": 1,
   "maxDefaultWidth": 2000,
@@ -179,6 +180,26 @@
       "lightBox": true,
       "height": 599,
       "width": 599
+    },
+    {
+      "imageName": "bar26Ilkley.JPG",
+      "title": null,
+      "alt": "Bar 26",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 599,
+      "width": 598
+    },
+    {
+      "imageName": "monkmans.JPG",
+      "title": null,
+      "alt": "Monkmans",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 597,
+      "width": 598
     }
   ]
 }

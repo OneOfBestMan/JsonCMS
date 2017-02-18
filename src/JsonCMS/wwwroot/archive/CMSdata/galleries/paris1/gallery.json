@@ -1,0 +1,114 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 1000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 612,
+  "maxMobileWidth": 1000,
+  "maxMobileHeight": 612,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "R0011613.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0011706.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0011862.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011901.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011947.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0012061.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0012110.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0012113.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0012115.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0012135.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    }
+  ]
+}

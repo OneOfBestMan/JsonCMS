@@ -14,6 +14,58 @@
       ]
     },
     {
+      "title": "paris",
+      "friendlyUrl": "/paris",
+      "template": "carousel",
+      "displayName": "Paris",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "paris1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "marais",
+      "friendlyUrl": "/marais",
+      "template": "carousel",
+      "displayName": "Le Marais",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "marais1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "parisvacant",
+      "friendlyUrl": "/parisvacant",
+      "template": "carousel",
+      "displayName": "Vacant",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "parisvacant1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "duns",
+      "friendlyUrl": "/duns",
+      "template": "carousel",
+      "displayName": "Duns",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "duns1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
       "title": "chineselantern",
       "friendlyUrl": "/chineselantern",
       "template": "carousel",

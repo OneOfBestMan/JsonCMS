@@ -5,7 +5,7 @@
 var api = function ($http) {
 
     var getSectionImages = function (sectionName) {
-        return $http.get('/api/GalleryApi/index/' + sectionName).
+        return $http.get('/api/GalleryApi/index/' + sectionName + '?d=inyourface').
             success(function (response) {
                 return response;
             });

@@ -1,0 +1,28 @@
+{
+  "title": "Baildon",
+  "html": null,
+  "entryDate": "2016-12-17T09:05:49.2215302Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 600,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 600,
+  "maxMobileWidth": 600,
+  "maxMobileHeight": 600,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "Baildon.JPG",
+      "title": null,
+      "alt": "Casa Bella",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 599,
+      "width": 601
+    }
+  ]
+}

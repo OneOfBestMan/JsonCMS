@@ -26,7 +26,7 @@ function Image(fullPath, title, alt) {
 }
 
 function getSectionImages(sectionName) {
-    $.getJSON("/api/GalleryApi/miniatures/" + sectionName, function (data) {
+    $.getJSON("/api/GalleryApi/miniatures/" + sectionName + "?d=archive", function (data) {
         viewModel.currentImages([]);
         for (var i = 0; i < data.length; i++) {
             viewModel.currentImages.push(new Image(data[i].value, data[i].alt, data[i].alt));
@@ -35,7 +35,7 @@ function getSectionImages(sectionName) {
     });
 }
 
-$.getJSON("/api/GalleryApi/miniatures", function (data) {
+$.getJSON("/api/GalleryApi/miniatures?d=archive", function (data) {
 
     viewModel.sections([]);
     for (var i = 0; i < data.length; i++) {

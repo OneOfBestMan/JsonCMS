@@ -1,4 +1,5 @@
 {
+  "site": "bradfordpubs",
   "desktopImagesAcrossPage": 3,
   "mobileImagesAcrossPage": 1,
   "maxDefaultWidth": 2000,
@@ -109,6 +110,26 @@
       "lightBox": true,
       "height": 598,
       "width": 596
+    },
+    {
+      "imageName": "theRailYard.jpg",
+      "title": null,
+      "alt": "The Rail Yard",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 596
+    },
+    {
+      "imageName": "monkmans.JPG",
+      "title": null,
+      "alt": "Monkmans",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 597,
+      "width": 598
     }
   ]
 }

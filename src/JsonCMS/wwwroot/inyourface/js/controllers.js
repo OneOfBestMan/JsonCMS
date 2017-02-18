@@ -33,7 +33,7 @@ galleryApp.controller('GalleryCtrl',
         $window.alert('Error retrieving data');
     }
     
-    $http.get('/api/GalleryApi/index').success(gotSections).error(errorCallback);
+    $http.get('/api/GalleryApi/index?d=inyourface').success(gotSections).error(errorCallback);
 
     $scope.getSection = function (sectionName, sectionNo) {
         $scope.reloadingState = null;

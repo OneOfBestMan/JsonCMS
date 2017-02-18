@@ -1,0 +1,48 @@
+{
+  "title": "Paris",
+  "html": null,
+  "entryDate": "2016-12-28T09:05:53.0129667Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 600,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 600,
+  "maxMobileWidth": 600,
+  "maxMobileHeight": 600,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "R0011993.jpg",
+      "title": null,
+      "alt": "Le Livre Ouvert",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1258,
+      "width": 1258
+    },
+    {
+      "imageName": "R0012053.jpg",
+      "title": null,
+      "alt": "Le Lac de l Ouest",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1900,
+      "width": 1900
+    },
+    {
+      "imageName": "R0012070.JPG",
+      "title": null,
+      "alt": "Creperie Genia",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1413,
+      "width": 1413
+    }
+  ]
+}

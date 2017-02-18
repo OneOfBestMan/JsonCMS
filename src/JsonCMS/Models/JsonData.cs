@@ -21,9 +21,9 @@ namespace JsonCMS.Models
         public string currentHost = null;
         public Domain currentDomain = null;
 
-        public void LoadJsonForPage(string pageName, string rootPath, string parameter = "")
+        public void LoadJsonForPage(string pageName, string rootPath, string parameter = "", string siteTag = "")
         {
-            LoadGlobalJson(rootPath);
+            LoadGlobalJson(rootPath, siteTag);
 
             if (!string.IsNullOrEmpty(pageName) && pages!=null && pages.pages!=null)
             {
@@ -38,12 +38,12 @@ namespace JsonCMS.Models
             }
        }
 
-        public void LoadGlobalJson(string rootPath)
+        public void LoadGlobalJson(string rootPath, string siteTag)
         {
             sites = new Sites();
             sites.LoadSites(rootPath);
 
-            GetCurrentSite();
+            GetCurrentSite(siteTag);
 
             if (currentSite!=null)
             {
@@ -58,18 +58,27 @@ namespace JsonCMS.Models
             }
         }
 
-        private void GetCurrentSite()
+        private void GetCurrentSite(string siteTag)
         {
-            var matchingDomains = sites.sites.Where(x => x.domains.Any(y => y.domainName == this.currentHost));
-            if (matchingDomains.Count() > 0)
+            if (siteTag != null)
             {
-                sites.thisSite = matchingDomains.FirstOrDefault();
-                
+                sites.thisSite = sites.sites.Where(x => x.siteTag == siteTag).FirstOrDefault();
             }
             else
             {
-                sites.thisSite = sites.sites.Where(x => x.siteTag == sites.currentSite).FirstOrDefault();
+                var matchingDomains = sites.sites.Where(x => x.domains.Any(y => y.domainName == this.currentHost));
+
+                if (matchingDomains.Count() > 0)
+                {
+                    sites.thisSite = matchingDomains.FirstOrDefault();
+
+                }
+                else
+                {
+                    sites.thisSite = sites.sites.Where(x => x.siteTag == sites.currentSite).FirstOrDefault();
+                }
             }
+
             if (sites.thisSite!=null)
             {
                 currentDomain = sites.thisSite.domains.Where(y => y.domainName == this.currentHost).FirstOrDefault();

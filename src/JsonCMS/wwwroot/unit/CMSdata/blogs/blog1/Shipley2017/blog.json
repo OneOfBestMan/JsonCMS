@@ -1,0 +1,29 @@
+{
+  "site": "unit",
+  "title": "Shipley",
+  "html": null,
+  "entryDate": "2017-01-29T09:05:57.6361587Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 600,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 600,
+  "maxMobileWidth": 600,
+  "maxMobileHeight": 600,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "shipleyUnit.JPG",
+      "title": null,
+      "alt": "Guardian Funerals",
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 597,
+      "width": 599
+    }
+  ]
+}

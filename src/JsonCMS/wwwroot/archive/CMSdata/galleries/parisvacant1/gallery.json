@@ -1,0 +1,134 @@
+{
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 1000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 612,
+  "maxMobileWidth": 1000,
+  "maxMobileHeight": 612,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "R0011586.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011587.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011591.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3216,
+      "width": 4426
+    },
+    {
+      "imageName": "R0011595.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0011596.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3083,
+      "width": 4497
+    },
+    {
+      "imageName": "R0011600.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0011605.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4928,
+      "width": 3264
+    },
+    {
+      "imageName": "R0011609.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011620.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011625.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011637.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    },
+    {
+      "imageName": "R0011652.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 3264,
+      "width": 4928
+    }
+  ]
+}

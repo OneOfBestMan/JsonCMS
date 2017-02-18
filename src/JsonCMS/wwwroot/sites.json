@@ -4,8 +4,8 @@
       "siteTag": "portfolio",
       "viewFolder": "Portfolio",
       "siteTitle": "Martin Ruffe",
-      "subTitle": "Photography and Web",
-      "copyright": "All photography © Martin Ruffe 2016",
+      "subTitle": "Photography & Digital",
+      "copyright": "All photography © Martin Ruffe 2017",
       "analyticsCode": "UA-1902959-1",
       "domains": [
         {
@@ -25,7 +25,7 @@
       "viewFolder": "Unit",
       "siteTitle": "for all those single unit shops",
       "subTitle": "",
-      "copyright": "All photography © Martin Ruffe 2016",
+      "copyright": "All photography © Martin Ruffe 2017",
       "analyticsCode": "UA-1902959-1",
       "domains": [
         {
@@ -42,7 +42,7 @@
       "viewFolder": "Archive",
       "siteTitle": "Martin Ruffe",
       "subTitle": "",
-      "copyright": "All photography © Martin Ruffe 2016",
+      "copyright": "All photography © Martin Ruffe 2017",
       "analyticsCode": "UA-1902959-1",
       "domains": [
         {
@@ -60,7 +60,7 @@
       "viewFolder": "BradfordPubs",
       "siteTitle": "Photographs of Bradford Pubs, West Yorkshire",
       "subTitle": "",
-      "copyright": "All photography © Martin Ruffe 2016",
+      "copyright": "All photography © Martin Ruffe 2017",
       "analyticsCode": "UA-48465203-1",
       "domains": [
         {
@@ -82,7 +82,7 @@
       "viewFolder": "InYourFace",
       "siteTitle": "In Your Face Portrait Photography",
       "subTitle": "",
-      "copyright": "All photography © Patricia Ruffe 2016",
+      "copyright": "All photography © Patricia Ruffe 2017",
       "analyticsCode": "UA-1902959-40",
       "domains": [
         {
@@ -90,10 +90,16 @@
           "noSpider": true
         },
         {
-          "domainName": "in-your-face.org.uk"
+          "domainName": "in-your-face.martinruffe.co.uk",
+          "noSpider": true
         },
         {
-          "domainName": "www.in-your-face.org.uk"
+          "domainName": "in-your-face.org.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "www.in-your-face.org.uk",
+          "noSpider": true
         }
       ]
     }

@@ -1,12 +1,6 @@
 ﻿{
   "social": [
     {
-      "altText": "Twitter",
-      "icon": "fa-twitter",
-      "url": "https://twitter.com/lastraysofsun",
-      "target": "_blank"
-    },
-    {
       "altText": "Email",
       "icon": "fa-envelope-o",
       "url": "mailto:bracketsfox@yahoo.com",

@@ -279,6 +279,16 @@
       "lightBox": true,
       "height": 599,
       "width": 599
+    },
+    {
+      "imageName": "theRailYard.jpg",
+      "title": null,
+      "alt": "The Rail Yard",
+      "url": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 596
     }
   ]
 }
