@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="~/unit/css/site.css" asp-append-version="true" />
     </environment>
     <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    @Html.Partial("~/Views/Unit/_Analytics.cshtml")
 
 </head>
 <body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
@@ -33,7 +34,6 @@
             <p class="copyright">@ViewBag.LayoutData.Copyright</p>
         </footer>
     </div>
-    @Html.Partial("~/Views/Unit/_Analytics.cshtml")
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

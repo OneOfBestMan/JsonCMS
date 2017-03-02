@@ -17,6 +17,7 @@
     <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     @Html.Partial("~/Views/BradfordPubs/_Fonts.cshtml")
     <link href="~/bradfordpubs/css/colorbox.css" rel="stylesheet" />
+    @Html.Partial("~/Views/BradfordPubs/_Analytics.cshtml")
 
 </head>
 <body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
@@ -43,7 +44,6 @@ amzn_wdgt.marketPlace='GB';
         </div>*@
         @RenderBody()
     </div>
-    @Html.Partial("~/Views/BradfordPubs/_Analytics.cshtml")
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

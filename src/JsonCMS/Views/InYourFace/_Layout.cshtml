@@ -30,14 +30,14 @@
         <link rel="stylesheet" type="text/css" href="~/inyourface/css/ie.css" />
     <![endif]-->
 
+    @Html.Partial("~/Views/inyourface/_Analytics.cshtml")
 
 </head>
 <body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
     <div class="container body-content">
         @RenderBody()
     </div>
-    @Html.Partial("~/Views/inyourface/_Analytics.cshtml")
-
+   
     <environment names="Development">
         <script src="~/inyourface/js/site.js" asp-append-version="true"></script>
     </environment>

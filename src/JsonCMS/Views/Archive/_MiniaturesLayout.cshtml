@@ -16,6 +16,7 @@
     @Html.Partial("~/Views/Archive/_Fonts.cshtml")
     <script type='text/javascript' src="http://knockoutjs.com/downloads/knockout-3.2.0.js"></script>
     <script src="~/lib/jquery/dist/jquery.js"></script>
+    @Html.Partial("~/Views/Portfolio/_Analytics.cshtml")
 
 </head>
 <body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
@@ -25,7 +26,6 @@
             <p class="copyright">@ViewBag.LayoutData.Copyright</p>
         </footer>
     </div>
-    @Html.Partial("~/Views/Portfolio/_Analytics.cshtml")
     @RenderSection("scripts", required: false)
 
 

@@ -24,7 +24,7 @@
      |__|  |____/ |__|   |__|  |____/\___  >____  >
                                          \/     \/
     -->
-
+    @Html.Partial("~/Views/Portfolio/_Analytics.cshtml")
 </head>
 <body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
     <div class="container body-content">
@@ -33,7 +33,6 @@
             <p class="copyright">@ViewBag.LayoutData.Copyright</p>
         </footer>
     </div>
-    @Html.Partial("~/Views/Portfolio/_Analytics.cshtml")
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
