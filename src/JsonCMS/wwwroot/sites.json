@@ -12,12 +12,12 @@
           "domainName": "portfolio.json-cms.co.uk",
           "noSpider": true
         },
-        {
-          "domainName": "martinruffe.co.uk"
-        },
-        {
-          "domainName": "www.martinruffe.co.uk"
-        }
+        //{
+        //  "domainName": "martinruffe.co.uk"
+        //},
+        //{
+        //  "domainName": "www.martinruffe.co.uk"
+        //}
       ]
     },
     {
@@ -52,6 +52,12 @@
         {
           "domainName": "archive.martinruffe.co.uk",
           "noSpider": false
+        },
+        {
+          "domainName": "martinruffe.co.uk"
+        },
+        {
+          "domainName": "www.martinruffe.co.uk"
         }
       ]
     },
@@ -60,7 +66,7 @@
       "viewFolder": "BradfordPubs",
       "siteTitle": "Photographs of Bradford Pubs, West Yorkshire",
       "subTitle": "",
-      "copyright": "All photography © Martin Ruffe 2017",
+      "copyright": "© M Ruffe 2017",
       "analyticsCode": "UA-48465203-1",
       "domains": [
         {
@@ -104,5 +110,5 @@
       ]
     }
   ],
-  "currentSite" : "portfolio"
+  "currentSite" : "archive"
 }

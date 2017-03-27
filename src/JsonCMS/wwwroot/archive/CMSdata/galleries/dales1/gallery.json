@@ -1,0 +1,115 @@
+{
+  "site": "archive",
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 1000,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 612,
+  "maxMobileWidth": 1000,
+  "maxMobileHeight": 612,
+  "spaceBetween": 0.0,
+  "cropType": "none",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "IMG_6810.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_6834.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_6921.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_6924.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_6932.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_6939.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_6975.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_7015.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_7023.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    },
+    {
+      "imageName": "IMG_7055.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 4000,
+      "width": 6000
+    }
+  ]
+}

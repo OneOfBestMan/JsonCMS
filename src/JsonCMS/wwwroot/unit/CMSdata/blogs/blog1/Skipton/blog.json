@@ -1,7 +1,8 @@
 {
-  "title": "Paris",
+  "site": "unit",
+  "title": "Skipton",
   "html": null,
-  "entryDate": "2016-12-28T09:05:53.0129667Z",
+  "entryDate": "2017-02-28T09:05:57.6361587Z",
   "exists": true,
   "desktopImagesAcrossPage": 1,
   "mobileImagesAcrossPage": 1,
@@ -15,34 +16,34 @@
   "cropFrom": "center",
   "imageData": [
     {
-      "imageName": "R0011993.jpg",
+      "imageName": "unitskipton2.JPG",
       "title": null,
-      "alt": "Le Livre Ouvert",
+      "alt": null,
       "url": null,
       "fileExists": true,
       "lightBox": false,
-      "height": 1258,
-      "width": 1258
+      "height": 596,
+      "width": 598
     },
     {
-      "imageName": "R0012053.jpg",
+      "imageName": "unitskipton5.JPG",
       "title": null,
-      "alt": "Le Lac de l Ouest",
+      "alt": null,
       "url": null,
       "fileExists": true,
       "lightBox": false,
-      "height": 1900,
-      "width": 1900
+      "height": 596,
+      "width": 597
     },
     {
-      "imageName": "R0012070.JPG",
+      "imageName": "unitskipton4.JPG",
       "title": null,
-      "alt": "Creperie Genia",
+      "alt": null,
       "url": null,
       "fileExists": true,
       "lightBox": false,
-      "height": 1413,
-      "width": 1413
+      "height": 596,
+      "width": 598
     }
   ]
 }

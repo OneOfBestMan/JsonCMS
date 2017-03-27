@@ -4,7 +4,7 @@
 /* resets */
 
 body, html {
-    background-color: black;
+    background-color: #222;
     color: white;
     margin: 0;
     padding: 0;
@@ -24,7 +24,6 @@ img {
 
 a, a:hover {
     text-decoration: none;
-    background-color:black;
     color: white;
 }
 
@@ -49,16 +48,24 @@ footer {
     clear: both;
 }
 
-h1 {
-    background-color: white;
+.pagetitle {
     color: black;
-    font-size: 1.5vw;
-    margin-left: 0;
-    padding: 10px 10px 10px 20px;
-    position: absolute;
+    font-size: .8vw;
+    padding: 0px 0px 0px 5%;
     text-align: left;
-    width: 95%;
-    margin-top: 1.5em;
+    width: 105%;
+    margin-top: 3em;
+    height: 4em;
+    display: inline-block;
+}
+
+.pagetitle h1 {
+    background-color: white;
+    padding: 6% 0 5% 8%;
+}
+
+.pagetitle:hover {
+    color: black;
 }
 
 #mainBody {
@@ -116,13 +123,13 @@ p, li {
 }
 
 .copyright {
-    font-size: 0.8rem;
-    position: fixed;
-    bottom: 10px;
-    left: 2%; 
-    background-color: #777;
-    padding: 0 5px 0 5px;
+    font-size: 0.65rem;
+    padding: 0;
     opacity: 0.6;
+    color: white;
+    bottom: 22px;
+    right: 3%;
+    position: fixed;
 }
 
 /* gallery */
@@ -161,16 +168,20 @@ p, li {
 	align-items: center;
     justify-content: space-between;
     background-color: #333;
+    margin-top: 2.9%;
 }
 
 .gallery-flex-item {
     flex-grow: 0;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .gallery-flex-item img {
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 70%;
+    max-width: 70%;
+    border: white solid 20px;
+    border-bottom: 40px solid white;
 }
 
 .caption {
@@ -196,7 +207,7 @@ p, li {
 }
 
 .nav {
-    margin-top: 6em;
+    margin-top: 2em;
 }
 
 /* colorbox lightbox */
@@ -270,6 +281,7 @@ p, li {
     #leftcol {
         width: 63%;
         background-color: inherit;
+        margin-top: 2.5%;
     }
 
     #rightcol {

@@ -14,6 +14,58 @@
       ]
     },
     {
+      "title": "dales",
+      "friendlyUrl": "/dales",
+      "template": "carousel",
+      "displayName": "Dales",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "dales1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "borders",
+      "friendlyUrl": "/borders",
+      "template": "carousel",
+      "displayName": "Borders",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "borders1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "wyorks",
+      "friendlyUrl": "/wyorks",
+      "template": "carousel",
+      "displayName": "Yorkshire",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "wyorks1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
+      "title": "layby",
+      "friendlyUrl": "/layby",
+      "template": "carousel",
+      "displayName": "Layby",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "layby1",
+          "type": "gallery"
+        }
+      ]
+    },
+    {
       "title": "paris",
       "friendlyUrl": "/paris",
       "template": "carousel",

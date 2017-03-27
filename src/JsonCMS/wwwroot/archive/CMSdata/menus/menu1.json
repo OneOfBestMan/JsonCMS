@@ -1,22 +1,19 @@
 ﻿{
   "menu": [
     {
-      "pagetitle": "paris"
+      "pagetitle": "dales"
     },
     {
-      "pagetitle": "marais"
+      "pagetitle": "layby"
     },
     {
-      "pagetitle": "parisvacant"
+      "pagetitle": "wyorks"
+    },
+    {
+      "pagetitle": "borders"
     },
     {
       "pagetitle": "duns"
-    },
-    {
-      "pagetitle": "carnival"
-    },
-    {
-      "pagetitle": "rescued"
     },
     {
       "pagetitle": "lismore"
