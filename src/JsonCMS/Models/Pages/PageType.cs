@@ -12,7 +12,8 @@ namespace JsonCMS.Models.PageModels
         TwoColumn,
         PhotoSection,
         Carousel,
-        Miniatures
+        Miniatures,
+        Home
     }
 
 }

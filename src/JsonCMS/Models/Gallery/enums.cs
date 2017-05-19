@@ -29,4 +29,14 @@ namespace JsonCMS.Models.Galleries
         OriginalSize
     }
 
+    public enum OrderGalleryBy
+    {
+        AsInFile,
+        Height,
+        Width, 
+        Filename,
+        Date,
+        Caption
+    }
+
 }

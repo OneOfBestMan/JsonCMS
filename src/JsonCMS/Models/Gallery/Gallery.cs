@@ -20,6 +20,8 @@ namespace JsonCMS.Models.Galleries
         public int maxDefaultHeight { get; set; }
         public int maxMobileWidth { get; set; }
         public int maxMobileHeight { get; set; }
+        public OrderGalleryBy orderGalleryBy { get; set; } = OrderGalleryBy.AsInFile;
+
         public string site;
 
         public float spaceBetween { get; set; } = 10; // percent
@@ -107,6 +109,7 @@ namespace JsonCMS.Models.Galleries
             this.cropType = gallery.crop.ToString();
             this.cropFrom = gallery.cropfrom.ToString();
             this.spaceBetween = gallery.spaceBetween;
+            this.orderGalleryBy = gallery.orderGalleryBy;
 
             var filesInFolder = Files.GetFiles(rootPath + "/" + this.galleryPath, ".jpg");
             if (CheckForMissingImages(filesInFolder))

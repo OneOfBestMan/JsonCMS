@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.LayoutData.PageTitle</title>
+
+    @if (!string.IsNullOrEmpty(ViewBag.LayoutData.PageDescription))
+    {
+    <meta name="description" content="@ViewBag.LayoutData.PageDescription">
+    }
+    @Html.Raw(ViewBag.LayoutData.RobotsMeta)
+    <link href="~/top100/css/colorbox.css" rel="stylesheet" />
+
+    <environment names="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/Top100/css/site.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/Top100/css/site.css" asp-append-version="true" />
+    </environment>
+    <link rel="stylesheet" href="~/Top100/css/jetmenu.css" asp-append-version="true" />
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    @Html.Partial("~/Views/Top100/_Fonts.cshtml")
+    @Html.Partial("~/Views/Top100/_Analytics.cshtml")
+
+    <link rel='stylesheet' id='wanderlust-style-css' href='~/Top100/css/wp_style.css' type='text/css' media='all' />
+    <link href="~/top100/css/wp_additionalStyles.css" rel="stylesheet" />
+    <link rel='stylesheet' id='wanderlust-googleFonts-css' href='//fonts.googleapis.com/css?family=Lato%3A400%2C100%2C300%2C700%2C900&#038;ver=4.7.4' type='text/css' media='all' />
+
+</head>
+<body class="pageTitle_@ViewBag.LayoutData.PageTag pageType_@ViewBag.LayoutData.PageType">
+
+    <div id="page" class="site">
+        @Html.Partial("~/Views/Top100/_WordPressHeader.cshtml")
+
+        <div id="content" class="site-content">
+
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <header class="entry-header">
+                                    <h1 class="entry-title"><span>@ViewBag.LayoutData.SiteTitle</span></h1>
+
+                                    <div class="navbar navbar-default">
+                                        <div class="container">
+                                            <div>
+                                                @RenderSection("Menu")
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </header>
+                            </div>
+                        </div>
+
+                        <div class="row page-details">
+                            <div class="container body-content">
+                                @RenderBody()
+                                @RenderSection("Social")
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        @Html.Partial("~/Views/Top100/_WordPressFooter.cshtml")
+    </div>
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
+        </script>
+        <script src="~/Top100/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
+        </script>
+        <script src="~/Top100/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <script src="~/Top100/js/colorbox.js"></script>
+    <script src="~/Top100/js/jetmenu.js" asp-append-version="true"></script>
+
+    @RenderSection("scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            $(".lightbox").colorbox({ rel: 'lightbox', maxHeight: '80%', maxWidth: '90%' });
+        });
+    </script>
+    <script src="~/Top100/js/navigation.js"></script>
+
+</body>
+</html>

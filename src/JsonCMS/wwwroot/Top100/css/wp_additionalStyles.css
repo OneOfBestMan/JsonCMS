@@ -1,0 +1,51 @@
+﻿
+        .main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a, .main-navigation a:hover, .entry-meta a:hover, .site-footer a, .social-icons li a:hover .fa, .entry-title a, .sidebar-wrapper a:hover, .pagination, .site-title a:hover, .featured-container h2:hover {
+            color: #607096;
+        }
+
+        .read_more, .posted-on a, .sidebar-wrapper .widget-title, button, html input[type="button"], input[type="reset"], input[type="submit"], .page .entry-title span, .desc-container, .fa-chevron-right, .fa-chevron-left {
+            background: #607096;
+        }
+
+        .site-footer {
+            border-top: solid 3px #607096;
+        }
+
+        .site-header {
+            border-bottom: solid 3px #607096;
+        }
+
+        #wpadminbar {
+            display: none;
+        }
+
+   	   /*html { margin-top: 32px !important; }
+	   * html body { margin-top: 32px !important; }*/
+	
+        @media screen and ( max-width: 782px ) {
+		   html { margin-top: 46px !important; }
+		   * html body { margin-top: 46px !important; }
+	    }
+
+
+/* mr added */
+
+#search-button {
+    visibility: hidden;
+}
+
+.site-content, .post-details, .page-details {
+    margin-top: 0; 
+}
+
+.second-nav {
+    padding-right: 25px;
+}
+
+.entry-header {
+    margin-top: 50px;
+}
+
+.page-details {
+    margin-bottom: 80px;
+}

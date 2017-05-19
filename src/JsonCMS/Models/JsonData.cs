@@ -21,6 +21,17 @@ namespace JsonCMS.Models
         public string currentHost = null;
         public Domain currentDomain = null;
 
+        private dbContext context = null;
+
+        public JsonData(dbContext context)
+        {
+            this.context = context;
+        }
+
+        public JsonData()
+        {
+        }
+
         public void LoadJsonForPage(string pageName, string rootPath, string parameter = "", string siteTag = "")
         {
             LoadGlobalJson(rootPath, siteTag);
@@ -32,7 +43,17 @@ namespace JsonCMS.Models
                 {
                     if (currentSite != null)
                     {
-                        thisPage.LoadPageData(rootPath, currentSite.siteTag, parameter);
+                        if (thisPage.source == Source.Db)
+                        {
+                            var template = pages.templates.templates.Where(x => x.template == thisPage.template).FirstOrDefault();
+                            thisPage.LoadPageDataFromDb(rootPath, currentSite.siteTag, pageName.ToLower(), template);
+                            this.currentSite.subTitle = this.currentSite.siteTitle; // sets page info to display in template
+                            this.currentSite.siteTitle = pageName;
+                        }
+                        else // json
+                        {
+                            thisPage.LoadPageData(rootPath, currentSite.siteTag, parameter);
+                        }
                     }
                 }
             }
@@ -50,11 +71,11 @@ namespace JsonCMS.Models
                 social = new SocialNetworks();
                 social.LoadSocialNetworks(rootPath, currentSite.siteTag);
 
-                pages = new Pages();
-                pages.LoadPages(rootPath, currentSite.siteTag);
+                pages = new Pages(context);
+                pages.LoadPages(rootPath, currentSite.siteTag, currentSite.loadPagesFromDb);
 
                 menus = new Menus();
-                menus.LoadMenus(rootPath, pages, currentSite.siteTag);
+                menus.LoadMenus(rootPath, pages, currentSite.siteTag, currentSite.loadPagesFromDb);
             }
         }
 

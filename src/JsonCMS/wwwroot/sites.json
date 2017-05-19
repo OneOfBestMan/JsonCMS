@@ -12,13 +12,66 @@
           "domainName": "portfolio.json-cms.co.uk",
           "noSpider": true
         },
-        //{
-        //  "domainName": "martinruffe.co.uk"
-        //},
-        //{
-        //  "domainName": "www.martinruffe.co.uk"
-        //}
+        {
+          "domainName": "martinruffe.co.uk"
+        },
+        {
+          "domainName": "www.martinruffe.co.uk"
+        }
       ]
+    },
+    {
+      "siteTag": "noselfiestick",
+      "viewFolder": "NoSelfieStick",
+      "siteTitle": "Photo Trips",
+      "subTitle": "",
+      "copyright": "All photography © No Selfie Stick 2017",
+      "analyticsCode": "UA-1902959-41",
+      "domains": [
+        {
+          "domainName": "noselfiestick.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "phototrips.no-selfie-stick.com"
+        }
+      ]
+    },
+    {
+      "siteTag": "200Towns",
+      "viewFolder": "200Towns",
+      "siteTitle": "200 Towns & Cities",
+      "subTitle": "Perspectives of British Landscape",
+      "copyright": "",
+      "analyticsCode": "UA-1902959-17",
+      "domains": [
+        {
+          "domainName": "200towns.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "200towns.martinruffe.co.uk"
+        }
+      ],
+      "loadPagesFromDb": true
+    },
+    {
+      "siteTag": "Top100",
+      "viewFolder": "Top100",
+      "siteTitle": "Top 100 Locations",
+      "subTitle": "",
+      "copyright": "",
+      "analyticsCode": "UA-1902959-41",
+      "domains": [
+        {
+          "domainName": "top100.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "top100.no-selfie-stick.com"
+        }
+      ],
+      "loadPagesFromDb": true
     },
     {
       "siteTag": "unit",
@@ -52,12 +105,6 @@
         {
           "domainName": "archive.martinruffe.co.uk",
           "noSpider": false
-        },
-        {
-          "domainName": "martinruffe.co.uk"
-        },
-        {
-          "domainName": "www.martinruffe.co.uk"
         }
       ]
     },
@@ -110,5 +157,5 @@
       ]
     }
   ],
-  "currentSite" : "archive"
+  "currentSite": "noselfiestick"
 }

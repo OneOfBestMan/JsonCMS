@@ -28,6 +28,8 @@ namespace JsonCMS.Models.Core
         public string analyticsCode { get; set; }
 
         public List<Domain> domains { get; set; }
+
+        public bool loadPagesFromDb { get; set; } = false;
     }
 
     public class Sites

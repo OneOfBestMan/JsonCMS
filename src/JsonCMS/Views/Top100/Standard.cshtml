@@ -1,0 +1,100 @@
+﻿@model JsonCMS.Models.JsonData
+@{
+    Layout = "~/Views/Top100/_Layout.cshtml";
+}
+
+<div class="row bodySection">
+    <div class="col1 col-md-8 region1">
+        @{
+            Model.currentRegion = "region1";
+            @Html.Partial("~/Views/Top100/_Region.cshtml", Model)
+        }
+    </div>
+    <div class="col3 col-md-4 region2">
+        @{
+            Model.currentRegion = "region2";
+            @Html.Partial("~/Views/Top100/_Region.cshtml", Model)
+        }
+    </div>
+</div>
+<div class="row bodySection">
+    <div class="col1 col-md-8 region3">
+        <div class="thumbs">
+            @{
+                Model.currentRegion = "region3";
+                @Html.Partial("~/Views/Top100/_Region.cshtml", Model)
+            }
+        </div>
+        <div class="wikiText">
+            @{
+                Model.currentRegion = "region4";
+                @Html.Partial("~/Views/Top100/_Region.cshtml", Model)
+            }
+        </div>
+    </div>
+
+    <div class="col3 col-md-4 region4" id="twitterregion">
+
+        <form id="commentForm" action="xx" method="post">
+            <div id="comment">
+                <h3 id="commenth3">Add Comment</h3>
+
+                <div class="form-group row">
+                    <label class="col-2 col-form-label">Name:</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="" name="person"  maxlength="20">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-2 col-form-label">Comment:</label>
+                    <div class="col-10">
+                        <textarea class="form-control" id="commt" name="comment" onkeydown="checkcommentsize('80');"></textarea>
+                    </div>
+                </div>
+                
+                <input name="address" class="hd" type="text" width="15" />
+                <input name="surname" class="hd" type="text" width="15" />
+
+                <div class="form-group row">
+                    <div class="col-10">
+                        <input class="form-control" name="sbm" id="submitbutton" type="submit" value="Send" />
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <h3>Tweets</h3>
+        <div id="tweets" class="grJSON">
+        </div>
+
+        <div id="tweetpage">
+        </div>
+
+    </div>
+</div>
+
+@section Social {
+    @Html.Partial("~/Views/Top100/_Social.cshtml", Model.social)
+}
+
+@section Menu {
+    @{
+        var menuToUse = Model.menus.GetMenu("menu1", Model.thisPage.displayName);
+        if (menuToUse != null)
+        {
+            @Html.Partial("~/Views/Top100/_" + menuToUse.menuType + ".cshtml", menuToUse)
+        }
+    }
+}
+
+@section scripts {
+    <script type="text/javascript">
+        startscripts('@Model.thisPage.displayName');
+        jQuery(document).ready(function () {
+            $().jetmenu({
+                indicator: false
+            });
+        });
+
+    </script>
+}

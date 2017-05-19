@@ -8,6 +8,14 @@ namespace JsonCMS.Models.Core
 {
     public class Html
     {
+        public Html()
+        {
+        }
+
+        public Html(string html)
+        {
+            this.html = html;
+        }
 
         public string html = string.Empty; 
 

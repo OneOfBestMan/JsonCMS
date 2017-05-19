@@ -10,7 +10,7 @@ namespace JsonCMS.Models.Core
     public class MenuItem
     {
         public string pagetitle { get; set; }
-        public Page page { get; set; } = null;
+        public Page page { get; set; } = null; 
     }
 
     public class Menu
@@ -20,6 +20,9 @@ namespace JsonCMS.Models.Core
         public string menuType { get; set; }
         public string currentSelection { get; set; }
         public string siteTag { get; set; }
+        public bool nestedMenu { get; set; } = false;
+        public bool menuFromPages { get; set; } = false;
+        public List<string> groups { get; set; } = new List<string>();
     }
 
     public class Menus
@@ -28,7 +31,7 @@ namespace JsonCMS.Models.Core
 
         public List<Menu> menus { get; set; } = new List<Menu>();
 
-        public void LoadMenus(string rootPath, Pages pages, string site)
+        public void LoadMenus(string rootPath, Pages pages, string site, bool loadPagesFromDb)
         {
             for (var i = 1; i <= maxMenus; i++)
             {
@@ -38,12 +41,56 @@ namespace JsonCMS.Models.Core
                     var menu = menuJson.ReadJsonObject(menuJson.ReadFile(site + "/CMSdata/menus", "menu" + i + ".json"));
                     menu.menuName = "menu" + i;
                     menu.siteTag = site;
+
+                    if (menu.menuFromPages)
+                    {
+                        loadPagesIntoMenu(menu, pages);
+                        if (menu.nestedMenu)
+                        {
+                            loadGroupsIntoMenu(menu, pages);
+                        }
+                    }
+
                     foreach (var menuItem in menu.menu)
                     {
                         menuItem.page = FindPage(menuItem.pagetitle, pages);
                         menuItem.page.friendlyUrl = menuItem.page.friendlyUrl + "?d=" + site;
                     }
+
                     this.menus.Add(menu);
+                }
+            }
+        }
+
+        private void loadGroupsIntoMenu(Menu menu, Pages pages)
+        {
+            Dictionary<string, int> groups = new Dictionary<string, int>();
+            foreach (var page in pages.pages)
+            {
+                var group = page.grouping;
+                if (group != null)
+                {
+                    if (!groups.Keys.Contains(group))
+                    {
+                        groups.Add(group, 0);
+                    }
+                }
+            }
+            foreach (var group in groups.OrderBy(x => x.Key))
+            {
+                menu.groups.Add(group.Key);
+            }
+        }
+
+        private void loadPagesIntoMenu (Menu menu, Pages pages)
+        {
+            foreach (var page in pages.pages)
+            {
+                if (page.pageType != PageType.Home)
+                {
+                    MenuItem item = new MenuItem();
+                    item.pagetitle = page.title;
+                    menu.menu.Add(item);
                 }
             }
         }

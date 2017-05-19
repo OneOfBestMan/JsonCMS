@@ -1,0 +1,19 @@
+﻿{
+  "pages": [
+    {
+      "title": "index",
+      "friendlyUrl": "/",
+      "template": "home",
+      "displayName": "Home",
+      "metaTitle": "Home",
+      "metaDescription": "Top 100 Destinations",
+      "regions": [
+        {
+          "templateTag": "region1",
+          "mappedObject": "home1",
+          "type": "gallery"
+        }
+      ]
+    }
+  ]
+}

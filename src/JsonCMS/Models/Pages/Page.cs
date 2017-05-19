@@ -1,4 +1,6 @@
-﻿using JsonCMS.Models.Regions;
+﻿using JsonCMS.Models.Core;
+using JsonCMS.Models.Regions;
+using JsonCMS.Repos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,13 @@ namespace JsonCMS.Models.PageModels
 
     public class Page
     {
+        private dbContext context = null;
+
+        public Page(dbContext context)
+        {
+            this.context = context;
+        }
+
         public string title { get; set; }
 
         public string displayName { get; set; } // used for menu title
@@ -19,20 +28,42 @@ namespace JsonCMS.Models.PageModels
 
         private PageType _pageType = PageType.Standard;
 
+        public string grouping { get; set; } = null; // only used for nested menus
+
+        public Location location { get; set; }
+
+        public string exampleImage { get; set; }
+
+        public Source source { get; set; } = Source.Json;  
+
         public string template
         {
             set
             {
-                switch (value.ToLower())
-                {
-                    case "blog": _pageType = PageType.Blog; break;
-                    case "twocolumn": _pageType = PageType.TwoColumn; break;
-                    case "standard": _pageType = PageType.Standard; break;
-                    case "photosection": _pageType = PageType.PhotoSection; break;
-                    case "carousel": _pageType = PageType.Carousel; break;
-                    case "miniatures": _pageType = PageType.Miniatures; break;
-                }
+                _pageType = GetPageType((value.ToLower()));
             }
+
+            get
+            {
+                return _pageType.ToString().ToLower();
+            }
+        }
+
+        private PageType GetPageType (string pageType)
+        {
+            PageType __pageType = PageType.Standard;
+
+            switch (pageType.ToLower())
+            {
+                case "blog": __pageType = PageType.Blog; break;
+                case "twocolumn": __pageType = PageType.TwoColumn; break;
+                case "standard": __pageType = PageType.Standard; break;
+                case "photosection": __pageType = PageType.PhotoSection; break;
+                case "carousel": __pageType = PageType.Carousel; break;
+                case "miniatures": __pageType = PageType.Miniatures; break;
+                case "home": __pageType = PageType.Home; break;
+            }
+            return __pageType;
         }
 
         public PageType pageType
@@ -77,6 +108,41 @@ namespace JsonCMS.Models.PageModels
                         break;
                 }
             }
+        }
+
+        public void LoadPageDataFromDb(string rootPath, string site, string pageName, Template template)
+        {
+            this.template = template.template;
+            int sequence = 0;
+            foreach (var region in template.regions)
+            {
+                region.sequence = sequence;
+                this.regions.Add(region);
+                sequence++;
+            }
+
+            RepoBase repo = RepoBase.RepoFactory(site, context);
+
+            if (repo == null)
+            {
+                throw new Exception("Repo not defined");
+            }
+
+            foreach (var region in regions)
+            {
+                switch (region.regionType)
+                {
+                    case RegionType.Gallery:
+                        var galleryRegion = repo.GetGalleryFromDb(region, pageName);
+                        galleryRegions.Add(galleryRegion);
+                        break;
+                    case RegionType.Html:
+                        var htmlRegion = repo.GetHtmlFromDb(region, pageName);
+                        htmlRegions.Add(htmlRegion);
+                        break;
+                }
+            }
+
         }
 
         public List<RegionBase> GetRegionAreas(string regionName)
