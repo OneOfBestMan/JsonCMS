@@ -13,6 +13,8 @@ namespace JsonCMS.Models.Galleries
         public string title { get; set; }
         public string alt { get; set; }
         public string url { get; set; }
+        public string author { get; set; }
+        public string description { get; set; }
         public bool fileExists { get; set; } = false;
         public bool lightBox { get; set; } = false;
         public int? height { get; set; } 

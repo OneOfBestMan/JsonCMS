@@ -13,6 +13,7 @@ namespace JsonCMS.Models.Regions
         Blog,
         YouTube,
         Latest,
+        Map,
         Unknown
     };
 

@@ -11,15 +11,15 @@ namespace JsonCMS.Models.Core
         {
         }
 
-        public Location(float latitude, float longitude, int zoom)
+        public Location(string latitude, string longitude, int zoom)
         {
             this.latitude = latitude;
             this.longitude = longitude;
             this.zoom = zoom;
         }
 
-        public float latitude { get; set; }
-        public float longitude { get; set; }
+        public string latitude { get; set; }
+        public string longitude { get; set; }
         public int zoom { get; set; }
     }
 }

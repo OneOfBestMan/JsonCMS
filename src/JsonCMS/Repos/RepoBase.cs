@@ -26,6 +26,6 @@ namespace JsonCMS.Repos
 
         public abstract HtmlRegion GetHtmlFromDb(RegionBase region, string pageName);
 
-        public abstract GalleryRegion GetGalleryFromDb(RegionBase region, string pageName);
+        public abstract GalleryRegion GetGalleryFromDb(RegionBase region, string pageName, string rootPath);
     }
 }

@@ -41,7 +41,7 @@ namespace JsonCMS.Models.PageModels
             }
         }
 
-        public void AddPagesFromDb(string site, string rootPath)
+        private void AddPagesFromDb(string site, string rootPath)
         {
             var pageTemplatesJson = new Json<Templates>(rootPath);
             templates = pageTemplatesJson.ReadJsonObject(pageTemplatesJson.ReadFile(site + "/CMSdata/pages", "pageTemplates.json"));

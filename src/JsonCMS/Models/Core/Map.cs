@@ -6,24 +6,17 @@ using System.Threading.Tasks;
 
 namespace JsonCMS.Models.Core
 {
-    public class Html
+    public class Map
     {
-        public string html = string.Empty;
+        public string mapId { get; set; }
 
-        public Html()
-        {
-        }
+        public string mapHtml = string.Empty; 
 
-        public Html(string html)
-        {
-            this.html = html;
-        }
-
-        public void LoadHtml(string site, string rootPath, string pageName, string regionName)
+        public void LoadData(string site, string rootPath, string pageName, string regionName)
         {
             var json = new Json<String>(rootPath); // ok not json
             var html = json.ReadFile(site + "/CMSdata/pages/" + pageName, regionName + ".html");
-            this.html = html;
+            this.mapHtml = html;
         }
     }
 }

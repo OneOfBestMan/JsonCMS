@@ -26,6 +26,8 @@ namespace JsonCMS.Models.PageModels
 
         public string friendlyUrl { get; set; }
 
+        public string twitterSearch { get; set; }
+
         private PageType _pageType = PageType.Standard;
 
         public string grouping { get; set; } = null; // only used for nested menus
@@ -76,6 +78,7 @@ namespace JsonCMS.Models.PageModels
 
         public List<RegionBase> regions { get; set; } = new List<RegionBase>();
         public List<GalleryRegion> galleryRegions { get; set; } = new List<GalleryRegion>();
+        public List<MapRegion> mapRegions { get; set; } = new List<MapRegion>();
         public List<HtmlRegion> htmlRegions { get; set; } = new List<HtmlRegion>();
         public List<YouTubeRegion> youtubeRegions { get; set; } = new List<YouTubeRegion>();
         public List<BlogRegion> blogRegions { get; set; } = new List<BlogRegion>();
@@ -106,6 +109,11 @@ namespace JsonCMS.Models.PageModels
                         blogRegion.LoadData(rootPath, region.mappedObject, site, parameter, friendlyUrl);
                         blogRegions.Add(blogRegion);
                         break;
+                    case RegionType.Map:
+                        var mapRegion = new MapRegion(region);
+                        mapRegion.LoadData(site, rootPath, title, region.mappedObject);
+                        mapRegions.Add(mapRegion);
+                        break;
                 }
             }
         }
@@ -133,7 +141,7 @@ namespace JsonCMS.Models.PageModels
                 switch (region.regionType)
                 {
                     case RegionType.Gallery:
-                        var galleryRegion = repo.GetGalleryFromDb(region, pageName);
+                        var galleryRegion = repo.GetGalleryFromDb(region, pageName, rootPath);
                         galleryRegions.Add(galleryRegion);
                         break;
                     case RegionType.Html:
@@ -174,6 +182,12 @@ namespace JsonCMS.Models.PageModels
         {
             var html = this.htmlRegions.Where(x => x.mappedObject == htmlName).FirstOrDefault();
             return html;
+        }
+
+        public MapRegion GetMap(string mapName)
+        {
+            var map = this.mapRegions.Where(x => x.mappedObject == mapName).FirstOrDefault();
+            return map;
         }
 
     }

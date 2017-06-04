@@ -35,6 +35,7 @@ namespace JsonCMS
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
             var connection = Configuration.GetConnectionString("CoreEFdb");
             services.AddDbContext<dbContext>(options => options.UseSqlServer(connection));
+            services.AddSingleton<IConfiguration>(Configuration);
 
             // Add framework services.
             services.AddMvc();

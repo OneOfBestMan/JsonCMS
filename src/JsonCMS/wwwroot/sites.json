@@ -50,7 +50,10 @@
           "noSpider": true
         },
         {
-          "domainName": "200towns.martinruffe.co.uk"
+          "domainName": "200towns.co.uk"
+        },
+        {
+          "domainName": "www.200towns.co.uk"
         }
       ],
       "loadPagesFromDb": true
@@ -157,5 +160,5 @@
       ]
     }
   ],
-  "currentSite": "noselfiestick"
+  "currentSite": "200Towns"
 }

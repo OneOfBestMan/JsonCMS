@@ -26,6 +26,7 @@ namespace JsonCMS.Models.Regions
                     case "html": _regionType = RegionType.Html; break;
                     case "latest": _regionType = RegionType.Latest; break;
                     case "youtube": _regionType = RegionType.YouTube; break;
+                    case "map": _regionType = RegionType.Map; break;
                 }
             }
         }
