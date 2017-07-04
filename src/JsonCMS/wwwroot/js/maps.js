@@ -3,6 +3,7 @@ var map = null;
 var _markerPath;
 var c = 0;
 var _domain = null;
+//var _mapType = google.maps.MapTypeId.ROADMAP;
 
 function showMarker(thisLocation, lat, longt) {
     // shows current location without link
@@ -13,14 +14,13 @@ function showMarker(thisLocation, lat, longt) {
         map: map,
         title: thisLocation
     });
-
     marker.setIcon(_markerPath);
 }
 
 function showMarkerByCnt(thislocation,locations, latitudes, longitudes) {
     // used to show other locations with links
 
-    if (c != thislocation) {
+    if (c !== thislocation) {
 
         var location = locations[c];
 
@@ -32,24 +32,29 @@ function showMarkerByCnt(thislocation,locations, latitudes, longitudes) {
         var marker = new google.maps.Marker({
             position: latLng,
             map: map,
-            title: location
+            title: location,
+           
 
         });
 
         marker.setIcon(_markerPath);
 
         google.maps.event.addListener(marker, 'click', function () {
-            window.location = "/" + location + "?d=" + _domain;
+            window.location = "/" + location;
         });
     }
     c++;
 }
 
-function getMapData(markerPath, mapId, domain, thisLocation /*string*/) {
+function getMapData(markerPath, mapId, domain, thisLocation, overrideZoom, overrideMapType) {
 
     this._domain = domain;
+    this._markerPath = markerPath;
+    if (overrideMapType != null) {
+        this._mapType = overrideMapType;
+    }
 
-    $.getJSON("/api/MapApi" + "?d=" + domain + "&thislocation=" + thisLocation, function (data) {
+    $.getJSON("/api/MapApi" + "?d=" + domain + "&thislocation=" + thisLocation.replace('&#x27;', '\''), function (data) {
 
         var locations = [];
         var latitudes = [];
@@ -57,6 +62,9 @@ function getMapData(markerPath, mapId, domain, thisLocation /*string*/) {
         var urls = [];
         var currentLocation = data.thisLocation; /* int */
         var mapzoom = data.mapzoom;
+        if (overrideZoom != null) {
+            mapzoom = overrideZoom;
+        }
 
         for (var i = 0; i < data.markers.length; i++) {
             locations.push(data.markers[i].location);
@@ -95,7 +103,7 @@ function initializeMap(locations, latitudes, longitudes, currentlocation, mapzoo
         scaleControl: true,
         streetViewControl: false,
         overviewMapControl: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: this._mapType
     };
 
     map = new google.maps.Map(document.getElementById(mapId),

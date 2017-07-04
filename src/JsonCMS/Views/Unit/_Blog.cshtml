@@ -20,13 +20,13 @@
 
     @if (Model.currentPage.PageNo>1)
     {
-        <a id="previousPage" title="Previous Page" alt="Previous Page" href="@Model.friendlyUrl&p=@Html.Raw((Model.currentPage.PageNo - 1).ToString())">
+        <a id="previousPage" title="Previous Page" alt="Previous Page" href="@Model.friendlyUrl?p=@Html.Raw((Model.currentPage.PageNo - 1).ToString())">
         <i class="fa fa-2x fa-angle-double-left" aria-hidden="true"></i></a>
     }
 
     @if (!Model.lastPage)
     {
-        <a id="nextPage" title="Next Page" alt="Next Page" href="@Model.friendlyUrl&p=@Html.Raw((Model.currentPage.PageNo + 1).ToString())">
+        <a id="nextPage" title="Next Page" alt="Next Page" href="@Model.friendlyUrl?p=@Html.Raw((Model.currentPage.PageNo + 1).ToString())">
         <i class="fa fa-2x fa-angle-double-right" aria-hidden="true"></i></a>
     }
 

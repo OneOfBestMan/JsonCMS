@@ -9,7 +9,7 @@ namespace JsonCMS.Repos
 {
     public abstract class RepoBase
     {
-        public static RepoBase RepoFactory(string site, dbContext context)
+        public static RepoBase RepoFactory(string site, dbContext context, string rootpath)
         {
 
             switch (site)
@@ -18,6 +18,8 @@ namespace JsonCMS.Repos
                     return new JsonCMS.Repos._200Towns.Repo(context);
                 case "Top100":
                     return new JsonCMS.Repos._Top100.Repo(context);
+                case "GoByFerry":
+                    return new JsonCMS.Repos._GoByFerry.Repo(context, rootpath);
             }
             throw new Exception("repo not defined");
         }

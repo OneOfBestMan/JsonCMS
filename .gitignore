@@ -11,6 +11,7 @@ src/JsonCMS/wwwroot/200Towns/images
 src/JsonCMS/wwwroot/200Towns/nails
 src/JsonCMS/wwwroot/Top100/images
 src/JsonCMS/wwwroot/Top100/nails
+src/JsonCMS/wwwroot/GoByFerry/nails
 
 src/JsonCMS/wwwroot/archive/CMSdata/galleries/**/*.jpg
 src/JsonCMS/wwwroot/portfolio/CMSdata/galleries/**/*.jpg

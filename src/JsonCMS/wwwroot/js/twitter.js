@@ -1,5 +1,6 @@
 ﻿var _domain;
 var _searchString
+var tweetpage = 1;
 
 function getTwitterData(domain, searchString) {
 
@@ -11,7 +12,7 @@ function getTwitterData(domain, searchString) {
     $('#tweets').html("");
 
     $.getJSON("/api/TwitterApi/GetTweets" + "?d=" + domain + "&searchString=" + searchString, function (json) {
-        if (json != null) {
+        if (json !== null) {
             $.each(json, function (x, tweet) {
                 var upp1 = tweet.text.toUpperCase();
                 var tweettime = tweet.createdAt.substr(0, 10);

@@ -32,6 +32,8 @@ namespace JsonCMS.Models.Core
 
         public void sendtweet(string tweet)
         {
+            Auth.SetUserCredentials(_consumerKey, _consumerSecret, _accessToken, _accessTokenSecret);
+            Tweet.PublishTweet(tweet);
         }
 
         // shouldn't have to do this

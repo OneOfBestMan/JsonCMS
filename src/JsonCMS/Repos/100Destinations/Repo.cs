@@ -77,10 +77,11 @@ namespace JsonCMS.Repos._Top100
 
             if (pageCache != null)
             {
+                string wikiPurl = "http://en.wikipedia.org/wiki/" + pageName;
                 switch (region.mappedObject)
                 {
                     // mapping from objects to database fields
-                    case "description": data = pageCache.cleaneddata; break;
+                    case "description": data = pageCache.cleaneddata +"<br /><a target='_blank' href='" + wikiPurl + "'><i class='fa fa-wikipedia-w' alt='more from wikipedia' title='more from wikipedia'></i></a>"; break;
                 }
             }
 

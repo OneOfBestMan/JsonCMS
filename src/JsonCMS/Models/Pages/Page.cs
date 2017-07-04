@@ -129,7 +129,7 @@ namespace JsonCMS.Models.PageModels
                 sequence++;
             }
 
-            RepoBase repo = RepoBase.RepoFactory(site, context);
+            RepoBase repo = RepoBase.RepoFactory(site, context, rootPath);
 
             if (repo == null)
             {

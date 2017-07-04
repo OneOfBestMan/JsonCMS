@@ -46,7 +46,7 @@ namespace JsonCMS.Models.PageModels
             var pageTemplatesJson = new Json<Templates>(rootPath);
             templates = pageTemplatesJson.ReadJsonObject(pageTemplatesJson.ReadFile(site + "/CMSdata/pages", "pageTemplates.json"));
 
-            RepoBase repo = RepoBase.RepoFactory(site, context);
+            RepoBase repo = RepoBase.RepoFactory(site, context, rootPath);
 
             if (repo == null)
             {

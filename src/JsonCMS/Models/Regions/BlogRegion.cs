@@ -24,7 +24,7 @@ namespace JsonCMS.Models.Regions
 
         public void LoadData(string rootPath, string blogName, string site, string parameter, string friendlyUrl)
         {
-            this.friendlyUrl = this.friendlyUrl + "?d=" + site;
+            this.friendlyUrl = friendlyUrl;
 
             currentPage = new BlogPage();
             firstPage = new BlogPage();

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using JsonCMS.Models.Libraries;
 using JsonCMS.Models;
 using JsonCMS.Models.Blogs;
+using JsonCMS.Models.Core;
 
 namespace JsonCMS.Controllers
 {
@@ -14,18 +15,21 @@ namespace JsonCMS.Controllers
     {
         private readonly IHostingEnvironment _appEnvironment;
         private string baseSite = "json-cms.co.uk";
+        private string _rootPath;
+        private string _d;
 
         public HomeController(IHostingEnvironment hostingEnvironment)
         {
             _appEnvironment = hostingEnvironment;
+            _rootPath = _appEnvironment.ContentRootPath + "/wwwroot";
         }
 
-        public IActionResult Index(string id, string p, string d, [FromServices]dbContext context) // p is optional parameter, called e.g. /blog?p=2 . d is optional for domain
+        public IActionResult Index(string id, string p, [FromServices]dbContext context) // p is optional parameter, called e.g. /blog?p=2 
         {
             var pageName = id ?? "Index";
             var pageData = new JsonData(context);
             pageData.currentHost = HttpContext.Request.Host.Host; 
-            pageData.LoadJsonForPage(pageName, _appEnvironment.ContentRootPath + "/wwwroot", p, d);
+            pageData.LoadJsonForPage(pageName, _rootPath, p);
 
             if (ShowBaseSite(pageData))
             {
@@ -34,7 +38,7 @@ namespace JsonCMS.Controllers
 
             if (Show404(pageData))
             {
-                ViewBag.SiteTag = d;
+                //ViewBag.SiteTag = _d;
                 return View("Error");
             }
 

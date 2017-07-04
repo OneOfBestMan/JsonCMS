@@ -54,7 +54,6 @@ namespace JsonCMS.Models.Core
                     foreach (var menuItem in menu.menu)
                     {
                         menuItem.page = FindPage(menuItem.pagetitle, pages);
-                        menuItem.page.friendlyUrl = menuItem.page.friendlyUrl + "?d=" + site;
                     }
 
                     this.menus.Add(menu);

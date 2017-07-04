@@ -1,6 +1,27 @@
 ﻿{
   "sites": [
     {
+      "siteTag": "GoByFerry",
+      "viewFolder": "GoByFerry",
+      "siteTitle": "Go By Ferry",
+      "subTitle": "",
+      "copyright": "",
+      "analyticsCode": "UA-34672113-1",
+      "domains": [
+        {
+          "domainName": "go-by-ferry.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "go-by-ferry.com"
+        },
+        {
+          "domainName": "www.go-by-ferry.com"
+        }
+      ],
+      "loadPagesFromDb": true
+    },
+    {
       "siteTag": "portfolio",
       "viewFolder": "Portfolio",
       "siteTitle": "Martin Ruffe",
@@ -160,5 +181,5 @@
       ]
     }
   ],
-  "currentSite": "200Towns"
+  "currentSite": "GoByFerry"
 }

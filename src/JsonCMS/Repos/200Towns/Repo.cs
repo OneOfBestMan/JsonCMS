@@ -77,15 +77,37 @@ namespace JsonCMS.Repos._200Towns
 
             if (pageCache != null)
             {
+                string wikiPurl = "http://en.wikipedia.org/wiki/" + pageName;
                 switch (region.mappedObject)
                 {
                     // mapping from objects to database fields
-                    case "description": data = pageCache.cleaneddata; break;
+                    case "description": data = pageCache.cleaneddata + "<br /><a target='_blank' href='" + wikiPurl + "'><i class='fa fa-wikipedia-w' alt='more from wikipedia' title='more from wikipedia'></i></a>"; break;
+                    case "links": data = GetLinks(pageName); break;
                 }
             }
 
             htmlRegion.data = new Html(data);
             return htmlRegion;
+        }
+
+        private string GetLinks (string pageName)
+        {
+            string linksHtml = string.Empty;
+            var _links = from links in context.searchresults_200towns
+                         where links.searchtown == pageName && links.status == "OK" && links.accepted == "0"
+                         select links;
+
+            foreach (var link in _links.OrderBy(x => Guid.NewGuid()).Take(3)) 
+            {
+                linksHtml = linksHtml + "<div class='col-sm-4'><p><a target='_blank' href='" + link.url + "'>" + link.title + "</a></p></div>";
+            }
+
+            if (linksHtml != string.Empty)
+            {
+                linksHtml = "<div class='row'><div class='col-sm-4'><h3>Links</h3></div><div class='col-sm-4'></div><div class='col-sm-4'></div></div><div class='row linksRow'>" + linksHtml + "</div>";
+            }
+
+            return linksHtml;
         }
 
         public override GalleryRegion GetGalleryFromDb(RegionBase region, string pageName, string rootPath)

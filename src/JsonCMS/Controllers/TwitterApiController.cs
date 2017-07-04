@@ -41,9 +41,38 @@ namespace JsonCMS.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public async void Post([FromBody]CommentDto comment)
         {
+            if ("" + comment.surname + comment.address == "" && comment.name!="" && comment.comment !="")
+            {
+                Twitter twitter = new Twitter(_configuration, comment.d);
+
+                string tweet = (comment.name + " says " + comment.comment + " #" + comment.location + " " + comment.url);
+                if (tweet.Length > 140)
+                {
+                    tweet = tweet.Substring(0, 140);
+                }
+                twitter.sendtweet(tweet);
+
+                // settings should be in config
+                // await Mail.SendMail("bracketsfox@yahoo.com", "admin", "bracketsfox@googlemail.com", "Comment from " + comment.url, tweet);
+            }
+            else
+            {
+                throw new Exception("Failed");
+            }
         }
 
+    }
+
+    public class CommentDto
+    {
+        public string comment { get; set; }
+        public string name { get; set; }
+        public string address { get; set; }
+        public string surname { get; set; }
+        public string location { get; set; } 
+        public string url { get; set; }
+        public string d { get; set; }
     }
 }

@@ -81,7 +81,7 @@ namespace JsonCMS.Models
 
         private void GetCurrentSite(string siteTag)
         {
-            if (siteTag != null)
+            if (siteTag != string.Empty)
             {
                 sites.thisSite = sites.sites.Where(x => x.siteTag == siteTag).FirstOrDefault();
             }

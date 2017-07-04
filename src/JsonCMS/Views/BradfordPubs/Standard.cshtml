@@ -5,6 +5,7 @@
 
     <div id="leftcol">
         @{
+            ViewBag.LayoutData.PageTitle = Model.thisPage.displayName == "Home" ? "Photographs of Bradford Pubs" : Model.thisPage.displayName + " : Photographs of Bradford Pubs";
             var title = Model.thisPage.displayName == "Home" ? "Bradford Pubs" : Model.thisPage.displayName;
         }
         @{
@@ -14,7 +15,7 @@
     </div>
 
     <div id="rightcol">
-        <a class="pagetitle" href="/?d=@Model.currentSite.siteTag" alt="Home">
+        <a class="pagetitle" href="/" alt="Home">
             <h1>@title</h1>
         </a>
         
