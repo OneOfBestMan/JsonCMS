@@ -1,0 +1,185 @@
+﻿{
+  "sites": [
+    {
+      "siteTag": "GoByFerry",
+      "viewFolder": "GoByFerry",
+      "siteTitle": "Go By Ferry",
+      "subTitle": "",
+      "copyright": "",
+      "analyticsCode": "UA-34672113-1",
+      "domains": [
+        {
+          "domainName": "go-by-ferry.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "go-by-ferry.com"
+        },
+        {
+          "domainName": "www.go-by-ferry.com"
+        }
+      ],
+      "loadPagesFromDb": true
+    },
+    {
+      "siteTag": "portfolio",
+      "viewFolder": "Portfolio",
+      "siteTitle": "Martin Ruffe",
+      "subTitle": "Photography & Digital",
+      "copyright": "All photography © Martin Ruffe 2017",
+      "analyticsCode": "UA-1902959-1",
+      "domains": [
+        {
+          "domainName": "portfolio.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "martinruffe.co.uk"
+        },
+        {
+          "domainName": "www.martinruffe.co.uk"
+        }
+      ]
+    },
+    {
+      "siteTag": "noselfiestick",
+      "viewFolder": "NoSelfieStick",
+      "siteTitle": "Photo Trips",
+      "subTitle": "",
+      "copyright": "All photography © No Selfie Stick 2017",
+      "analyticsCode": "UA-1902959-41",
+      "domains": [
+        {
+          "domainName": "noselfiestick.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "phototrips.no-selfie-stick.com"
+        }
+      ]
+    },
+    {
+      "siteTag": "200Towns",
+      "viewFolder": "200Towns",
+      "siteTitle": "200 Towns & Cities",
+      "subTitle": "Perspectives of British Landscape",
+      "copyright": "",
+      "analyticsCode": "UA-1902959-17",
+      "domains": [
+        {
+          "domainName": "200towns.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "200towns.co.uk"
+        },
+        {
+          "domainName": "www.200towns.co.uk"
+        }
+      ],
+      "loadPagesFromDb": true
+    },
+    {
+      "siteTag": "Top100",
+      "viewFolder": "Top100",
+      "siteTitle": "Top 100 Locations",
+      "subTitle": "",
+      "copyright": "",
+      "analyticsCode": "UA-1902959-41",
+      "domains": [
+        {
+          "domainName": "top100.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "top100.no-selfie-stick.com"
+        }
+      ],
+      "loadPagesFromDb": true
+    },
+    {
+      "siteTag": "unit",
+      "viewFolder": "Unit",
+      "siteTitle": "for all those single unit shops",
+      "subTitle": "",
+      "copyright": "All photography © Martin Ruffe 2017",
+      "analyticsCode": "UA-1902959-1",
+      "domains": [
+        {
+          "domainName": "unit.martinruffe.co.uk"
+        },
+        {
+          "domainName": "unit.json-cms.co.uk",
+          "noSpider": true
+        }
+      ]
+    },
+    {
+      "siteTag": "archive",
+      "viewFolder": "Archive",
+      "siteTitle": "Martin Ruffe",
+      "subTitle": "",
+      "copyright": "All photography © Martin Ruffe 2017",
+      "analyticsCode": "UA-1902959-1",
+      "domains": [
+        {
+          "domainName": "archive.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "archive.martinruffe.co.uk",
+          "noSpider": false
+        }
+      ]
+    },
+    {
+      "siteTag": "bradfordpubs",
+      "viewFolder": "BradfordPubs",
+      "siteTitle": "Photographs of Bradford Pubs, West Yorkshire",
+      "subTitle": "",
+      "copyright": "© M Ruffe 2017",
+      "analyticsCode": "UA-48465203-1",
+      "domains": [
+        {
+          "domainName": "bradford-pubs.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "bradford-pubs.martinruffe.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "bradford-pubs.online",
+          "noSpider": false
+        }
+      ]
+    },
+    {
+      "siteTag": "inyourface",
+      "viewFolder": "InYourFace",
+      "siteTitle": "In Your Face Portrait Photography",
+      "subTitle": "",
+      "copyright": "All photography © Patricia Ruffe 2017",
+      "analyticsCode": "UA-1902959-40",
+      "domains": [
+        {
+          "domainName": "in-your-face.json-cms.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "in-your-face.martinruffe.co.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "in-your-face.org.uk",
+          "noSpider": true
+        },
+        {
+          "domainName": "www.in-your-face.org.uk",
+          "noSpider": true
+        }
+      ]
+    }
+  ],
+  "currentSite": "Top100"
+}

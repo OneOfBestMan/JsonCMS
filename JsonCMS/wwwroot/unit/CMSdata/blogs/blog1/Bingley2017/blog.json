@@ -1,0 +1,44 @@
+{
+  "site": "unit",
+  "title": "Bingley",
+  "html": null,
+  "entryDate": "2017-07-11T09:05:49.2215302Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 800,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 800,
+  "maxMobileWidth": 800,
+  "maxMobileHeight": 800,
+  "orderGalleryBy": 0,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "IMG_3849.JPG",
+      "title": null,
+      "alt": "Bingley Antiques",
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 2075,
+      "width": 2075
+    },
+    {
+      "imageName": "IMG_3850.JPG",
+      "title": null,
+      "alt": "Airehead",
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1916,
+      "width": 1916
+    }
+  ]
+}

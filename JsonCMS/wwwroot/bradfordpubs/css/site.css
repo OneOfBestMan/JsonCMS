@@ -1,0 +1,302 @@
+﻿
+
+
+/* resets */
+
+body, html {
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: square;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* layout */
+
+#leftcol {
+    width: 79%;
+    float:left;
+    position:relative;
+    background-color: #333;
+    min-height: 100%;
+}
+
+#rightcol {
+    width: 19%;
+    float:left;
+    padding: 0 0 0 1%;
+    position: relative;
+}
+
+footer {
+    clear: both;
+}
+
+.pagetitle {
+    color: black;
+    font-size: .8vw;
+    padding: 0px 0px 0px 5%;
+    text-align: left;
+    width: 105%;
+    margin-top: 3em;
+    height: 4em;
+    display: inline-block;
+}
+
+.pagetitle h1 {
+    padding: 6% 0 5% 0%;
+    color: white;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+.pagetitle:hover {
+    color: black;
+}
+
+#mainBody {
+    position: relative;
+}
+
+/* ads */
+
+#amads {
+    position: absolute;
+    right: 21.9%;
+    top: 14px;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.85;
+}
+
+#amads a, #amads a:hover, .ft_cnt {
+    background-color: inherit;
+}
+
+.wdgt_hd, .wdgt_ft {
+    display: none;
+}
+
+#amads .ft_cnt a:first-child {
+    display: none;
+}
+
+.amzn_wdgt {
+    border: none !important;
+}
+
+/* fonts */
+
+body {
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p, a, li, .caption {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: .9rem;
+}
+
+p, li {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7em;
+    max-width: 60em;
+}
+
+.copyright {
+    font-size: 0.65rem;
+    padding: 0;
+    opacity: 0.6;
+    color: white;
+    bottom: 22px;
+    right: 3%;
+    position: fixed;
+}
+
+/* gallery */
+
+.gallery-flex-container { /* fallback if no flexbox */
+    display: inline;
+}
+
+.gallery-flex-item {
+    float:left;
+}
+
+.desktopImage3Col {
+    width: 31%;
+    margin-right: 2%;
+}
+
+@supports (display: flex) {
+    .gallery-flex-container {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .gallery-flex-item {
+        float: none;
+        width: inherit;
+        margin-right: inherit;
+    }
+}
+
+.gallery-flex-container {
+    max-width: 100%;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    margin-top: 2.9%;
+}
+
+.gallery-flex-item {
+    flex-grow: 0;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.gallery-flex-item img {
+    max-height: 70%;
+    max-width: 70%;
+    border: white solid 20px;
+    border-bottom: 40px solid white;
+}
+
+.caption {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 3em;
+}
+
+.gallery-flex-container .hasNoCaption {
+    margin-bottom: -6px;
+}
+
+/* icons */
+
+#icons li {
+    list-style-type: none;
+}
+
+#icons {
+    bottom: 3px;
+    left: 78%;
+    position: fixed;
+}
+
+.nav {
+    margin-top: 2em;
+}
+
+/* colorbox lightbox */
+
+#cboxLoadedContent {
+    overflow: hidden !important;
+}
+
+#cboxCurrent, #colorbox button {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: #888;
+    font-size: 1.3rem;
+}
+
+.cboxPhoto {
+    padding-bottom : 10px;
+}
+
+#cboxWrapper #cboxNext, #cboxWrapper #cboxPrevious, #cboxCurrent {
+    visibility: hidden;
+}
+
+#cboxClose {
+    font-size: 14px !important;
+}
+
+#cboxTitle {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* other */
+
+.marker {
+    padding-top: 2px;
+}
+
+/* media queries */
+
+@media (max-height: 750px) {
+    .socialIcons {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #amads {
+        display: none;
+    }
+
+    .gallery-flex-container {
+        display: inline;
+        background-color: inherit;
+    }
+
+    .gallery-flex-item {
+        display: inline;
+        float:left;
+    }
+
+    .mobileImage2Col {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .socialIcons, .copyright {
+        display: none;
+    }
+
+    #leftcol {
+        width: 63%;
+        background-color: inherit;
+        margin-top: 2.5%;
+    }
+
+    #rightcol {
+        width: 36%;
+    }
+
+    h1 {
+        font-size: 2.8vw;
+    }
+
+    li {
+        list-style-type:none;
+        margin-left: -9%;
+    }
+
+}
