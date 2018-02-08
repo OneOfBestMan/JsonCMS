@@ -41,7 +41,7 @@ namespace JsonCMS.Controllers
 
         // POST api/values
         [HttpPost]
-        public async void Post([FromBody]CommentDto comment)
+        public void Post([FromBody]CommentDto comment)
         {
             if ("" + comment.surname + comment.address == "" && comment.name!="" && comment.comment !="")
             {

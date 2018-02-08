@@ -1,0 +1,46 @@
+{
+  "site": "unit",
+  "title": "Las Palmas",
+  "html": null,
+  "entryDate": "2018-01-29T10:35:23.0554783Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 800,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 800,
+  "maxMobileWidth": 800,
+  "maxMobileHeight": 800,
+  "orderGalleryBy": 0,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "IMG_6052bw.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1400,
+      "width": 1400,
+      "dateAdded": "2018-01-31T15:21:13.5654449+00:00"
+    },
+    {
+      "imageName": "IMG_6121bw.jpg",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 1200,
+      "width": 1200,
+      "dateAdded": "2018-01-31T15:21:13.6331523+00:00"
+    }
+  ]
+}

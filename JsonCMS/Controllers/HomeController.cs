@@ -16,7 +16,6 @@ namespace JsonCMS.Controllers
         private readonly IHostingEnvironment _appEnvironment;
         private string baseSite = "json-cms.co.uk";
         private string _rootPath;
-        private string _d;
 
         public HomeController(IHostingEnvironment hostingEnvironment)
         {
@@ -48,7 +47,7 @@ namespace JsonCMS.Controllers
         }
 
 
-        public IActionResult RebuildBlog(string id, string d, [FromServices]dbContext context) // call using : /Home/RebuildBlog/blogX . d is optional for domain
+        public IActionResult RebuildBlog(string id, string d, [FromServices]dbContext context) // call using e.g. : /Home/RebuildBlog/blog1?d=portfolio
         {
             var pageData = new JsonData(context);
             pageData.currentHost = HttpContext.Request.Host.Host;

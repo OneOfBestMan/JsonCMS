@@ -36,7 +36,8 @@ namespace JsonCMS.Models.Galleries
         Width, 
         Filename,
         Date,
-        Caption
+        Caption,
+        DateReverse
     }
 
 }

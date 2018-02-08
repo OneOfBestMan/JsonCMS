@@ -2,6 +2,634 @@
   "pageEntries": [
     {
       "site": "unit",
+      "title": "Cottingley",
+      "html": null,
+      "entryDate": "2016-05-02T10:34:59.0106765Z",
+      "exists": true,
+      "desktopImagesAcrossPage": 1,
+      "mobileImagesAcrossPage": 1,
+      "maxDefaultWidth": 800,
+      "maxPopupWidth": 700,
+      "maxDefaultHeight": 800,
+      "maxMobileWidth": 800,
+      "maxMobileHeight": 800,
+      "orderGalleryBy": 0,
+      "spaceBetween": 0.0,
+      "cropType": "square",
+      "cropFrom": "center",
+      "imageData": [
+        {
+          "imageName": "chippy.jpg",
+          "title": null,
+          "alt": "The Chip House",
+          "url": null,
+          "author": null,
+          "description": null,
+          "fileExists": true,
+          "lightBox": false,
+          "height": 640,
+          "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
+          "Versions": [
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 2,
+                "originalAspect": 0
+              },
+              "versionType": 4,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Cottingley",
+                "fileName": "chippy.jpg",
+                "originalImage": null
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 3,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_chippy.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Cottingley",
+                    "fileName": "chippy.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 1,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_chippy.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Cottingley",
+                    "fileName": "chippy.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "unit",
+      "title": "Blackpool",
+      "html": null,
+      "entryDate": "2016-04-30T10:35:23.0554783Z",
+      "exists": true,
+      "desktopImagesAcrossPage": 1,
+      "mobileImagesAcrossPage": 1,
+      "maxDefaultWidth": 800,
+      "maxPopupWidth": 700,
+      "maxDefaultHeight": 800,
+      "maxMobileWidth": 800,
+      "maxMobileHeight": 800,
+      "orderGalleryBy": 0,
+      "spaceBetween": 0.0,
+      "cropType": "square",
+      "cropFrom": "center",
+      "imageData": [
+        {
+          "imageName": "curryhouse.jpg",
+          "title": null,
+          "alt": "Curry Queen",
+          "url": null,
+          "author": null,
+          "description": null,
+          "fileExists": true,
+          "lightBox": false,
+          "height": 640,
+          "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
+          "Versions": [
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 2,
+                "originalAspect": 0
+              },
+              "versionType": 4,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Blackpool",
+                "fileName": "curryhouse.jpg",
+                "originalImage": null
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 3,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_curryhouse.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Blackpool",
+                    "fileName": "curryhouse.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 1,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_curryhouse.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Blackpool",
+                    "fileName": "curryhouse.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "unit",
+      "title": "The Dales",
+      "html": null,
+      "entryDate": "2016-04-09T09:01:05.263055Z",
+      "exists": true,
+      "desktopImagesAcrossPage": 1,
+      "mobileImagesAcrossPage": 1,
+      "maxDefaultWidth": 800,
+      "maxPopupWidth": 700,
+      "maxDefaultHeight": 800,
+      "maxMobileWidth": 800,
+      "maxMobileHeight": 800,
+      "orderGalleryBy": 0,
+      "spaceBetween": 0.0,
+      "cropType": "square",
+      "cropFrom": "center",
+      "imageData": [
+        {
+          "imageName": "teaRoom.JPG",
+          "title": null,
+          "alt": "Village Tea Room",
+          "url": null,
+          "author": null,
+          "description": null,
+          "fileExists": true,
+          "lightBox": false,
+          "height": 597,
+          "width": 599,
+          "dateAdded": "0001-01-01T00:00:00",
+          "Versions": [
+            {
+              "imageSize": {
+                "width": 599,
+                "height": 597,
+                "cropType": 2,
+                "originalAspect": 2
+              },
+              "versionType": 4,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/The Dales",
+                "fileName": "teaRoom.JPG",
+                "originalImage": null
+              }
+            },
+            {
+              "imageSize": {
+                "width": 599,
+                "height": 599,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 3,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h599_w599_teaRoom.JPG",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 599,
+                    "height": 597,
+                    "cropType": 2,
+                    "originalAspect": 2
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/The Dales",
+                    "fileName": "teaRoom.JPG",
+                    "originalImage": null
+                  }
+                }
+              }
+            },
+            {
+              "imageSize": {
+                "width": 599,
+                "height": 599,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 1,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h599_w599_teaRoom.JPG",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 599,
+                    "height": 597,
+                    "cropType": 2,
+                    "originalAspect": 2
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/The Dales",
+                    "fileName": "teaRoom.JPG",
+                    "originalImage": null
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "unit",
+      "title": "Zermatt",
+      "html": null,
+      "entryDate": "2016-01-05T09:06:00.1594463Z",
+      "exists": true,
+      "desktopImagesAcrossPage": 1,
+      "mobileImagesAcrossPage": 1,
+      "maxDefaultWidth": 800,
+      "maxPopupWidth": 700,
+      "maxDefaultHeight": 800,
+      "maxMobileWidth": 800,
+      "maxMobileHeight": 800,
+      "orderGalleryBy": 0,
+      "spaceBetween": 0.0,
+      "cropType": "square",
+      "cropFrom": "center",
+      "imageData": [
+        {
+          "imageName": "2015-03-28_1427531182.jpg",
+          "title": null,
+          "alt": "Opticians",
+          "url": null,
+          "author": null,
+          "description": null,
+          "fileExists": true,
+          "lightBox": false,
+          "height": 640,
+          "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
+          "Versions": [
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 2,
+                "originalAspect": 0
+              },
+              "versionType": 4,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Zermatt",
+                "fileName": "2015-03-28_1427531182.jpg",
+                "originalImage": null
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 3,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_2015-03-28_1427531182.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Zermatt",
+                    "fileName": "2015-03-28_1427531182.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 1,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_2015-03-28_1427531182.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Zermatt",
+                    "fileName": "2015-03-28_1427531182.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "unit",
+      "title": "Nice",
+      "html": null,
+      "entryDate": "2015-09-25T09:05:51.8228876Z",
+      "exists": true,
+      "desktopImagesAcrossPage": 1,
+      "mobileImagesAcrossPage": 1,
+      "maxDefaultWidth": 800,
+      "maxPopupWidth": 700,
+      "maxDefaultHeight": 800,
+      "maxMobileWidth": 800,
+      "maxMobileHeight": 800,
+      "orderGalleryBy": 0,
+      "spaceBetween": 0.0,
+      "cropType": "square",
+      "cropFrom": "center",
+      "imageData": [
+        {
+          "imageName": "2015-09-25_1443208122.jpg",
+          "title": null,
+          "alt": "Au Paradis Canin",
+          "url": null,
+          "author": null,
+          "description": null,
+          "fileExists": true,
+          "lightBox": false,
+          "height": 640,
+          "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
+          "Versions": [
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 2,
+                "originalAspect": 0
+              },
+              "versionType": 4,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Nice",
+                "fileName": "2015-09-25_1443208122.jpg",
+                "originalImage": null
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 3,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_2015-09-25_1443208122.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Nice",
+                    "fileName": "2015-09-25_1443208122.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 1,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_2015-09-25_1443208122.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Nice",
+                    "fileName": "2015-09-25_1443208122.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "imageName": "2015-09-25_1443208202.jpg",
+          "title": null,
+          "alt": "Yatra",
+          "url": null,
+          "author": null,
+          "description": null,
+          "fileExists": true,
+          "lightBox": false,
+          "height": 640,
+          "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
+          "Versions": [
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 2,
+                "originalAspect": 0
+              },
+              "versionType": 4,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Nice",
+                "fileName": "2015-09-25_1443208202.jpg",
+                "originalImage": null
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 3,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_2015-09-25_1443208202.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Nice",
+                    "fileName": "2015-09-25_1443208202.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            },
+            {
+              "imageSize": {
+                "width": 640,
+                "height": 640,
+                "cropType": 0,
+                "originalAspect": 0
+              },
+              "versionType": 1,
+              "paths": {
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                "relativeFolderPath": "/unit/images",
+                "fileName": "thumb_h640_w640_2015-09-25_1443208202.jpg",
+                "originalImage": {
+                  "imageSize": {
+                    "width": 640,
+                    "height": 640,
+                    "cropType": 2,
+                    "originalAspect": 0
+                  },
+                  "versionType": 4,
+                  "paths": {
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
+                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Nice",
+                    "fileName": "2015-09-25_1443208202.jpg",
+                    "originalImage": null
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "unit",
       "title": "Sheffield",
       "html": null,
       "entryDate": "2015-08-15T09:05:56.5071347Z",
@@ -29,6 +657,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -39,7 +668,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Sheffield",
                 "fileName": "2015-07-26_1437930468.jpg",
                 "originalImage": null
@@ -54,7 +683,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-07-26_1437930468.jpg",
                 "originalImage": {
@@ -66,7 +695,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Sheffield",
                     "fileName": "2015-07-26_1437930468.jpg",
                     "originalImage": null
@@ -83,7 +712,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-07-26_1437930468.jpg",
                 "originalImage": {
@@ -95,7 +724,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Sheffield",
                     "fileName": "2015-07-26_1437930468.jpg",
                     "originalImage": null
@@ -116,6 +745,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -126,7 +756,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Sheffield",
                 "fileName": "2015-07-26_1437930918.jpg",
                 "originalImage": null
@@ -141,7 +771,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-07-26_1437930918.jpg",
                 "originalImage": {
@@ -153,7 +783,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Sheffield",
                     "fileName": "2015-07-26_1437930918.jpg",
                     "originalImage": null
@@ -170,7 +800,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-07-26_1437930918.jpg",
                 "originalImage": {
@@ -182,7 +812,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Sheffield",
                     "fileName": "2015-07-26_1437930918.jpg",
                     "originalImage": null
@@ -223,6 +853,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -233,7 +864,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Borders",
                 "fileName": "2015-09-06_1441567972.jpg",
                 "originalImage": null
@@ -248,7 +879,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-09-06_1441567972.jpg",
                 "originalImage": {
@@ -260,7 +891,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Borders",
                     "fileName": "2015-09-06_1441567972.jpg",
                     "originalImage": null
@@ -277,7 +908,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-09-06_1441567972.jpg",
                 "originalImage": {
@@ -289,7 +920,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Borders",
                     "fileName": "2015-09-06_1441567972.jpg",
                     "originalImage": null
@@ -330,6 +961,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -340,7 +972,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                 "fileName": "2015-03-27_1427446069.jpg",
                 "originalImage": null
@@ -355,7 +987,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-03-27_1427446069.jpg",
                 "originalImage": {
@@ -367,7 +999,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "2015-03-27_1427446069.jpg",
                     "originalImage": null
@@ -384,7 +1016,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-03-27_1427446069.jpg",
                 "originalImage": {
@@ -396,7 +1028,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "2015-03-27_1427446069.jpg",
                     "originalImage": null
@@ -417,6 +1049,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -427,7 +1060,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                 "fileName": "2015-03-27_1427446261.jpg",
                 "originalImage": null
@@ -442,7 +1075,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-03-27_1427446261.jpg",
                 "originalImage": {
@@ -454,7 +1087,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "2015-03-27_1427446261.jpg",
                     "originalImage": null
@@ -471,7 +1104,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-03-27_1427446261.jpg",
                 "originalImage": {
@@ -483,7 +1116,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "2015-03-27_1427446261.jpg",
                     "originalImage": null
@@ -504,6 +1137,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -514,7 +1148,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                 "fileName": "2015-04-25_1429948189.jpg",
                 "originalImage": null
@@ -529,7 +1163,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-04-25_1429948189.jpg",
                 "originalImage": {
@@ -541,7 +1175,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "2015-04-25_1429948189.jpg",
                     "originalImage": null
@@ -558,7 +1192,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-04-25_1429948189.jpg",
                 "originalImage": {
@@ -570,7 +1204,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "2015-04-25_1429948189.jpg",
                     "originalImage": null
@@ -591,6 +1225,7 @@
           "lightBox": false,
           "height": 800,
           "width": 775,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -601,7 +1236,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                 "fileName": "IMG_0714.jpg",
                 "originalImage": null
@@ -616,7 +1251,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h800_w800_IMG_0714.jpg",
                 "originalImage": {
@@ -628,7 +1263,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "IMG_0714.jpg",
                     "originalImage": null
@@ -645,7 +1280,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h800_w800_IMG_0714.jpg",
                 "originalImage": {
@@ -657,7 +1292,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Leeds",
                     "fileName": "IMG_0714.jpg",
                     "originalImage": null
@@ -698,6 +1333,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -708,7 +1344,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Shipley",
                 "fileName": "2015-04-04_1428169804.jpg",
                 "originalImage": null
@@ -723,7 +1359,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-04-04_1428169804.jpg",
                 "originalImage": {
@@ -735,7 +1371,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Shipley",
                     "fileName": "2015-04-04_1428169804.jpg",
                     "originalImage": null
@@ -752,7 +1388,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-04-04_1428169804.jpg",
                 "originalImage": {
@@ -764,7 +1400,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Shipley",
                     "fileName": "2015-04-04_1428169804.jpg",
                     "originalImage": null
@@ -785,6 +1421,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -795,7 +1432,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Shipley",
                 "fileName": "2015-04-04_1428169916.jpg",
                 "originalImage": null
@@ -810,7 +1447,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-04-04_1428169916.jpg",
                 "originalImage": {
@@ -822,7 +1459,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Shipley",
                     "fileName": "2015-04-04_1428169916.jpg",
                     "originalImage": null
@@ -839,7 +1476,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-04-04_1428169916.jpg",
                 "originalImage": {
@@ -851,7 +1488,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Shipley",
                     "fileName": "2015-04-04_1428169916.jpg",
                     "originalImage": null
@@ -892,6 +1529,7 @@
           "lightBox": false,
           "height": 640,
           "width": 640,
+          "dateAdded": "0001-01-01T00:00:00",
           "Versions": [
             {
               "imageSize": {
@@ -902,7 +1540,7 @@
               },
               "versionType": 4,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Morecambe",
                 "fileName": "2015-03-28_1427531344.jpg",
                 "originalImage": null
@@ -917,7 +1555,7 @@
               },
               "versionType": 3,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-03-28_1427531344.jpg",
                 "originalImage": {
@@ -929,7 +1567,7 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Morecambe",
                     "fileName": "2015-03-28_1427531344.jpg",
                     "originalImage": null
@@ -946,7 +1584,7 @@
               },
               "versionType": 1,
               "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                 "relativeFolderPath": "/unit/images",
                 "fileName": "thumb_h640_w640_2015-03-28_1427531344.jpg",
                 "originalImage": {
@@ -958,544 +1596,9 @@
                   },
                   "versionType": 4,
                   "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
+                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs17\\JsonCMS/wwwroot",
                     "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Morecambe",
                     "fileName": "2015-03-28_1427531344.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "unit",
-      "title": "Crossflatts",
-      "html": null,
-      "entryDate": "2015-03-28T09:05:45.0537499Z",
-      "exists": true,
-      "desktopImagesAcrossPage": 1,
-      "mobileImagesAcrossPage": 1,
-      "maxDefaultWidth": 800,
-      "maxPopupWidth": 700,
-      "maxDefaultHeight": 800,
-      "maxMobileWidth": 800,
-      "maxMobileHeight": 800,
-      "orderGalleryBy": 0,
-      "spaceBetween": 0.0,
-      "cropType": "square",
-      "cropFrom": "center",
-      "imageData": [
-        {
-          "imageName": "2015-03-28_1427531286.jpg",
-          "title": null,
-          "alt": "Hot Shot",
-          "url": null,
-          "author": null,
-          "description": null,
-          "fileExists": true,
-          "lightBox": false,
-          "height": 640,
-          "width": 640,
-          "Versions": [
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 2,
-                "originalAspect": 0
-              },
-              "versionType": 4,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Crossflatts",
-                "fileName": "2015-03-28_1427531286.jpg",
-                "originalImage": null
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 3,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427531286.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Crossflatts",
-                    "fileName": "2015-03-28_1427531286.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 1,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427531286.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Crossflatts",
-                    "fileName": "2015-03-28_1427531286.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "unit",
-      "title": "Perth",
-      "html": null,
-      "entryDate": "2014-12-22T09:05:53.0129667Z",
-      "exists": true,
-      "desktopImagesAcrossPage": 1,
-      "mobileImagesAcrossPage": 1,
-      "maxDefaultWidth": 800,
-      "maxPopupWidth": 700,
-      "maxDefaultHeight": 800,
-      "maxMobileWidth": 800,
-      "maxMobileHeight": 800,
-      "orderGalleryBy": 0,
-      "spaceBetween": 0.0,
-      "cropType": "square",
-      "cropFrom": "center",
-      "imageData": [
-        {
-          "imageName": "2015-03-28_1427532144.jpg",
-          "title": null,
-          "alt": "Two Up",
-          "url": null,
-          "author": null,
-          "description": null,
-          "fileExists": true,
-          "lightBox": false,
-          "height": 640,
-          "width": 640,
-          "Versions": [
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 2,
-                "originalAspect": 0
-              },
-              "versionType": 4,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Perth",
-                "fileName": "2015-03-28_1427532144.jpg",
-                "originalImage": null
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 3,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427532144.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Perth",
-                    "fileName": "2015-03-28_1427532144.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 1,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427532144.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Perth",
-                    "fileName": "2015-03-28_1427532144.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "unit",
-      "title": "In transit WA",
-      "html": null,
-      "entryDate": "2014-12-08T09:05:47.8973282Z",
-      "exists": true,
-      "desktopImagesAcrossPage": 1,
-      "mobileImagesAcrossPage": 1,
-      "maxDefaultWidth": 800,
-      "maxPopupWidth": 700,
-      "maxDefaultHeight": 800,
-      "maxMobileWidth": 800,
-      "maxMobileHeight": 800,
-      "orderGalleryBy": 0,
-      "spaceBetween": 0.0,
-      "cropType": "square",
-      "cropFrom": "center",
-      "imageData": [
-        {
-          "imageName": "2015-03-28_1427532351.jpg",
-          "title": null,
-          "alt": "Red Cross Shop",
-          "url": null,
-          "author": null,
-          "description": null,
-          "fileExists": true,
-          "lightBox": false,
-          "height": 640,
-          "width": 640,
-          "Versions": [
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 2,
-                "originalAspect": 0
-              },
-              "versionType": 4,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/In transit - WA",
-                "fileName": "2015-03-28_1427532351.jpg",
-                "originalImage": null
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 3,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427532351.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/In transit - WA",
-                    "fileName": "2015-03-28_1427532351.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 1,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427532351.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/In transit - WA",
-                    "fileName": "2015-03-28_1427532351.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "unit",
-      "title": "Fremantle",
-      "html": null,
-      "entryDate": "2014-12-08T09:05:46.442009Z",
-      "exists": true,
-      "desktopImagesAcrossPage": 1,
-      "mobileImagesAcrossPage": 1,
-      "maxDefaultWidth": 800,
-      "maxPopupWidth": 700,
-      "maxDefaultHeight": 800,
-      "maxMobileWidth": 800,
-      "maxMobileHeight": 800,
-      "orderGalleryBy": 0,
-      "spaceBetween": 0.0,
-      "cropType": "square",
-      "cropFrom": "center",
-      "imageData": [
-        {
-          "imageName": "2015-03-28_1427532219.jpg",
-          "title": null,
-          "alt": "Broken Doll",
-          "url": null,
-          "author": null,
-          "description": null,
-          "fileExists": true,
-          "lightBox": false,
-          "height": 640,
-          "width": 640,
-          "Versions": [
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 2,
-                "originalAspect": 0
-              },
-              "versionType": 4,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Fremantle",
-                "fileName": "2015-03-28_1427532219.jpg",
-                "originalImage": null
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 3,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427532219.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Fremantle",
-                    "fileName": "2015-03-28_1427532219.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 1,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2015-03-28_1427532219.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Fremantle",
-                    "fileName": "2015-03-28_1427532219.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "unit",
-      "title": "Addingham",
-      "html": null,
-      "entryDate": "2014-06-30T09:01:05.263055Z",
-      "exists": true,
-      "desktopImagesAcrossPage": 1,
-      "mobileImagesAcrossPage": 1,
-      "maxDefaultWidth": 800,
-      "maxPopupWidth": 700,
-      "maxDefaultHeight": 800,
-      "maxMobileWidth": 800,
-      "maxMobileHeight": 800,
-      "orderGalleryBy": 0,
-      "spaceBetween": 0.0,
-      "cropType": "square",
-      "cropFrom": "center",
-      "imageData": [
-        {
-          "imageName": "2014-06-30_1404154682.jpg",
-          "title": null,
-          "alt": "Addingham Post Office",
-          "url": null,
-          "author": null,
-          "description": null,
-          "fileExists": true,
-          "lightBox": false,
-          "height": 640,
-          "width": 640,
-          "Versions": [
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 2,
-                "originalAspect": 0
-              },
-              "versionType": 4,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Addingham",
-                "fileName": "2014-06-30_1404154682.jpg",
-                "originalImage": null
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 3,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2014-06-30_1404154682.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Addingham",
-                    "fileName": "2014-06-30_1404154682.jpg",
-                    "originalImage": null
-                  }
-                }
-              }
-            },
-            {
-              "imageSize": {
-                "width": 640,
-                "height": 640,
-                "cropType": 0,
-                "originalAspect": 0
-              },
-              "versionType": 1,
-              "paths": {
-                "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                "relativeFolderPath": "/unit/images",
-                "fileName": "thumb_h640_w640_2014-06-30_1404154682.jpg",
-                "originalImage": {
-                  "imageSize": {
-                    "width": 640,
-                    "height": 640,
-                    "cropType": 2,
-                    "originalAspect": 0
-                  },
-                  "versionType": 4,
-                  "paths": {
-                    "diskRootPath": "C:\\WORK\\Martin Websites\\martinruffe.co.uk\\JsonCMS-vs15\\src\\JsonCMS/wwwroot",
-                    "relativeFolderPath": "/unit/CMSdata/blogs/blog1/Addingham",
-                    "fileName": "2014-06-30_1404154682.jpg",
                     "originalImage": null
                   }
                 }
@@ -1509,5 +1612,5 @@
   "entriesPerPage": 10,
   "BlogName": "blog1",
   "PageNo": 3,
-  "TotalEntries": 36
+  "TotalEntries": 41
 }

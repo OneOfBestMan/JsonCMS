@@ -81,7 +81,7 @@ namespace JsonCMS.Repos._200Towns
                 switch (region.mappedObject)
                 {
                     // mapping from objects to database fields
-                    case "description": data = pageCache.cleaneddata + "<br /><a target='_blank' href='" + wikiPurl + "'><i class='fa fa-wikipedia-w' alt='more from wikipedia' title='more from wikipedia'></i></a>"; break;
+                    case "description": data = pageCache.cleaneddata + "<br /><a target='_blank' href='" + wikiPurl + "' rel='nofollow'><i class='fa fa-wikipedia-w' alt='more from wikipedia' title='more from wikipedia'></i></a>"; break;
                     case "links": data = GetLinks(pageName); break;
                 }
             }
@@ -232,7 +232,7 @@ namespace JsonCMS.Repos._200Towns
             {
                 nthItem = images.Skip(randomNumber).First();
             }
-            catch (Exception e)
+            catch (Exception)
             { // if cant find large image use smaller
                 var q2 = from twn in context.chosenImagesFromTowns
                          where (twn.largestimagewidth > twn.largestimageheight)

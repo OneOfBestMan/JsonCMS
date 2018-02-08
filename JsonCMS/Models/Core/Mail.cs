@@ -8,7 +8,7 @@ namespace JsonCMS.Models.Core
 {
     public class Mail
     {
-        public static async Task<bool> SendMail(string fromEmail, string toName, string toEmail, string subject, string body) {
+        public static bool SendMail(string fromEmail, string toName, string toEmail, string subject, string body) {
 
             //var email = Email
             //    .From(fromEmail)

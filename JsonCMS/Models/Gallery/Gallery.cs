@@ -186,6 +186,7 @@ namespace JsonCMS.Models.Galleries
                     ImageData newItem = new ImageData();
                     newItem.imageName = filename;
                     newItem.fileExists = true;
+                    newItem.dateAdded = DateTime.Now;
                     this.imageData.Add(newItem);
                     addedInfo++;
                 }

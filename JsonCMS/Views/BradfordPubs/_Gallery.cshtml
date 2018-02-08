@@ -11,7 +11,7 @@
     {
         <div class="gallery-flex-container">
             @{
-                foreach (var imageData in images.Skip(row * desktopCellsAcross).Take(desktopCellsAcross))
+                foreach (var imageData in images.OrderByDescending(x => x.dateAdded).Skip(row * desktopCellsAcross).Take(desktopCellsAcross))
                 {
                     var desktopGalleryImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.DesktopForGallery).FirstOrDefault();
                     var mobileGalleryImageVersion = imageData.Versions.Where(x => x.versionType == ImageVersionTypes.MobileForGallery).FirstOrDefault();

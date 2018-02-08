@@ -26,7 +26,7 @@
       "viewFolder": "Portfolio",
       "siteTitle": "Martin Ruffe",
       "subTitle": "Photography & Digital",
-      "copyright": "All photography © Martin Ruffe 2017",
+      "copyright": "All photography © Martin Ruffe 2018",
       "analyticsCode": "UA-1902959-1",
       "domains": [
         {
@@ -46,7 +46,7 @@
       "viewFolder": "NoSelfieStick",
       "siteTitle": "Photo Trips",
       "subTitle": "",
-      "copyright": "All photography © No Selfie Stick 2017",
+      "copyright": "All photography © No Selfie Stick 2018",
       "analyticsCode": "UA-1902959-41",
       "domains": [
         {
@@ -102,7 +102,7 @@
       "viewFolder": "Unit",
       "siteTitle": "for all those single unit shops",
       "subTitle": "",
-      "copyright": "All photography © Martin Ruffe 2017",
+      "copyright": "All photography © Martin Ruffe 2018",
       "analyticsCode": "UA-1902959-1",
       "domains": [
         {
@@ -119,7 +119,7 @@
       "viewFolder": "Archive",
       "siteTitle": "Martin Ruffe",
       "subTitle": "",
-      "copyright": "All photography © Martin Ruffe 2017",
+      "copyright": "All photography © Martin Ruffe 2018",
       "analyticsCode": "UA-1902959-1",
       "domains": [
         {
@@ -137,7 +137,7 @@
       "viewFolder": "BradfordPubs",
       "siteTitle": "Photographs of Bradford Pubs, West Yorkshire",
       "subTitle": "",
-      "copyright": "© M Ruffe 2017",
+      "copyright": "© M Ruffe 2018",
       "analyticsCode": "UA-48465203-1",
       "domains": [
         {
@@ -146,10 +146,6 @@
         },
         {
           "domainName": "bradford-pubs.martinruffe.co.uk",
-          "noSpider": true
-        },
-        {
-          "domainName": "bradford-pubs.online",
           "noSpider": false
         }
       ]
@@ -159,7 +155,7 @@
       "viewFolder": "InYourFace",
       "siteTitle": "In Your Face Portrait Photography",
       "subTitle": "",
-      "copyright": "All photography © Patricia Ruffe 2017",
+      "copyright": "All photography © Patricia Ruffe 2018",
       "analyticsCode": "UA-1902959-40",
       "domains": [
         {
@@ -181,5 +177,5 @@
       ]
     }
   ],
-  "currentSite": "Top100"
+  "currentSite": "portfolio"
 }

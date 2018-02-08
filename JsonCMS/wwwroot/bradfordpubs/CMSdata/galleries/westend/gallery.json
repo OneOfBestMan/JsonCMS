@@ -1,4 +1,5 @@
 {
+  "site": "bradfordpubs",
   "desktopImagesAcrossPage": 3,
   "mobileImagesAcrossPage": 1,
   "maxDefaultWidth": 2000,
@@ -6,6 +7,7 @@
   "maxDefaultHeight": 2000,
   "maxMobileWidth": 768,
   "maxMobileHeight": 1000,
+  "orderGalleryBy": 0,
   "spaceBetween": 0.0,
   "cropType": "square",
   "cropFrom": "center",
@@ -15,264 +17,312 @@
       "title": null,
       "alt": "Che Bar",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-02-28_1330408472.jpg",
       "title": null,
       "alt": "Flares",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-02-28_1330408523.jpg",
       "title": null,
       "alt": "Manville",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-02-28_1330408588.jpg",
       "title": null,
       "alt": "Vampire",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-02-28_1330408632.jpg",
       "title": null,
       "alt": "Love Apple",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-02-28_1330408677.jpg",
       "title": null,
       "alt": "Gasworks",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-02-28_1330408915.jpg",
       "title": null,
       "alt": "Sir Titus Salt",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-03-03_1330788523.jpg",
       "title": null,
       "alt": "Mode",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 612,
-      "width": 612,
-      "serialiseVersions": false
+      "width": 612
     },
     {
       "imageName": "2012-03-25_1332684497.jpg",
       "title": null,
       "alt": "NV",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332684576.jpg",
       "title": null,
       "alt": "Macrories",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332684611.jpg",
       "title": null,
       "alt": "Delius",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332684654.jpg",
       "title": null,
       "alt": "Tumblers",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332684717.jpg",
       "title": null,
       "alt": "",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332684770.jpg",
       "title": null,
       "alt": "Red Square",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332684841.jpg",
       "title": null,
       "alt": "Revolution",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685056.jpg",
       "title": null,
       "alt": "The Wheatsheaf",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685163.jpg",
       "title": null,
       "alt": "Westleigh",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685208.jpg",
       "title": null,
       "alt": "Shearbridge",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685338.jpg",
       "title": null,
       "alt": "Sin",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685371.jpg",
       "title": null,
       "alt": "Tokyo",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685404.jpg",
       "title": null,
       "alt": "The Pit Bar",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2012-03-25_1332685439.jpg",
       "title": null,
       "alt": "Tequila",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 558,
-      "width": 561,
-      "serialiseVersions": false
+      "width": 561
     },
     {
       "imageName": "2014-05-25_1401040937.jpg",
       "title": null,
       "alt": "Glyde House",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 640,
-      "width": 640,
-      "serialiseVersions": false
+      "width": 640
     },
     {
       "imageName": "BarOne.JPG",
       "title": null,
       "alt": "Bar One",
       "url": null,
+      "author": null,
+      "description": null,
       "fileExists": true,
       "lightBox": true,
       "height": 600,
-      "width": 599,
-      "serialiseVersions": false
+      "width": 599
+    },
+    {
+      "imageName": "brewhaus.JPG",
+      "title": null,
+      "alt": "Brewhaus",
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 597,
+      "width": 598
+    },
+    {
+      "imageName": "mint.JPG",
+      "title": null,
+      "alt": "Mint",
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": true,
+      "height": 598,
+      "width": 598
     }
   ]
 }

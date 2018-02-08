@@ -19,6 +19,7 @@ namespace JsonCMS.Models.Galleries
         public bool lightBox { get; set; } = false;
         public int? height { get; set; } 
         public int? width { get; set; }
+        public DateTime dateAdded { get; set; }
 
         [JsonIgnore]
         public bool serialiseVersions { get; set; } = false;

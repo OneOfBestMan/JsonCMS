@@ -1,0 +1,33 @@
+{
+  "site": "unit",
+  "title": "Hawes",
+  "html": null,
+  "entryDate": "2017-09-26T09:05:38.0353915Z",
+  "exists": true,
+  "desktopImagesAcrossPage": 1,
+  "mobileImagesAcrossPage": 1,
+  "maxDefaultWidth": 800,
+  "maxPopupWidth": 700,
+  "maxDefaultHeight": 800,
+  "maxMobileWidth": 800,
+  "maxMobileHeight": 800,
+  "orderGalleryBy": 0,
+  "spaceBetween": 0.0,
+  "cropType": "square",
+  "cropFrom": "center",
+  "imageData": [
+    {
+      "imageName": "haweschippyunit.JPG",
+      "title": null,
+      "alt": null,
+      "url": null,
+      "author": null,
+      "description": null,
+      "fileExists": true,
+      "lightBox": false,
+      "height": 599,
+      "width": 597,
+      "dateAdded": "2017-10-15T19:44:58.6218651+01:00"
+    }
+  ]
+}
